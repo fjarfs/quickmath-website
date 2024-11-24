@@ -1,0 +1,60 @@
+{
+    "featureList": [
+        {
+            "id": 1,
+            "category": "Konsultasi",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": "/konsultasi"
+        },
+        {
+            "id": 2,
+            "category": "Les Privat",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": "/about-us-02"
+        },
+        {
+            "id": 3,
+            "category": "Materi",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        },
+        {
+            "id": 4,
+            "category": "Math Solver",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        },
+        {
+            "id": 5,
+            "category": "Misi",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        },
+        {
+            "id": 6,
+            "category": "Chat AI",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        },
+        {
+            "id": 7,
+            "category": "Referral",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        },
+        {
+            "id": 8,
+            "category": "Coming Soon",
+            "featIcon": "/images/category/design.png",
+            "isActiveFeat": true,
+            "path": ""
+        }
+    ]
+}

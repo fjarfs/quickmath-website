@@ -1,0 +1,104 @@
+{
+    "pricing": [
+        {
+            "tag": "HARGA PAKET",
+            "title": "Harga Fleksibel, Sesuai Kebutuhan",
+            "konsultasi": "Konsultasi Tugas",
+            "lesPrivat": "Les Privat",
+            "materi": "Bank Materi",
+            "basicPlan": [
+              {
+                "title": "Basic Plan",
+                "badge": "Free for a Month",
+                "yearlyDuration": "yearly",
+                "yearlyAmount": 30.99,
+                "monthlyAmount": 8,
+                "monthlyDuration": "monthly",
+                "isPopular": false,
+                "isPrimary": true,
+                "isActive": false,
+                "list": [
+                  {
+                    "text": "Unlimited Access Courses",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Certificate After Completion",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "High Resolution Videos",
+                    "isCheck": false
+                  },
+                  {
+                    "text": "24/7 Dedicated Support",
+                    "isCheck": false
+                  }
+                ]
+              }
+            ],
+            "standardPlan": [
+              {
+                "title": "Standard Plan",
+                "badge": "Most Popular",
+                "yearlyDuration": "yearly",
+                "yearlyAmount": 100.99,
+                "monthlyAmount": 20.0,
+                "monthlyDuration": "monthly",
+                "isPopular": true,
+                "isSecondary": true,
+                "isActive": true,
+                "list": [
+                  {
+                    "text": "Unlimited Access Courses",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Certificate After Completion",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "High Resolution Videos",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "24/7 Dedicated Support",
+                    "isCheck": true
+                  }
+                ]
+              }
+            ],
+            "exclusivePlan": [
+              {
+                "title": "Exclusive Plan",
+                "badge": "Free for a Month",
+                "yearlyDuration": "yearly",
+                "yearlyAmount": 99.99,
+                "monthlyAmount": 39.0,
+                "monthlyDuration": "monthly",
+                "isPopular": false,
+                "isPink": true,
+                "isActive": false,
+                "list": [
+                  {
+                    "text": "Unlimited Access Courses",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Certificate After Completion",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "High Resolution Videos",
+                    "isCheck": false
+                  },
+                  {
+                    "text": "24/7 Dedicated Support",
+                    "isCheck": false
+                  }
+                ]
+              }
+            ]
+          }
+    ]
+}

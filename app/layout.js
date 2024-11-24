@@ -17,6 +17,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-cards";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
+import "../node_modules/remixicon/fonts/remixicon.css"
 // ========= Plugins CSS END =========
 
 import "../public/scss/styles.scss";

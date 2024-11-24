@@ -1,0 +1,72 @@
+{
+    "footerMainData": [
+        {
+            "description": "QuickMath adalah platform pembelajaran online untuk semua jenjang pendidikan. Dengan fitur andalan seperti konsultasi tugas dan les privat, kami siap membantu Anda mencapai hasil belajar terbaik, kapan saja dan di mana saja.",
+            "phone": "(406) 555-0120",
+            "mail": "rainbow@example.com",
+            "address": "North America, USA",
+            "feature": [
+                {
+                    "text": "Konsultasi Tugas",
+                    "link": ""
+                },
+                {
+                    "text": "Les Privat",
+                    "link": ""
+                },
+                {
+                    "text": "Bank Materi",
+                    "link": ""
+                },
+                {
+                    "text": "Math Solver",
+                    "link": ""
+                },
+                {
+                    "text": "Misi",
+                    "link": ""
+                },
+                {
+                    "text": "Chat AI",
+                    "link": ""
+                },
+                {
+                    "text": "Kode Referral",
+                    "link": ""
+                }
+            ],
+            "usefulLinks": [
+                {
+                    "text": "Kebijakan Privasi",
+                    "link": ""
+                },
+                {
+                    "text": "Syarat dan Ketentuan",
+                    "link": ""
+                },
+                {
+                    "text": "Artikel",
+                    "link": ""
+                }
+            ],
+            "socialLink": [
+                {
+                    "icon": "feather-facebook",
+                    "link": ""
+                },
+                {
+                    "icon": "feather-twitter",
+                    "link": ""
+                },
+                {
+                    "icon": "feather-instagram",
+                    "link": ""
+                },
+                {
+                    "icon": "feather-linkedin",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}

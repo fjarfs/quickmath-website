@@ -207,6 +207,7 @@
       "title": "Style Three",
       "yearlyPlan": "Yearly Plan",
       "monthlyPlan": "Monthly Plan",
+      "dailyPlan": "Daily Plan",
       "basicPlan": [
         {
           "title": "Basic Plan",

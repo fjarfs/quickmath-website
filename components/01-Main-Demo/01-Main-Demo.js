@@ -102,7 +102,8 @@ const MainDemo = ({ blogs }) => {
         <div className="rbt-about-area bg-color-white rbt-section-gapTop pb_md--80 pb_sm--80 about-style-1">
           <div className="container">
             <ParallaxProvider>
-              <AboutTwo />
+              {/* Pake about us ini */}
+              <AboutTwo /> 
             </ParallaxProvider>
           </div>
         </div>
@@ -172,7 +173,7 @@ const MainDemo = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-rbt-blog-area rbt-section-gap bg-color-extra2">
+        <div className="rbt-blog-area rbt-section-gap bg-color-extra2">
           <div className="container">
             <div className="row g-5 align-items-center mb--30">
               <div className="col-lg-6 col-md-6 col-12">

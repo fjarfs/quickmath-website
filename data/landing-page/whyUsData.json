@@ -1,0 +1,59 @@
+{
+    "counterTwo": [
+    {
+      "tag": "KENAPA MEMILIH KAMI",
+      "title": "Mewujudkan Impian",
+      "subTitle": "Melalui Pembelajaran Tanpa Batas",
+      "desc": "Kami hadir untuk memberikan pengalaman belajar terbaik yang dirancang sesuai kebutuhan Anda, didukung teknologi modern dan tutor profesional.",
+      "item": [
+        {
+          "text": "Fleksibilitas Belajar",
+          "icon": "feather-heart",
+          "primary": true,
+          "pink": false,
+          "secondary": false
+        },
+        {
+          "text": "Berpengalaman",
+          "icon": "feather-book",
+          "secondary": true,
+          "primary": false,
+          "pink": false
+        },
+        {
+          "text": "Pembelajaran Interaktif",
+          "icon": "feather-aperture",
+          "pink": true,
+          "secondary": false,
+          "primary": false
+        }
+      ],
+      "body": [
+        {
+          "text": "Siswa",
+          "num": 500,
+          "img": "/images/icons/counter-01.png",
+          "mt": ""
+        },
+        {
+          "text": "Materi",
+          "num": 800,
+          "img": "/images/icons/counter-02.png",
+          "mt": "mt--60"
+        },
+        {
+          "text": "Certified Students",
+          "num": 1000,
+          "img": "/images/icons/counter-03.png",
+          "mt": "mt_mobile--40"
+        },
+        {
+          "text": "Registered Enrolls",
+          "num": 100,
+          "img": "/images/icons/counter-04.png",
+          "mt": "mt--60 mt_mobile--40"
+        }
+      ]
+    }
+  ]
+}

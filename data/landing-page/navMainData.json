@@ -1,0 +1,97 @@
+{
+    "navMainData": [
+        {
+            "menuTitle": "Home",
+            "menuType": "home",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true
+        },
+        {
+            "menuTitle": "Elements",
+            "menuType": "grid-item-3",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true,
+            "menuItems": [
+                {
+                    "id": 1,
+                    "link": "/konsultasi",
+                    "title": "Konsultasi Tugas",
+                    "img": "/images/category/design.png",
+                    "badget": ""
+                  },
+                  {
+                    "id": 2,
+                    "link": "/12-marketplace",
+                    "title": "Les Privat",
+                    "img": "/images/category/design.png",
+                    "badget": ""
+                  },
+                  {
+                    "id": 3,
+                    "link": "/04-kindergarten",
+                    "title": "Bank Materi",
+                    "img": "/images/category/design.png",
+                    "badget": "Coming Soon"
+                  },
+                  {
+                    "id": 4,
+                    "link": "/13-university-classic",
+                    "title": "Math Solver",
+                    "img": "/images/category/design.png",
+                    "badget": "Coming Soon"
+                  },
+                  {
+                    "id": 5,
+                    "link": "/05-classic-lms",
+                    "title": "Misi",
+                    "img": "/images/category/design.png",
+                    "badget": "Coming Soon"
+                  },
+                  {
+                    "id": 6,
+                    "link": "/16-udemy-affiliate",
+                    "title": "Chat AI",
+                    "img": "/images/category/design.png",
+                    "badget": "Coming Soon"
+                  },
+                  {
+                    "id": 7,
+                    "link": "/14-home-elegant",
+                    "title": "Kode Referral",
+                    "img": "/images/category/design.png",
+                    "badget": "Coming Soon"
+                  }
+            ]
+        },
+        {
+            "menuTitle": "Promo",
+            "menuType": "promo",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true
+        },
+        {
+            "menuTitle": "Tentang Kami",
+            "menuType": "tentang-kami",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true
+        },
+        {
+            "menuTitle": "Harga Paket",
+            "menuType": "harga-paket",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true
+        },
+        {
+            "menuTitle": "Artikel",
+            "menuType": "artikel",
+            "hasMegamenu": true,
+            "hasMenuChild": true,
+            "hasPositionStatic": true
+        }
+    ]
+}

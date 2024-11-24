@@ -1,0 +1,46 @@
+{
+    "promoList": [
+        {
+            "id": 1,
+            "title": "Diskon 90%",
+            "desc": "Anjay diskonnya gede banget",
+            "img": "/images/category/design.png",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "title": "Diskon 20%",
+            "desc": "Kecil amat diskonnya bang",
+            "img": "/images/blog/blog-card-02.jpg",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "title": "50%",
+            "desc": "Ini masih boleh lah diskonnya",
+            "img": "/images/blog/blog-card-02.jpg",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "title": "Diskon 30%",
+            "desc": "Gabisa naikkan dikit kali diskonnya",
+            "img": "/images/blog/blog-card-02.jpg",
+            "link": ""
+        },
+        {
+            "id": 5,
+            "title": "Diskon 70%",
+            "desc": "Nah ini masih boleh lah diskonnya",
+            "img": "/images/blog/blog-card-02.jpg",
+            "link": ""
+        },
+        {
+            "id": 6,
+            "title": "Diskon 80%",
+            "desc": "Cape juga bikin data dummy begini",
+            "img": "/images/blog/blog-card-02.jpg",
+            "link": ""
+        }
+    ]
+}
