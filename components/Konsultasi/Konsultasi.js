@@ -1,9 +1,9 @@
-import KonsultasiPricing from "../00-landing-page/Sections/Pricing/KonsultasiPricing";
+import KonsultasiPricing from "../Pricing/Plans/KonsultasiPricing";
 import Instruktur from "../Team/Instruktur";
 import TestimonialFour from "../Testimonials/Testimonial-Four";
-import ContactUsKonsultasi from "./Contact-Us/ContactUsKonsultasi";
-import FlowKonsultasi from "./Flow/FlowKonsultasi";
+import FlowKonsultasi from "../Abouts/FlowKonsultasi";
 import KonsultasiBanner from "./KonsultasiBanner";
+import ContactUs from "../Contacts/ContactUs";
 
 const KonsultasiComp = () => {
   return (
@@ -12,23 +12,27 @@ const KonsultasiComp = () => {
         <KonsultasiBanner />
       </div>
 
-      <div className="rbt-section-gap2Bottom mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+      <div className="rbt-section-gap2Top mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
         <div className="section-title text-center mb--50">
           <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
+        <div className="container">
         <KonsultasiPricing />
+        </div>
       </div>
 
-      <div className="rbt-newsletter-area bg-gradient-6 ptb--50 rbt-section-rbt-section-gap2">
-        <ContactUsKonsultasi />
+      <div className="rbt-callto-action-area rbt-section-gap2Top">
+        <div className="rbt-callto-action rbt-cta-default style-4 bg-gradient-6 mt--75 ">
+          <ContactUs btnClass="rbt-btn btn-gradient hover-icon-reverse radius-round" />
+        </div>
       </div>
 
-      <div className="rbt-section-gap2">
+      <div className="rbt-section-gap2Top">
         <FlowKonsultasi />
       </div>
 
-      <div className="rbt-section-gap2">
+      <div className="rbt-section-gap2Top">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -42,10 +46,10 @@ const KonsultasiComp = () => {
           </div>
           <Instruktur />
         </div>
+      </div>
 
-        <div className="rbt-section-gap2">
-          <TestimonialFour/>
-        </div>
+      <div className="rbt-section-gap2">
+        <TestimonialFour />
       </div>
     </>
   );

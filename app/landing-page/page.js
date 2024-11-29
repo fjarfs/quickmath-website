@@ -2,7 +2,7 @@ import LandingPageLayout from "./(landing-page)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Histudy - Online Courses & Education NEXTJS14 Template",
+  title: "QuickMath",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 

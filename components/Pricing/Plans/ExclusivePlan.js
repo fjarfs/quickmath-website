@@ -7,6 +7,7 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
     yearlyDuration,
     yearlyAmount,
     monthlyAmount,
+    highPrice,
     monthlyDuration,
     isActive,
     list,
@@ -14,6 +15,13 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
     isSecondary,
     isPink,
   } = item;
+
+  const formatToRupiah = (number) => {
+    return new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+    }).format(number);
+  };
 
   return (
     <div className={`pricing-table ${parentClass} ${isActive ? "active" : ""}`}>
@@ -64,7 +72,7 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
 
           <div className={`monthly-pricing ${toggle ? "d-block" : "d-none"}`}>
             <span
-              className={`amount ${
+              className={`h3 fw-semibold ${
                 isPrimary
                   ? "color-primary"
                   : isSecondary
@@ -74,7 +82,7 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
                   : ""
               }`}
             >
-              ${monthlyAmount}.00
+              {formatToRupiah(monthlyAmount)} - {formatToRupiah(highPrice)}
             </span>
             <span
               className={`duration ms-1 ${
@@ -129,7 +137,7 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
             href="#"
           >
             <div className="icon-reverse-wrapper">
-              <span className="btn-text">Join Course Plan</span>
+              <span className="btn-text">Pesan Sekarang</span>
               <span className="btn-icon">
                 <i className="feather-arrow-right"></i>
               </span>

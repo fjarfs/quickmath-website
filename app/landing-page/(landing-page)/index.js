@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import HeaderStyleMain from "@/components/00-landing-page/Sections/Header/HeaderStyle-Main";
+import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
 
 import Context from "@/context/Context";
 import { Provider } from "react-redux";
@@ -12,15 +12,24 @@ import Separator from "@/components/Common/Separator";
 import FooterThree from "@/components/Footer/Footer-Three";
 
 import MainPage from "@/components/00-landing-page/00-landing-page";
-import FooterMain from "@/components/00-landing-page/Sections/Footer/Footer-Main";
+import FooterMain from "@/components/Footer/Footer-Main";
+import useSWR from "swr";
+import { api } from "@/utils/api";
 
-const LandingPageLayout = ({ getBlog }) => {
+// fetch data
+const fetcher = (url) => fetch(url).then((res) => res.json());
+
+const LandingPageLayout = ({ getBlog, getPromo }) => {
+  const { data: promo } = useSWR(api('/promo'), fetcher);
+
+  if (!promo) return <div>Loading...</div>
+
   return (
     <Provider store={Store}>
       <Context>
         <MobileMenu />
         <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-        <MainPage blogs={getBlog}/>
+        <MainPage blogs={getBlog} promo={promo}/>
 
         <Separator />
         <FooterMain />

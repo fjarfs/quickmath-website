@@ -3,12 +3,12 @@
         {
             "menuTitle": "Home",
             "menuType": "home",
-            "hasMegamenu": true,
-            "hasMenuChild": true,
-            "hasPositionStatic": true
+            "hasMegamenu": false,
+            "hasMenuChild": false,
+            "hasPositionStatic": false
         },
         {
-            "menuTitle": "Elements",
+            "menuTitle": "Layanan",
             "menuType": "grid-item-3",
             "hasMegamenu": true,
             "hasMenuChild": true,
@@ -18,49 +18,49 @@
                     "id": 1,
                     "link": "/konsultasi",
                     "title": "Konsultasi Tugas",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/konsultasi.png",
                     "badget": ""
                   },
                   {
                     "id": 2,
-                    "link": "/12-marketplace",
+                    "link": "/les-privat",
                     "title": "Les Privat",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/les.png",
                     "badget": ""
                   },
                   {
                     "id": 3,
                     "link": "/04-kindergarten",
                     "title": "Bank Materi",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/materi.png",
                     "badget": "Coming Soon"
                   },
                   {
                     "id": 4,
                     "link": "/13-university-classic",
                     "title": "Math Solver",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/mathsolver.png",
                     "badget": "Coming Soon"
                   },
                   {
                     "id": 5,
                     "link": "/05-classic-lms",
                     "title": "Misi",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/mission.png",
                     "badget": "Coming Soon"
                   },
                   {
                     "id": 6,
                     "link": "/16-udemy-affiliate",
                     "title": "Chat AI",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/chat-ai.png",
                     "badget": "Coming Soon"
                   },
                   {
                     "id": 7,
                     "link": "/14-home-elegant",
                     "title": "Kode Referral",
-                    "img": "/images/category/design.png",
+                    "img": "/images/feature/referral.png",
                     "badget": "Coming Soon"
                   }
             ]
@@ -68,30 +68,30 @@
         {
             "menuTitle": "Promo",
             "menuType": "promo",
-            "hasMegamenu": true,
-            "hasMenuChild": true,
-            "hasPositionStatic": true
+            "hasMegamenu": false,
+            "hasMenuChild": false,
+            "hasPositionStatic": false
         },
         {
             "menuTitle": "Tentang Kami",
             "menuType": "tentang-kami",
-            "hasMegamenu": true,
-            "hasMenuChild": true,
-            "hasPositionStatic": true
+            "hasMegamenu": false,
+            "hasMenuChild": false,
+            "hasPositionStatic": false
         },
         {
             "menuTitle": "Harga Paket",
             "menuType": "harga-paket",
-            "hasMegamenu": true,
-            "hasMenuChild": true,
-            "hasPositionStatic": true
+            "hasMegamenu": false,
+            "hasMenuChild": false,
+            "hasPositionStatic": false
         },
         {
             "menuTitle": "Artikel",
             "menuType": "artikel",
-            "hasMegamenu": true,
-            "hasMenuChild": true,
-            "hasPositionStatic": true
+            "hasMegamenu": false,
+            "hasMenuChild": false,
+            "hasPositionStatic": false
         }
     ]
 }

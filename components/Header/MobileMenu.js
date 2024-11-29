@@ -3,10 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/logo_hor.svg";
 
 import Nav from "./Nav";
 import { useAppContext } from "@/context/Context";
+import NavMain from "./NavMain";
+import NavMobile from "./NavMobile";
 
 const MobileMenu = () => {
   const { mobile, setMobile } = useAppContext();
@@ -21,7 +23,7 @@ const MobileMenu = () => {
                 <Link href="/">
                   <Image
                     src={logo}
-                    width={137}
+                    width={175}
                     height={45}
                     alt="Education Logo Images"
                   />
@@ -37,7 +39,8 @@ const MobileMenu = () => {
               </div>
             </div>
             <p className="description">
-              Histudy is a education website template. You can customize all.
+              QuickMath adalah platform pembelajaran online untuk semua jenjang
+              pendidikan.
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
@@ -53,7 +56,7 @@ const MobileMenu = () => {
             </ul>
           </div>
 
-          <Nav />
+          <NavMobile />
 
           <div className="mobile-menu-bottom">
             <div className="rbt-btn-wrapper mb--20">
@@ -61,12 +64,12 @@ const MobileMenu = () => {
                 className="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
                 href="#"
               >
-                <span>Enroll Now</span>
+                <span>Daftar Sekarang</span>
               </Link>
             </div>
 
             <div className="social-share-wrapper">
-              <span className="rbt-short-title d-block">Find With Us</span>
+              <span className="rbt-short-title d-block">Temukan Kami</span>
               <ul className="social-icon social-default transparent-with-border justify-content-start mt--20">
                 <li>
                   <Link href="https://www.facebook.com/">

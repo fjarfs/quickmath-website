@@ -7,22 +7,22 @@ import Link from "next/link";
 // Data
 
 // Components
-import MainHomeBanner from "./Sections/Main-Banner/MainHomeBanner";
-import FeatureList from "./Sections/Feature/FeatureList";
-import PromoList from "./Sections/Promo/PromoList";
-import WhyUsMain from "./Sections/Why-Choose-Us/WhyUsMain";
-import PricingMain from "./Sections/Pricing/Pricing-Main";
+import MainHomeBanner from "./MainHomeBanner";
+import FeatureList from "../Category/FeatureList";
+import PromoList from "../Category/PromoList";
+import WhyUsMain from "../Abouts/WhyUsMain";
+import PricingMain from "../Pricing/Pricing-Main";
 import TestimonialSix from "../Testimonials/Testimonial-Six";
 import Instruktur from "../Team/Instruktur";
 import BlogGridTop from "../Blogs/Blog-Sections/BlogGrid-Top";
-import ContactUs from "./Sections/Contact-Us/ContactUs";
-import OurApps from "./Sections/Our-Apps/OurApps";
+import ContactUs from "../Contacts/ContactUs";
+import OurApps from "../Our-Apps/OurApps";
 
 // img
 import shapeImg from "../../public/images/icons/three-shape.png";
 import Image from "next/image";
 
-const MainPage = ({ blogs }) => {
+const MainPage = ({ blogs, promo }) => {
   useEffect(() => {
     sal({
       threshold: 0.01,
@@ -39,7 +39,7 @@ const MainPage = ({ blogs }) => {
         {/* END BANNER */}
 
         {/* START FEATURE LIST */}
-        <div className="rbt-categories-area bg-color-white rbt-section-gap2Bottom mt--0 pt--0">
+        <div className="rbt-categories-area bg-color-white rbt-section-gap2Bottom">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -55,11 +55,9 @@ const MainPage = ({ blogs }) => {
               </div>
             </div>
 
-            {/* START FEATURE CARD */}
-            <div className="row g-5 mt--20">
+            <div className="row g-5 mt--20 justify-content-center">
               <FeatureList />
             </div>
-            {/* END FEATURE CARD */}
           </div>
         </div>
         {/* END FEATURE LIST */}
@@ -67,7 +65,6 @@ const MainPage = ({ blogs }) => {
         {/* START PROMO SECTION */}
         <div className="rbt-promo-area rbt-section-gapBottom bg-color-extra2">
           <div className="container">
-            {/* START TITLE */}
             <div className="row g-5 align-items-center mb--30">
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="section-title">
@@ -94,10 +91,9 @@ const MainPage = ({ blogs }) => {
                 </div>
               </div>
             </div>
-            {/* END TITLE */}
 
-            <div className="row row--15">
-              <PromoList />
+            <div className="row row--15 justify-content-center">
+              <PromoList PromoListData={promo} />
             </div>
           </div>
         </div>
@@ -168,7 +164,7 @@ const MainPage = ({ blogs }) => {
         {/* END PRICING */}
 
         {/* START TESTIMONIAL */}
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap2Bottom overflow-hidden">
+        <div className="rbt-testimonial-area bg-color-white rbt-section-gap2 overflow-hidden">
           <div className="container-fluid">
             <div className="row g-5 align-items-center">
               <div className="col-xl-3">
@@ -195,7 +191,7 @@ const MainPage = ({ blogs }) => {
         {/* END TESTIMONIAL */}
 
         {/* START TEACHER / INSTRUKTUR */}
-        <div className="rbt-team-area bg-color-white rbt-section-gap2Bottom">
+        {/* <div className="rbt-team-area bg-color-white rbt-section-gap2Bottom">
           <div className="container">
             <div className="row mb--60">
               <div className="col-lg-12">
@@ -228,6 +224,41 @@ const MainPage = ({ blogs }) => {
                 </Link>
               </div>
             </div>
+          </div>
+        </div> */}
+        <div className="rbt-section-gap2">
+          <div className="container">
+            <div className="row mb--30">
+              <div className="col-lg-12">
+                <div className="section-title text-center">
+                  <span className="subtitle bg-primary-opacity">
+                    Instruktur Kami
+                  </span>
+                  <h2 className="title">Guru Inspirasi Anda</h2>
+                </div>
+              </div>
+            </div>
+            <Instruktur />
+            <div className="row">
+            <div className="col-lg-12">
+              <div className="load-more-btn mt--50 text-center">
+                <Link
+                  className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
+                  href="#"
+                >
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">Lihat Instruktur Lain</span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
         {/* END TEACHER / INSTRUKTUR */}
@@ -275,19 +306,8 @@ const MainPage = ({ blogs }) => {
         {/* END CONTACT US */}
 
         {/* START OUR APPS */}
-        <div className="rbt-call-to-action-area rbt-section-gap bg-gradient-6 rbt-call-to-action-5">
-          <div className="wrapper">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <OurApps />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="shape-images">
-            <i className="ri-mobile-download-line color-primary" style={{ fontSize: "280px"}}></i>
-          </div>
+        <div className="rbt-section-gap2">
+          <OurApps />
         </div>
         {/* END OUR APPS */}
       </main>

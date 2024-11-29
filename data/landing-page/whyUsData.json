@@ -32,25 +32,25 @@
         {
           "text": "Siswa",
           "num": 500,
-          "img": "/images/icons/counter-01.png",
+          "img": "/images/education/sma.png",
           "mt": ""
         },
         {
           "text": "Materi",
           "num": 800,
-          "img": "/images/icons/counter-02.png",
+          "img": "/images/feature/materi.png",
           "mt": "mt--60"
         },
         {
           "text": "Certified Students",
           "num": 1000,
-          "img": "/images/icons/counter-03.png",
+          "img": "/images/education/kuliah_1.png",
           "mt": "mt_mobile--40"
         },
         {
           "text": "Registered Enrolls",
           "num": 100,
-          "img": "/images/icons/counter-04.png",
+          "img": "/images/feature/referral.png",
           "mt": "mt--60 mt_mobile--40"
         }
       ]

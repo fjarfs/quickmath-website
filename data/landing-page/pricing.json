@@ -6,95 +6,109 @@
             "konsultasi": "Konsultasi Tugas",
             "lesPrivat": "Les Privat",
             "materi": "Bank Materi",
-            "basicPlan": [
+            "reguler": [
               {
-                "title": "Basic Plan",
+                "title": "Reguler",
                 "badge": "Free for a Month",
                 "yearlyDuration": "yearly",
-                "yearlyAmount": 30.99,
-                "monthlyAmount": 8,
-                "monthlyDuration": "monthly",
+                "monthlyAmount": 1500,
+                "highPrice": 9000,
+                "monthlyDuration": "soal",
                 "isPopular": false,
                 "isPrimary": true,
                 "isActive": false,
                 "list": [
                   {
-                    "text": "Unlimited Access Courses",
+                    "text": "Penjelasan tiap soal",
                     "isCheck": true
                   },
                   {
-                    "text": "Certificate After Completion",
+                    "text": "Konsultasi soal via chat",
                     "isCheck": true
                   },
                   {
-                    "text": "High Resolution Videos",
-                    "isCheck": false
+                    "text": "Rata-rata pengerjaan 1 menit",
+                    "isCheck": true
                   },
                   {
-                    "text": "24/7 Dedicated Support",
-                    "isCheck": false
+                    "text": "Maksimal pengerjaan 1 hari",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Garansi uang kembali",
+                    "isCheck": true
                   }
                 ]
               }
             ],
-            "standardPlan": [
+            "kilat": [
               {
-                "title": "Standard Plan",
+                "title": "Kilat",
                 "badge": "Most Popular",
                 "yearlyDuration": "yearly",
                 "yearlyAmount": 100.99,
-                "monthlyAmount": 20.0,
-                "monthlyDuration": "monthly",
+                "monthlyAmount": 2500,
+                "highPrice": 10000,
+                "monthlyDuration": "soal",
                 "isPopular": true,
                 "isSecondary": true,
                 "isActive": true,
                 "list": [
                   {
-                    "text": "Unlimited Access Courses",
+                    "text": "Penjelasan tiap soal",
                     "isCheck": true
                   },
                   {
-                    "text": "Certificate After Completion",
+                    "text": "Konsultasi soal via chat",
                     "isCheck": true
                   },
                   {
-                    "text": "High Resolution Videos",
+                    "text": "Rata-rata pengerjaan 1 menit",
                     "isCheck": true
                   },
                   {
-                    "text": "24/7 Dedicated Support",
+                    "text": "Maksimal pengerjaan 5 jam",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Garansi uang kembali",
                     "isCheck": true
                   }
                 ]
               }
             ],
-            "exclusivePlan": [
+            "realTime": [
               {
-                "title": "Exclusive Plan",
+                "title": "Real Time",
                 "badge": "Free for a Month",
                 "yearlyDuration": "yearly",
                 "yearlyAmount": 99.99,
-                "monthlyAmount": 39.0,
-                "monthlyDuration": "monthly",
+                "monthlyAmount": 3000,
+                "highPrice": 11000,
+                "monthlyDuration": "soal",
                 "isPopular": false,
                 "isPink": true,
                 "isActive": false,
                 "list": [
                   {
-                    "text": "Unlimited Access Courses",
+                    "text": "Penjelasan tiap soal",
                     "isCheck": true
                   },
                   {
-                    "text": "Certificate After Completion",
+                    "text": "Konsultasi soal via chat",
                     "isCheck": true
                   },
                   {
-                    "text": "High Resolution Videos",
-                    "isCheck": false
+                    "text": "Rata-rata pengerjaan 1 menit",
+                    "isCheck": true
                   },
                   {
-                    "text": "24/7 Dedicated Support",
-                    "isCheck": false
+                    "text": "Bisa pesan secara mendadak",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Garansi uang kembali",
+                    "isCheck": true
                   }
                 ]
               }

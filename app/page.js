@@ -2,7 +2,7 @@ import BackToTop from "./backToTop";
 import HomePage from "./landing-page/page";
 
 export const metadata = {
-  title: "Home - Online Courses & Education NEXTJS14 Template",
+  title: "QuickMath",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 
