@@ -97,8 +97,46 @@
   ],
   "aboutThree": [
     {
-      "title": "About the University we are creative preapre you for your career supportive.",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil! Ipsa aspernatur aperiam recusandae pariatur odit repudiandae assumenda architecto."
+      "title": "QuickMath Joki Tugas? Bukan, Ini Lebih dari Itu!",
+      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi.",
+      "faqBody": [
+        {
+          "collapse": "collapseOne4",
+          "heading": "headingOne4",
+          "expanded": true,
+          "collapsed": true,
+          "show": true,
+          "accordionTitle": "What is Histudy ? How does it work?",
+          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose."
+        },
+        {
+          "collapse": "collapseTwo4",
+          "heading": "headingTwo4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "How can I get the customer support?",
+          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+        },
+        {
+          "collapse": "collapseThree4",
+          "heading": "headingThree4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Can I get update regularly and For how long do I get updates?",
+          "desc": "Yes, We will get update the Histudy. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+        },
+        {
+          "collapse": "collapseFour4",
+          "heading": "headingFour4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "How can I run Histudy html template?",
+          "desc": "You can run Histudy easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node."
+        }
+      ]
     }
   ],
   "aboutFour": [
@@ -122,10 +160,10 @@
   ],
   "aboutSix": [
     {
-      "tag": "ABOUT HISTUDY",
-      "title": "What is Histudy For You?.",
-      "strong": "Histudy educational platform",
-      "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil.",
+      "tag": "TENTANG QUICKMATH",
+      "title": "Sudah Tahu QuickMath? Yuk Cari Tahu!",
+      "strong": "QuickMath",
+      "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
       "img": "/images/about/about-06.png"
     }
   ],

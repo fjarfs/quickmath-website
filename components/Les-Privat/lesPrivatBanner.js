@@ -5,50 +5,42 @@ import Image from "next/image";
 import Link from "next/link";
 import Typed from "typed.js";
 
-import treeSvg from "../../public/images/icons/tree-shape.svg";
+import education1 from "../../public/images/feature/les_2.png";
 
 const LesPrivatBanner = () => {
-  useEffect(() => {
-    const typeitInstance = new Typed(".is-visible", {
-      strings: ["Matematika", "Fisika", "Kimia"],
-      typeSpeed: 80,
-      backSpeed: 60,
-      startDelay: 200,
-      loop: Infinity,
-      showCursor: false,
-    });
-
-    return () => {
-      typeitInstance.destroy();
-    };
-  }, []);
   return (
     <>
-      <div className="container">
-        <div className="row g-5 align-items-center">
-          <div className="col-lg-10 offset-lg-1">
-            <div className="content">
-              <div className="inner text-center">
-                <h2>
-                  Bingung dengan Tugas
-                  <span className="header-caption ms-2">
-                    <span className="cd-headline clip is-full-width">
-                      <span className="cd-words-wrapper">
-                        <b className="is-visible theme-gradient"></b>
-                      </span>
-                    </span>
+      <div className="container-fluid px-5 pb--50 px-md-4">
+        <div className="row pb--120 pt--20">
+          <div className="col-md-12 space-responsive-xxl">
+            <div className="content row">
+              <div className="inner col-md-7">
+                <h1 className="title">
+                  Belajar
+                  <span className="theme-gradient">
+                    {" "}
+                    Kapan Saja dan Di Mana Saja{" "}
                   </span>
-                  ? <br/> Konsultasikan Langsung dengan <br/> Tutor Ahli Kami!
-                </h2>
-                <p className="description has-medium-font-size mt--20">
-                Dapatkan bantuan profesional untuk menyelesaikan tugas sekolah atau kuliah dengan mudah. Konsultasi personal kapan saja, di mana saja!
-                </p>
+                  Untuk Semua Tingkatan
+                </h1>
+                <div className="more-author-text">
+                  <h5 className="total-join-students">
+                    Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga
+                    Kuliah
+                  </h5>
+                </div>
+              </div>
+              <div className="shape-wrapper col-md-4" id="scene">
+                <Image
+                  className="rounded-5"
+                  src={education1}
+                  width={400}
+                  height={300}
+                  alt="Education Images"
+                />
               </div>
             </div>
           </div>
-        </div>
-        <div className="shape-image">
-          <Image src={treeSvg} width={912} height={513} alt="Shape" />
         </div>
       </div>
     </>

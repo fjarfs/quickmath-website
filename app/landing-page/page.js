@@ -1,3 +1,4 @@
+import BackToTop from "../backToTop";
 import LandingPageLayout from "./(landing-page)";
 import { getAllPostsMeta } from "@/mdx";
 
@@ -11,6 +12,8 @@ const LandingPage = async () => {
   return (
     <>
       <LandingPageLayout getBlog={blog} />
+
+      <BackToTop/>
     </>
   );
 };

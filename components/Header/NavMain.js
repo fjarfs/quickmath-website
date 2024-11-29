@@ -113,7 +113,7 @@ const NavMain = () => {
         <li className="position-static">
           <Link
             className={`${activeMenuItem === "promo" ? "open" : ""}`}
-            href="#"
+            href="/promo"
           >
             Promo
           </Link>
@@ -122,7 +122,7 @@ const NavMain = () => {
         {/* TENTANG KAMI */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/about-us"
             className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
           >
             Tentang Kami
@@ -132,7 +132,7 @@ const NavMain = () => {
         {/* HARGA PAKET */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/harga-paket"
             className={`${activeMenuItem === "pricing" ? "open" : ""}`}
           >
             Harga Paket

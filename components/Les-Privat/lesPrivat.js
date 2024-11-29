@@ -1,24 +1,24 @@
-import KonsultasiPricing from "../Pricing/Plans/KonsultasiPricing";
 import Instruktur from "../Team/Instruktur";
 import TestimonialFour from "../Testimonials/Testimonial-Four";
 import FlowKonsultasi from "../Abouts/FlowKonsultasi";
 import ContactUs from "../Contacts/ContactUs";
 import LesPrivatBanner from "./lesPrivatBanner";
+import LesPrivatePricing from "../Pricing/Plans/LesPrivatPricing";
 
 const LesPrivatComp = () => {
   return (
     <>
-      <div className="rbt-banner-area rbt-banner-8 variation-02 with-shape">
+      <div className="rbt-banner-area rbt-banner-1">
         <LesPrivatBanner />
       </div>
 
-      <div className="rbt-section-gap2Top mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+      <div className="rbt-section-gap2bottom">
         <div className="section-title text-center mb--50">
           <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
         <div className="container">
-        <KonsultasiPricing />
+          <LesPrivatePricing/>
         </div>
       </div>
 

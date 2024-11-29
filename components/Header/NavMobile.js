@@ -106,7 +106,7 @@ const NavMobile = () => {
         <li className="position-static">
           <Link
             className={`${activeMenuItem === "promo" ? "open" : ""}`}
-            href="#"
+            href="/promo"
           >
             Promo
           </Link>
@@ -115,7 +115,7 @@ const NavMobile = () => {
         {/* TENTANG KAMI */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/about-us"
             className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
           >
             Tentang Kami
@@ -125,7 +125,7 @@ const NavMobile = () => {
         {/* HARGA PAKET */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/harga-paket"
             className={`${activeMenuItem === "pricing" ? "open" : ""}`}
           >
             Harga Paket

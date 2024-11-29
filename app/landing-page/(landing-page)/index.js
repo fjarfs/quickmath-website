@@ -7,9 +7,7 @@ import Context from "@/context/Context";
 import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import MobileMenu from "@/components/Header/MobileMenu";
-import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
-import FooterThree from "@/components/Footer/Footer-Three";
 
 import MainPage from "@/components/00-landing-page/00-landing-page";
 import FooterMain from "@/components/Footer/Footer-Main";
@@ -17,19 +15,19 @@ import useSWR from "swr";
 import { api } from "@/utils/api";
 
 // fetch data
-const fetcher = (url) => fetch(url).then((res) => res.json());
+// const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const LandingPageLayout = ({ getBlog, getPromo }) => {
-  const { data: promo } = useSWR(api('/promo'), fetcher);
+  // const { data: promo } = useSWR(api('/promo'), fetcher);
 
-  if (!promo) return <div>Loading...</div>
+  // if (!promo) return <div>Loading...</div>
 
   return (
     <Provider store={Store}>
       <Context>
         <MobileMenu />
         <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-        <MainPage blogs={getBlog} promo={promo}/>
+        <MainPage blogs={getBlog}/>
 
         <Separator />
         <FooterMain />

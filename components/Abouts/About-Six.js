@@ -9,7 +9,7 @@ const AboutSix = ({ btnClass, btnText }) => {
       {AboutData &&
         AboutData.aboutSix.map((data, index) => (
           <div className="row g-5 align-items-center" key={index}>
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="content">
                 <Image
                   src={data.img}
@@ -20,7 +20,7 @@ const AboutSix = ({ btnClass, btnText }) => {
               </div>
             </div>
             <div
-              className="col-lg-6"
+              className="col-lg-7"
               data-sal="slide-up"
               data-sal-duration="700"
             >
@@ -33,11 +33,11 @@ const AboutSix = ({ btnClass, btnText }) => {
                   <p className="description mt--20">
                     <strong>{data.strong}</strong> {data.desc}
                   </p>
-                  <div className="read-more-btn mt--40">
+                  {/* <div className="read-more-btn mt--40">
                     <Link className={`rbt-btn ${btnClass}`} href="#">
                       <span data-text={`${btnText}`}>{btnText}</span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

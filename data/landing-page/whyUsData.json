@@ -9,6 +9,12 @@
         {
           "text": "Fleksibilitas Belajar",
           "icon": "feather-heart",
+          "desc": "Sulit memahami materi pelajaran? Butuh bimbingan tugas dan ujian? QuickMath menghadirkan tutor-tutor berpengalaman yang siap membantu Anda mencapai prestasi akademik terbaik",
+          "collapse": "collapseOne2",
+          "heading": "headingOne2",
+          "expanded": true,
+          "collapsed": true,
+          "show": true,
           "primary": true,
           "pink": false,
           "secondary": false
@@ -16,6 +22,12 @@
         {
           "text": "Berpengalaman",
           "icon": "feather-book",
+          "desc": "Dapatkan bimbingan dari tutor yang berpengalaman yang menyediakan pendekatan bimbingan yang disesuaikan dengan kebutuhan dan gaya belajar Anda",
+          "collapse": "collapseTwo2",
+          "heading": "headingTwo2",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
           "secondary": true,
           "primary": false,
           "pink": false
@@ -23,6 +35,12 @@
         {
           "text": "Pembelajaran Interaktif",
           "icon": "feather-aperture",
+          "desc": "Nikmati sesi belajar interaktif dengan harga terjangkau, dilengkapi berbagai pilihan paket belajar yang fleksibel",
+          "collapse": "collapseThree2",
+          "heading": "headingThree2",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
           "pink": true,
           "secondary": false,
           "primary": false

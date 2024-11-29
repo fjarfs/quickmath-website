@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import languageClub from "../../public/images/banner/language-club.png";
-
 import education1 from "../../public/images/banner/bannerMain.png";
 
 const MainHomeBanner = ({}) => {
