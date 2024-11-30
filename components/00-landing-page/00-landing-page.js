@@ -63,7 +63,7 @@ const MainPage = ({ blogs, promo }) => {
         {/* END FEATURE LIST */}
 
         {/* START PROMO SECTION */}
-        {/* <div className="rbt-promo-area rbt-section-gapBottom bg-color-extra2">
+        <div className="rbt-promo-area rbt-section-gapBottom bg-color-extra2">
           <div className="container">
             <div className="row g-5 align-items-center mb--30">
               <div className="col-lg-6 col-md-6 col-12">
@@ -96,7 +96,7 @@ const MainPage = ({ blogs, promo }) => {
               <PromoList PromoListData={promo} />
             </div>
           </div>
-        </div> */}
+        </div>
         {/* END PROMO SECTION */}
 
         {/* START TOP MATERI */}

@@ -15,19 +15,19 @@ import useSWR from "swr";
 import { api } from "@/utils/api";
 
 // fetch data
-// const fetcher = (url) => fetch(url).then((res) => res.json());
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const LandingPageLayout = ({ getBlog, getPromo }) => {
-  // const { data: promo } = useSWR(api('/promo'), fetcher);
+  const { data: promo } = useSWR(api('/promo'), fetcher);
 
-  // if (!promo) return <div>Loading...</div>
+  if (!promo) return <div>Loading...</div>
 
   return (
     <Provider store={Store}>
       <Context>
         <MobileMenu />
         <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-        <MainPage blogs={getBlog}/>
+        <MainPage blogs={getBlog} promo={promo}/>
 
         <Separator />
         <FooterMain />
