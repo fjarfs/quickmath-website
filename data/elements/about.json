@@ -139,6 +139,18 @@
       ]
     }
   ],
+  "aboutKonsultasi": [
+    {
+      "title": "Apa itu Konsultasi Tugas?",
+      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi."
+    }
+  ],
+  "aboutLesPrivat": [
+    {
+      "title": "Apa itu Les Privat?",
+      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi."
+    }
+  ],
   "aboutFour": [
     {
       "title": "Graduate Programs.",

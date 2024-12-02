@@ -4,12 +4,27 @@ import FlowKonsultasi from "../Abouts/FlowKonsultasi";
 import ContactUs from "../Contacts/ContactUs";
 import LesPrivatBanner from "./lesPrivatBanner";
 import LesPrivatePricing from "../Pricing/Plans/LesPrivatPricing";
+import { useEffect } from "react";
+import sal from "sal.js";
+import AboutLesPrivat from "../Abouts/About-LesPrivat";
 
 const LesPrivatComp = () => {
+  useEffect(() => {
+    sal({
+      threshold: 0.01,
+      once: true,
+    });
+  }, []);
   return (
     <>
       <div className="rbt-banner-area rbt-banner-1">
         <LesPrivatBanner />
+      </div>
+
+      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2">
+        <div className="container">
+          <AboutLesPrivat/>
+        </div>
       </div>
 
       <div className="rbt-section-gap2bottom">

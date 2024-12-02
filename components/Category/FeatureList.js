@@ -12,7 +12,7 @@ const FeatureList = () => {
         className="swiper category-activation-one rbt-arrow-between rbt-dot-bottom-center icon-bg-gray gutter-swiper-30 ptb--20"
         slidesPerView={1}
         modules={[Navigation, Pagination]}
-        loop={true}
+        loop={false}
         pagination={{
           el: ".rbt-swiper-pagination",
           clickable: true,

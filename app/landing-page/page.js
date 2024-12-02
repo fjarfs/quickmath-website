@@ -1,6 +1,6 @@
 import BackToTop from "../backToTop";
 import LandingPageLayout from "./(landing-page)";
-import { getAllPostsMeta } from "@/mdx";
+import { getAllPostsMeta, getServerSideProps } from "@/mdx";
 
 export const metadata = {
   title: "QuickMath",
@@ -9,9 +9,10 @@ export const metadata = {
 
 const LandingPage = async () => {
   const blog = await getAllPostsMeta();
+  const dataPromo = await getServerSideProps();
   return (
     <>
-      <LandingPageLayout getBlog={blog} />
+      <LandingPageLayout getBlog={blog} data={dataPromo} />
 
       <BackToTop/>
     </>

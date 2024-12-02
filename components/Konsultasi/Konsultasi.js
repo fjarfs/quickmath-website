@@ -4,15 +4,30 @@ import TestimonialFour from "../Testimonials/Testimonial-Four";
 import FlowKonsultasi from "../Abouts/FlowKonsultasi";
 import KonsultasiBanner from "./KonsultasiBanner";
 import ContactUs from "../Contacts/ContactUs";
+import AboutKonsultasi from "../Abouts/About-Konsultasi";
+import { useEffect } from "react";
+import sal from "sal.js";
 
 const KonsultasiComp = () => {
+  useEffect(() => {
+    sal({
+      threshold: 0.01,
+      once: true,
+    });
+  }, []);
   return (
     <>
       <div className="rbt-banner-area rbt-banner-8 variation-02 with-shape">
         <KonsultasiBanner />
       </div>
 
-      <div className="rbt-section-gap2Top mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2  mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+        <div className="container">
+          <AboutKonsultasi />
+        </div>
+      </div>
+
+      <div className="rbt-section-gap2Top">
         <div className="section-title text-center mb--50">
           <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>

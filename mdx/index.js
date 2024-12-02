@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
+import { api } from "@/utils/api";
+import axios from "axios";
 
 const rootDirectory = path.join(process.cwd(), "data/blog");
 
@@ -38,3 +40,30 @@ export const getAllPostsMeta = async () => {
 
   return posts;
 };
+
+
+export async function getServerSideProps() {
+  try {
+    // Fetch data dari beberapa endpoint
+    const res1 = await axios.get(api('/promo'))
+    console.log('API Response:', res1.data);
+    const dataPromo = await res1.data
+    // Kirim data ke komponen melalui props
+    return {
+      props: {
+        dataPromo,
+        message: 'SSR is working!',
+      },
+    };
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return {
+      props: {
+        data1: null,
+        data2: null,
+        error: 'Failed to fetch data',
+      },
+    };
+  }
+}
+

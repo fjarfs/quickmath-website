@@ -4,8 +4,9 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
+const PromoList = ({ PromoListData }) => {
+  const showNavigation = PromoListData?.data?.length > 4;
 
-const PromoList = ( {PromoListData} ) => {
   return (
     <>
       <Swiper
@@ -17,10 +18,12 @@ const PromoList = ( {PromoListData} ) => {
           el: ".rbt-swiper-pagination",
           clickable: true,
         }}
-        navigation={{
-          nextEl: ".rbt-arrow-right",
-          prevEl: ".rbt-arrow-left",
-        }}
+        navigation={
+          showNavigation && {
+            nextEl: ".rbt-arrow-right",
+            prevEl: ".rbt-arrow-left",
+          }
+        }
         breakpoints={{
           481: {
             slidesPerView: 2,
@@ -62,21 +65,28 @@ const PromoList = ( {PromoListData} ) => {
             );
           })}
 
-        <div className="rbt-swiper-arrow rbt-arrow-left d-sm-none d-lg-block">
-          <div className="custom-overfolow">
-            <i className="rbt-icon feather-arrow-left"></i>
-            <i className="rbt-icon-top feather-arrow-left"></i>
-          </div>
-        </div>
+        {showNavigation && (
+          <>
+            <div className="rbt-swiper-arrow rbt-arrow-left d-sm-none d-lg-block">
+              <div className="custom-overfolow">
+                <i className="rbt-icon feather-arrow-left"></i>
+                <i className="rbt-icon-top feather-arrow-left"></i>
+              </div>
+            </div>
 
-        <div className="rbt-swiper-arrow rbt-arrow-right d-sm-none d-lg-block">
-          <div className="custom-overfolow">
-            <i className="rbt-icon feather-arrow-right"></i>
-            <i className="rbt-icon-top feather-arrow-right"></i>
-          </div>
-        </div>
+            <div className="rbt-swiper-arrow rbt-arrow-right d-sm-none d-lg-block">
+              <div className="custom-overfolow">
+                <i className="rbt-icon feather-arrow-right"></i>
+                <i className="rbt-icon-top feather-arrow-right"></i>
+              </div>
+            </div>
+          </>
+        )}
 
-        <div className="rbt-swiper-pagination d-lg-none d-sm-block" style={{ bottom: "0" }}></div>
+        <div
+          className="rbt-swiper-pagination d-lg-none d-sm-block"
+          style={{ bottom: "0" }}
+        ></div>
       </Swiper>
     </>
   );
