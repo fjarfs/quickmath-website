@@ -46,7 +46,6 @@ export async function getServerSideProps() {
   try {
     // Fetch data dari beberapa endpoint
     const res1 = await axios.get(api('/promo'))
-    console.log('API Response:', res1.data);
     const dataPromo = await res1.data
     // Kirim data ke komponen melalui props
     return {

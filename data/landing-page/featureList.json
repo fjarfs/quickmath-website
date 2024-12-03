@@ -3,58 +3,130 @@
         {
             "id": 1,
             "category": "Konsultasi",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/konsultasi.png",
             "isActiveFeat": true,
-            "path": "/konsultasi"
+            "path": "/konsultasi",
+            "bgKonsultasi": true,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 2,
             "category": "Les Privat",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/les.png",
             "isActiveFeat": true,
-            "path": "/about-us-02"
+            "path": "/about-us-02",
+            "bgKonsultasi": false,
+            "bgLesPrivat": true,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 3,
             "category": "Materi",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/materi.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": true,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 4,
             "category": "Math Solver",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/mathsolver.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": true,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 5,
             "category": "Misi",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/mission.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": true,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 6,
             "category": "Chat AI",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/chat-ai.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": true,
+            "bgReferral": false,
+            "bgComingSoon": false
         },
         {
             "id": 7,
             "category": "Referral",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/referral.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": true,
+            "bgComingSoon": false
         },
         {
             "id": 8,
             "category": "Coming Soon",
+            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
             "featIcon": "/images/feature/coming-soon.png",
             "isActiveFeat": true,
-            "path": ""
+            "path": "",
+            "bgKonsultasi": false,
+            "bgLesPrivat": false,
+            "bgMateri": false,
+            "bgMathSolver": false,
+            "bgMisi": false,
+            "bgChatAi": false,
+            "bgReferral": false,
+            "bgComingSoon": true
         }
     ]
 }

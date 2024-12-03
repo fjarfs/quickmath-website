@@ -32,7 +32,7 @@ const FeatureList = () => {
             slidesPerView: 3,
           },
           1200: {
-            slidesPerView: 5,
+            slidesPerView: 4,
           },
         }}
       >
@@ -43,7 +43,26 @@ const FeatureList = () => {
                 <div className="swiper-slide">
                   <div className="single-slide">
                     <Link
-                      className="rbt-cat-box rbt-cat-box-1 text-center"
+                      // className="service-card service-card-6 bg-color bg-card-color-1"
+                      className={`rbt-cat-box rbt-cat-box-1 text-center service-card service-card-6 bg-color ${
+                        item.bgKonsultasi
+                        ? "bg-card-color-1"
+                        : "" || item.bgLesPrivat
+                        ? "bg-card-color-2"
+                        : "" || item.bgMateri
+                        ? "bg-card-color-3"
+                        : "" || item.bgMathSolver
+                        ? "bg-card-color-4"
+                        : "" || item.bgMisi
+                        ? "bg-card-color-5"
+                        : "" || item.bgChatAi
+                        ? "bg-card-color-6"
+                        : "" || item.bgReferral
+                        ? "bg-card-color-7"
+                        : "" || item.bgComingSoon
+                        ? "bg-card-color-8"
+                        : ""
+                        }`}
                       href={item.path}
                     >
                       <div className="inner">
@@ -58,6 +77,7 @@ const FeatureList = () => {
                         </div>
                         <div className="content">
                           <h5 className="title">{item.category}</h5>
+                          <p className="description">{item.shortDesc}</p>
                         </div>
                       </div>
                     </Link>
