@@ -54,35 +54,63 @@ const NavMain = () => {
                     if (data.menuType === "grid-item-3") {
                       const elements = data.menuItems?.map(
                         (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="">
-                                  <Link href={value.link} className="relative">
+                          <div className="col-lg-3" key={innerIndex}>
+                            <div className="mt--30 position-relative rbt-link-hover">
+                              <Link href={value.link}>
+                                <div className="inner rbt-link-hover d-flex text-start p-2">
+                                  <div className="icons">
                                     <Image
                                       src={value.img}
                                       width={100}
                                       height={100}
+                                      priority
+                                      alt="Icons Images"
+                                    />
+                                  </div>
+                                  <div className="content ml--10">
+                                    <h5 className="mb--0 title theme-gradient">
+                                      {value.title}
+                                    </h5>
+                                    <p className="description fs-5">
+                                      {value.shortDesc}
+                                    </p>
+                                  </div>
+                                </div>
+                              </Link>
+                            </div>
+                          </div>
+                        )
+                      );
+                      return elements;
+                    }
+                  })}
+                {/* {NavMainData &&
+                  NavMainData.navMainData.map((data, index) => {
+                    if (data.menuType === "grid-item-3") {
+                      const elements = data.menuItems?.map(
+                        (value, innerIndex) => (
+                          <div
+                            className="col-lg-4 col-xl-2 col-xxl-2 col-md-4 col-sm-4 col-12 border border-black"
+                            key={innerIndex}
+                          >
+                            <div className="mt--30 border border-black position-relative">
+                              <div
+                                className={`inner row border border-black ${
+                                  value.badget ? "disable" : ""
+                                }`}
+                              >
+                                <div className="col-5 border border-black">
+                                  <Link href={value.link} className="relative">
+                                    <Image
+                                      src={value.img}
+                                      width={60}
+                                      height={60}
                                       alt="Demo Images"
                                     />
-                                    {value.badget ? (
-                                      <span className="rbt-badge-card rbt-badge-card__coming">
-                                        Coming Soon
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
                                   </Link>
                                 </div>
-                                <div className="content text-center">
-                                  <h2 className="title">
+                                <div className="content text-center col-7 border border-black">
+                                  <h6 className="title">
                                     <Link className="theme-gradient" href={value.link}>
                                       {value.title}
                                       {value.badgeText ? (
@@ -93,7 +121,8 @@ const NavMain = () => {
                                         ""
                                       )}
                                     </Link>
-                                  </h2>
+                                  </h6>
+                                  <p>{value.shortDesc}</p>
                                 </div>
                               </div>
                             </div>
@@ -103,7 +132,7 @@ const NavMain = () => {
                       return elements;
                     }
                     return null;
-                  })}
+                  })} */}
               </div>
             </div>
           </div>

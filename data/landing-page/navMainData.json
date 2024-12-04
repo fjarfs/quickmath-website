@@ -19,6 +19,7 @@
                     "id": 1,
                     "link": "/konsultasi",
                     "title": "Konsultasi Tugas",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/konsultasi.png",
                     "badget": ""
                   },
@@ -26,6 +27,7 @@
                     "id": 2,
                     "link": "/les-privat",
                     "title": "Les Privat",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/les.png",
                     "badget": ""
                   },
@@ -33,6 +35,7 @@
                     "id": 3,
                     "link": "/04-kindergarten",
                     "title": "Bank Materi",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/materi.png",
                     "badget": "Coming Soon"
                   },
@@ -40,6 +43,7 @@
                     "id": 4,
                     "link": "/13-university-classic",
                     "title": "Math Solver",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/mathsolver.png",
                     "badget": "Coming Soon"
                   },
@@ -47,6 +51,7 @@
                     "id": 5,
                     "link": "/05-classic-lms",
                     "title": "Misi",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/mission.png",
                     "badget": "Coming Soon"
                   },
@@ -54,6 +59,7 @@
                     "id": 6,
                     "link": "/16-udemy-affiliate",
                     "title": "Chat AI",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/chat-ai.png",
                     "badget": "Coming Soon"
                   },
@@ -61,6 +67,7 @@
                     "id": 7,
                     "link": "/14-home-elegant",
                     "title": "Kode Referral",
+                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/referral.png",
                     "badget": "Coming Soon"
                   }

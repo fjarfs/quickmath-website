@@ -54,41 +54,29 @@ const NavMobile = () => {
                     if (data.menuType === "grid-item-3") {
                       const elements = data.menuItems?.map(
                         (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner d-flex align-items-center ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="mr--20">
-                                  <Link href={value.link} className="relative">
+                          <div className="col-lg-3" key={innerIndex}>
+                            <div className="mt--10 position-relative rbt-link-hover">
+                              <Link href={value.link}>
+                                <div className="inner rbt-link-hover d-flex text-start">
+                                  <div className="icons">
                                     <Image
                                       src={value.img}
-                                      width={50}
-                                      height={50}
-                                      alt="Demo Images"
+                                      width={60}
+                                      height={60}
+                                      priority
+                                      alt="Icons Images"
                                     />
-                                  </Link>
-                                </div>
-                                <div className="content text-start">
-                                  <h2 className="title">
-                                    <Link className="theme-gradient" href={value.link}>
+                                  </div>
+                                  <div className="content ml--10">
+                                    <h5 className="m-0 title theme-gradient">
                                       {value.title}
-                                      {value.badgeText ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                    </Link>
-                                  </h2>
+                                    </h5>
+                                    <p className="fs-5">
+                                      {value.shortDesc}
+                                    </p>
+                                  </div>
                                 </div>
-                              </div>
+                              </Link>
                             </div>
                           </div>
                         )
