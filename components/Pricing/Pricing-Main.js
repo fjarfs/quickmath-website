@@ -59,23 +59,6 @@ const PricingMain = ({ title, tag }) => {
                       Les Privat
                     </button>
                   </li>
-                  <li className="nav-item">
-                    <button
-                      className={`nav-link daily-plan-btn ${
-                        pricing.Materi ? "active" : ""
-                      }`}
-                      type="button"
-                      onClick={() =>
-                        setPricing({
-                          LesPrivat: false,
-                          Konsultasi: false,
-                          Materi: true,
-                        })
-                      }
-                    >
-                      Materi
-                    </button>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -89,9 +72,6 @@ const PricingMain = ({ title, tag }) => {
 
         {/* LES PRIVATE */}
         {pricing.LesPrivat && <LesPrivatePricing />}
-
-        {/* Materi PRICING */}
-        {pricing.Materi && <KonsultasiPricing />}
 
       </div>
     </>

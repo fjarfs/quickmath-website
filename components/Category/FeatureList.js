@@ -59,8 +59,6 @@ const FeatureList = () => {
                         ? "bg-card-color-6"
                         : "" || item.bgReferral
                         ? "bg-card-color-7"
-                        : "" || item.bgComingSoon
-                        ? "bg-card-color-8"
                         : ""
                         }`}
                       href={item.path}

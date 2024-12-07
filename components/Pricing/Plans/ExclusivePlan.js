@@ -20,6 +20,8 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
     return new Intl.NumberFormat("id-ID", {
       style: "currency",
       currency: "IDR",
+      minimumFractionDigits: 0, // Menghilangkan ,00
+      maximumFractionDigits: 0, // Menghilangkan ,00
     }).format(number);
   };
 

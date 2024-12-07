@@ -3,43 +3,67 @@
         {
             "id": 1,
             "title": "Diskon 90%",
+            "promoType": "konsultasi tugas",
             "desc": "Anjay diskonnya gede banget",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         },
         {
             "id": 2,
             "title": "Diskon 20%",
+            "promoType": "les privat",
             "desc": "Kecil amat diskonnya bang",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         },
         {
             "id": 3,
             "title": "50%",
+            "promoType": "bank materi",
             "desc": "Ini masih boleh lah diskonnya",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         },
         {
             "id": 4,
             "title": "Diskon 30%",
+            "promoType": "les privat",
             "desc": "Gabisa naikkan dikit kali diskonnya",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         },
         {
             "id": 5,
             "title": "Diskon 70%",
+            "promoType": "bank materi",
             "desc": "Nah ini masih boleh lah diskonnya",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         },
         {
             "id": 6,
             "title": "Diskon 80%",
+            "promoType": "konsultasi tugas",
             "desc": "Cape juga bikin data dummy begini",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "voucherCode": "VERILERG",
+            "startDate": "25 November",
+            "endDate": "8 Desember",
             "link": ""
         }
     ]

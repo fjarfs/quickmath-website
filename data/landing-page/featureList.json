@@ -111,22 +111,6 @@
             "bgChatAi": false,
             "bgReferral": true,
             "bgComingSoon": false
-        },
-        {
-            "id": 8,
-            "category": "Coming Soon",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
-            "featIcon": "/images/feature/coming-soon.png",
-            "isActiveFeat": true,
-            "path": "",
-            "bgKonsultasi": false,
-            "bgLesPrivat": false,
-            "bgMateri": false,
-            "bgMathSolver": false,
-            "bgMisi": false,
-            "bgChatAi": false,
-            "bgReferral": false,
-            "bgComingSoon": true
         }
     ]
 }
