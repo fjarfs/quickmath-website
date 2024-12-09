@@ -2,7 +2,7 @@ import BackToTop from "@/app/backToTop";
 import PromoLayout from "./(promo)";
 
 export const metadata = {
-  title: "QuickMath - Konsultasi Tugas",
+  title: "QuickMath - Semua Promo",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 

@@ -6,10 +6,74 @@
             "promoType": "konsultasi tugas",
             "desc": "Anjay diskonnya gede banget",
             "thumbnail": "/images/category/image/web-design.jpg",
+            "promoImg": "/images/course/course-01.jpg",
             "voucherCode": "VERILERG",
             "startDate": "25 November",
             "endDate": "8 Desember",
-            "link": ""
+            "end_date_ago": "30",
+            "link": "",
+            "promoTnc": [
+                {
+                    "title": "Syarat dan Ketentuan",
+                    "tncList": [
+                        {
+                            "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
+                        },
+                        {
+                            "listItem": "Have an intermediate skill level of Python programming."
+                        },
+                        {
+                            "listItem": "Have a portfolio of various data analysis projects."
+                        },
+                        {
+                            "listItem": "Use the numpy library to create and manipulate arrays."
+                        },
+                        {
+                            "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
+                        },
+                        {
+                            "listItem": "Use the pandas module with Python to create and structure data."
+                        },
+                        {
+                            "listItem": "Have a portfolio of various data analysis projects."
+                        },
+                        {
+                            "listItem": "Create data visualizations using matplotlib and the seaborn."
+                        }
+                    ]
+                }
+            ],
+            "stepToClaimPromo": [
+                {
+                    "title": "Cara Penggunaan/ Redeem Kode",
+                    "stepList": [
+                        {
+                            "listItem": "Become an advanced, confident, and modern JavaScript developer from scratch."
+                        },
+                        {
+                            "listItem": "Have an intermediate skill level of Python programming."
+                        },
+                        {
+                            "listItem": "Have a portfolio of various data analysis projects."
+                        },
+                        {
+                            "listItem": "Use the numpy library to create and manipulate arrays."
+                        },
+                        {
+                            "listItem": "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
+                        },
+                        {
+                            "listItem": "Use the pandas module with Python to create and structure data."
+                        },
+                        {
+                            "listItem": "Have a portfolio of various data analysis projects."
+                        },
+                        {
+                            "listItem": "Create data visualizations using matplotlib and the seaborn."
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": 2,

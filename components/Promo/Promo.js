@@ -22,7 +22,7 @@ const PromoListAll = ({ promo, start, end }) => {
             >
               <div className="h-100">
                 <div className="rbt-card-img">
-                  <Link href={`/course-details/${data.id}`}>
+                  <Link href={`/promo-details/${data.id}`}>
                     <Image
                       className="h-100"
                       src={data.thumbnail}
@@ -34,32 +34,42 @@ const PromoListAll = ({ promo, start, end }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h4 className="rbt-card-title fs-2">
-                    <Link href={`/course-details/${data.id}`}>
-                      {data.title}
-                    </Link>
+                    <Link href={`/promo-details/${data.id}`}>{data.title}</Link>
                   </h4>
 
                   <div className="mt-auto">
-                    <div className="rbt-author-meta mb--10">
-                      <div className="rbt-avater">
-                        <i class="ri-calendar-2-line"></i>
-                        <span className="fs-4 ml--10">Periode:</span>
+                    <div className="mb--20">
+                      <div className="d-flex">
+                        <div className="rbt-avater mr--10">
+                          <i class="ri-calendar-2-fill"></i>
+                          <span className="fs-4 ml--10">Periode:</span>
+                        </div>
+                        <div className="rbt-author-info">
+                          <span className="fs-4 fw-bold">{data.startDate}</span>
+                          <span className="fs-4 fw-bold"> - {data.endDate}</span>
+                        </div>
                       </div>
-                      <div className="rbt-author-info">
-                        <span className="fs-4">{data.startDate}</span>
-                        <span className="fs-4"> - {data.endDate}</span>
+                      <div className="d-flex">
+                        <div className="rbt-avater mr--10">
+                          <i class="ri-discount-percent-fill"></i>
+                          <span className="fs-4 ml--10">Kode Promo:</span>
+                        </div>
+                        <div className="rbt-author-info">
+                          <span className="current-price fs-4 fw-bold">
+                            {data.voucherCode}
+                          </span>
+                        </div>
                       </div>
                     </div>
                     <div className="rbt-card-bottom">
-                      <div className="rbt-price">
-                        <i class="ri-discount-percent-fill" style={{ fontSize: "20px" }}></i>
-                        <span className="current-price fs-4 ml--5">{data.voucherCode}</span>
-                      </div>
                       <Link
                         className="rbt-btn-link"
-                        href={`/course-details/${data.id}`}
+                        href={`/promo-details/${data.id}`}
                       >
-                        Learn More<i className="feather-arrow-right"></i>
+                        Lihat Detail<i className="feather-arrow-right"></i>
+                      </Link>
+                      <Link className="rbt-btn btn-sm" href="#">
+                        Gunakan
                       </Link>
                     </div>
                   </div>
