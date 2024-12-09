@@ -74,8 +74,8 @@ const FeatureList = () => {
                           />
                         </div>
                         <div className="content">
-                          <h5 className="title">{item.category}</h5>
-                          <p className="description">{item.shortDesc}</p>
+                          <h5 className="title feature-text">{item.category}</h5>
+                          <p className="description feature-text">{item.shortDesc}</p>
                         </div>
                       </div>
                     </Link>

@@ -76,7 +76,7 @@ const MainPage = ({ blogs, promo }) => {
                 <div className="read-more-btn text-start text-md-end">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
+                    href="/promo"
                   >
                     <div className="icon-reverse-wrapper">
                       <span className="btn-text">Lihat Semua Promo</span>

@@ -64,7 +64,7 @@ const HeaderMain = ({
                       />
                     ) : (
                       <Image
-                        src={logoLight}
+                        src={logo}
                         width={152}
                         height={50}
                         priority={true}
