@@ -48,7 +48,7 @@ const PromoList = ({ PromoListData }) => {
                     <div className="rbt-cat-box rbt-cat-box-1 variation-3 text-center">
                       <div className="inner">
                         <div className="thumbnail">
-                          <Link href={item.image_url}>
+                          <Link href={`/promo-details/${item.id}`}>
                             <Image
                               src={item.image_url}
                               width={304}

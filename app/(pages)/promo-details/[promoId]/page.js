@@ -2,7 +2,7 @@ import BackToTop from "@/app/backToTop";
 import SinglePromo from "../index";
 
 export const metadata = {
-  title: "Course Details - Online Courses & Education NEXTJS14 Template",
+  title: "QuickMath - Promo Details",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 

@@ -3,7 +3,7 @@ import { getAllPostsMeta } from "@/mdx";
 import ArtikelAllPage from "./(artikel-all)";
 
 export const metadata = {
-  title: "Blog Grid - Online Courses & Education NEXTJS14 Template",
+  title: "QuickMath - Semua Artikel",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 

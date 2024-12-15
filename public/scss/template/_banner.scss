@@ -245,8 +245,7 @@
             }
 
             @media #{$md-layout} {
-                left: -76px;
-                bottom: -14px;
+                display: none;
             }
 
             @media #{$sm-layout} {

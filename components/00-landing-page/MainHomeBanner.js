@@ -10,7 +10,7 @@ const MainHomeBanner = ({}) => {
         <div className="row pb--120 pt--20">
           <div className="col-md-12 space-responsive-xxl">
             <div className="content row">
-              <div className="inner col-md-7">
+              <div className="inner col-md-6">
                 <h1 className="title">
                   Belajar
                   <span className="theme-gradient">
@@ -38,7 +38,7 @@ const MainHomeBanner = ({}) => {
                   </Link>
                 </div>
               </div>
-              <div className="shape-wrapper col-md-4" id="scene">
+              <div className="shape-wrapper col-md-6 border border-black " id="scene">
                 <Image
                   className="rounded-5"
                   src={education1}

@@ -20,7 +20,7 @@ const OurApps = () => {
                     Mulai Belajar Kapan Saja dan Di Mana Saja!
                   </h1>
                   <p>Tersedia di Pay Store dan App Store</p>
-                  <div>
+                  <div className="d-flex justify-content-center">
                     <Link className="mr--5" href="#">
                       <Image
                         src={downloadPLayStore}

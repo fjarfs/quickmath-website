@@ -3,7 +3,7 @@ import LesLayout from "./(les-privat)";
 
 
 export const metadata = {
-  title: "QuickMath - Konsultasi Tugas",
+  title: "QuickMath - Les Privat",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 
