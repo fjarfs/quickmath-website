@@ -22,7 +22,7 @@ const BlogGridTop = ({ BlogData }) => {
                 }`}
               >
                 <div className="rbt-card-img">
-                  <Link href={`/blog-details/${data.slug}`}>
+                  <Link href={`/artikel-details/${data.slug}`}>
                     <Image
                       src={data.thumbnail.large}
                       width={580}
@@ -34,13 +34,13 @@ const BlogGridTop = ({ BlogData }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h3 className="rbt-card-title">
-                    <Link href={`/blog-details/${data.slug}`}>{data.title}</Link>
+                    <Link href={`/artikel-details/${data.slug}`}>{data.title}</Link>
                   </h3>
                   <p className="rbt-card-text">{data.desc}</p>
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
-                      href={`/blog-details/${data.slug}`}
+                      href={`/artikel-details/${data.slug}`}
                     >
                       {index === 0 ? "Learn More" : "Read Article"}
                       <i>
@@ -80,7 +80,7 @@ const BlogGridTop = ({ BlogData }) => {
                 key={index}
               >
                 <div className="rbt-card-img">
-                  <Link href={`/blog-details/${data.slug}`}>
+                  <Link href={`/artikel-details/${data.slug}`}>
                     <Image
                       src={data.thumbnail.large}
                       width={580}
@@ -92,7 +92,7 @@ const BlogGridTop = ({ BlogData }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h3 className="rbt-card-title">
-                    <Link href={`/blog-details/${data.slug}`}>
+                    <Link href={`/artikel-details/${data.slug}`}>
                       {data.title}
                     </Link>
                   </h3>
@@ -100,7 +100,7 @@ const BlogGridTop = ({ BlogData }) => {
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
-                      href={`/blog-details/${data.slug}`}
+                      href={`/artikel-details/${data.slug}`}
                     >
                       Learn More
                       <i>

@@ -45,7 +45,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" key={index}>
               <div className="rbt-card variation-02 rbt-hover">
                 <div className="rbt-card-img">
-                  <Link href={`/blog-details/${data.slug}`}>
+                  <Link href={`/artikel-details/${data.slug}`}>
                     <Image
                       src={data.thumbnail.large}
                       width={450}
@@ -57,7 +57,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h5 className="rbt-card-title">
-                    <Link href={`/blog-details/${data.slug}`}>
+                    <Link href={`/artikel-details/${data.slug}`}>
                       {data.title}
                     </Link>
                   </h5>
@@ -65,7 +65,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
-                      href={`/blog-details/${data.slug}`}
+                      href={`/artikel-details/${data.slug}`}
                     >
                       Learn More
                       <i>
