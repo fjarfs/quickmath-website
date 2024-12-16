@@ -170,7 +170,7 @@ const WhyUsMain = () => {
                             aria-labelledby={item.heading}
                             data-bs-parent="#accordionExampleb2"
                           >
-                            <div className="accordion-body card-body heading-opacity">
+                            <div className="accordion-body card-body desc-dark">
                               {item.desc}
                             </div>
                           </div>

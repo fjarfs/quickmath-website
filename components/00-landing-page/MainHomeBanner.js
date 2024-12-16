@@ -38,7 +38,7 @@ const MainHomeBanner = ({}) => {
                   </Link>
                 </div>
               </div>
-              <div className="shape-wrapper col-lg-5 d-flex justify-content-center" id="scene">
+              <div className="shape-wrapper col-lg-5 d-lg-flex d-sm-none justify-content-center" id="scene">
                 <Image
                   className="rounded-5"
                   src={education1}

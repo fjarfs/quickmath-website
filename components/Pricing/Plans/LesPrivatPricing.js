@@ -18,7 +18,7 @@ const LesPrivatePricing = ({}) => {
               <div className="inner">
                 <div className="row row--0">
                   <div className="col-lg-6 col-md-6 col-12">
-                    <div className="pricing-left">
+                    <div className="pricing-left rounded-0">
                       <h3 className="main-title">Active Plan Mode.</h3>
                       <p className="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -109,7 +109,7 @@ const LesPrivatePricing = ({}) => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="advance-pricing">
+          <div className="advance-pricing rounded-0">
             <div className="inner">
               <div className="row row--0">
                 <div className="col-lg-6 col-md-6 col-12">
