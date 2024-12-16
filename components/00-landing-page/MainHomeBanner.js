@@ -9,8 +9,8 @@ const MainHomeBanner = ({}) => {
       <div className="container-fluid px-5 pb--50 px-md-4">
         <div className="row pb--120 pt--20">
           <div className="col-md-12 space-responsive-xxl">
-            <div className="content row">
-              <div className="inner col-md-6">
+            <div className="content row d-flex">
+              <div className="inner col-md-12 col-lg-7">
                 <h1 className="title">
                   Belajar
                   <span className="theme-gradient">
@@ -38,12 +38,12 @@ const MainHomeBanner = ({}) => {
                   </Link>
                 </div>
               </div>
-              <div className="shape-wrapper col-md-6 border border-black " id="scene">
+              <div className="shape-wrapper col-lg-5 d-flex justify-content-center" id="scene">
                 <Image
                   className="rounded-5"
                   src={education1}
-                  width={400}
-                  height={300}
+                  width={360}
+                  height={270}
                   alt="Education Images"
                 />
               </div>
