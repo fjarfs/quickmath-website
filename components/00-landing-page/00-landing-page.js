@@ -174,7 +174,7 @@ const MainPage = ({ blogs, promo }) => {
                   <div className="veiw-more-btn mt--20">
                     <Link
                       className="rbt-btn btn-gradient rbt-marquee-btn marquee-text-y"
-                      href="#"
+                      href="/testimoni"
                     >
                       <span data-text="Lihat Review">Lihat Review</span>
                     </Link>

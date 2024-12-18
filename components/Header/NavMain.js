@@ -112,7 +112,7 @@ const NavMain = () => {
         {/* Testimoni */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/testimoni"
             className={`${activeMenuItem === "testimoni" ? "open" : ""}`}
           >
             Testimoni
