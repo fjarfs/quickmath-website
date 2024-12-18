@@ -18,9 +18,6 @@ import BlogGridTop from "../Blogs/Blog-Sections/BlogGrid-Top";
 import ContactUs from "../Contacts/ContactUs";
 import OurApps from "../Our-Apps/OurApps";
 
-// img
-import shapeImg from "../../public/images/icons/three-shape.png";
-import Image from "next/image";
 
 const MainPage = ({ blogs, promo }) => {
   useEffect(() => {
@@ -191,60 +188,25 @@ const MainPage = ({ blogs, promo }) => {
         {/* END TESTIMONIAL */}
 
         {/* START TEACHER / INSTRUKTUR */}
-        {/* <div className="rbt-team-area bg-color-white rbt-section-gap2Bottom">
-          <div className="container">
-            <div className="row mb--60">
-              <div className="col-lg-12">
-                <div className="section-title text-center">
-                  <span className="subtitle bg-primary-opacity">
-                    Instruktur Kami
-                  </span>
-                  <h2 className="title">Guru Inspirasi Anda</h2>
-                </div>
-              </div>
-            </div>
-            <Instruktur />
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="load-more-btn mt--50 text-center">
-                <Link
-                  className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
-                  href="#"
-                >
-                  <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Lihat Instruktur Lain</span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
-                    </span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
-                    </span>
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="rbt-section-gap2">
           <div className="container">
             <div className="row mb--30">
               <div className="col-lg-12">
                 <div className="section-title text-center">
                   <span className="subtitle bg-primary-opacity">
-                    Instruktur Kami
+                    Master Tutor Kami
                   </span>
-                  <h2 className="title">Guru Inspirasi Anda</h2>
+                  <h2 className="title">Master Tutor Inspirasi Anda</h2>
                 </div>
               </div>
             </div>
-            <Instruktur />
+            <Instruktur start={0} end={3}/>
             <div className="row">
             <div className="col-lg-12">
               <div className="load-more-btn mt--50 text-center">
                 <Link
                   className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
-                  href="#"
+                  href="/tutor-all"
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Lihat Instruktur Lain</span>
@@ -306,7 +268,7 @@ const MainPage = ({ blogs, promo }) => {
         {/* END CONTACT US */}
 
         {/* START OUR APPS */}
-        <div className="rbt-section-gap2">
+        <div className="rbt-section-gap2Top">
           <OurApps />
         </div>
         {/* END OUR APPS */}

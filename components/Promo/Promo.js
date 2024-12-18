@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
+import { useEffect, useState } from "react";
+import Pagination from "../Common/Pagination";
 
 const PromoListAll = ({ promo, start, end }) => {
   const { toggle } = useAppContext();
@@ -46,7 +48,10 @@ const PromoListAll = ({ promo, start, end }) => {
                         </div>
                         <div className="rbt-author-info">
                           <span className="fs-4 fw-bold">{data.startDate}</span>
-                          <span className="fs-4 fw-bold"> - {data.endDate}</span>
+                          <span className="fs-4 fw-bold">
+                            {" "}
+                            - {data.endDate}
+                          </span>
                         </div>
                       </div>
                       <div className="d-flex">

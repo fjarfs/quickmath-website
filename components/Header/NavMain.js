@@ -84,55 +84,6 @@ const NavMain = () => {
                       return elements;
                     }
                   })}
-                {/* {NavMainData &&
-                  NavMainData.navMainData.map((data, index) => {
-                    if (data.menuType === "grid-item-3") {
-                      const elements = data.menuItems?.map(
-                        (value, innerIndex) => (
-                          <div
-                            className="col-lg-4 col-xl-2 col-xxl-2 col-md-4 col-sm-4 col-12 border border-black"
-                            key={innerIndex}
-                          >
-                            <div className="mt--30 border border-black position-relative">
-                              <div
-                                className={`inner row border border-black ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="col-5 border border-black">
-                                  <Link href={value.link} className="relative">
-                                    <Image
-                                      src={value.img}
-                                      width={60}
-                                      height={60}
-                                      alt="Demo Images"
-                                    />
-                                  </Link>
-                                </div>
-                                <div className="content text-center col-7 border border-black">
-                                  <h6 className="title">
-                                    <Link className="theme-gradient" href={value.link}>
-                                      {value.title}
-                                      {value.badgeText ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                    </Link>
-                                  </h6>
-                                  <p>{value.shortDesc}</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      );
-                      return elements;
-                    }
-                    return null;
-                  })} */}
               </div>
             </div>
           </div>
@@ -155,6 +106,16 @@ const NavMain = () => {
             className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
           >
             Tentang Kami
+          </Link>
+        </li>
+
+        {/* Testimoni */}
+        <li className="position-static">
+          <Link
+            href="#"
+            className={`${activeMenuItem === "testimoni" ? "open" : ""}`}
+          >
+            Testimoni
           </Link>
         </li>
 

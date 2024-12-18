@@ -1,37 +1,39 @@
-import React from "react";
-import Image from "next/image";
+"use client";
+
 import Link from "next/link";
-
-import TeamHead from "./TeamHead";
-
 import TeamData from "../../data/elements/team.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import Pagination from "../Common/Pagination";
 
-const Instruktur = ({start, end}) => {
+const TutorAll = ({ isPagination, start, end }) => {
+  const [tutors, setTutors] = useState([]);
+  const [page, setPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(0);
+
+  const startIndex = (page - 1) * 6;
+  const selectedGridTutors = tutors.slice(startIndex, startIndex + 6);
+
+  const handleClick = (num) => {
+    setPage(num);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    setTutors(TeamData.team);
+    setTotalPages(Math.ceil(TeamData.team.length / 6));
+  }, [setTotalPages]);
   return (
     <>
-      <div className="container">
-        <Swiper
-          modules={[Pagination]}
-          loop={false}
-          spaceBetween={20} // Jarak antar slide
-          slidesPerView={1} // Slide terlihat per layar
-          pagination={{
-            el: ".rbt-swiper-pagination",
-            clickable: true,
-          }}
-          breakpoints={{
-            768: { slidesPerView: 2 }, // Tablet
-            1200: { slidesPerView: 3 }, // Desktop
-          }}
-          className="p-5 swiper rbt-dot-bottom-center"
-        >
-          {/* Map TeamData */}
+      <div className="container rbt-section-gap2Bottom">
+        <div className="row">
           {TeamData &&
-            TeamData.team.slice(start, end).map((data, index) =>
+            selectedGridTutors.slice(start, end).map((data, index) =>
               data.details.map((item, innerIndex) => (
-                <SwiperSlide key={`team-${index}-${innerIndex}`}>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt--50">
                   <div className="rbt-team team-style-default rbt-hover-02">
                     <div className="inner">
                       <div className="thumbnail">
@@ -71,14 +73,26 @@ const Instruktur = ({start, end}) => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
+                </div>
               ))
             )}
-          <div className="rbt-swiper-pagination d-lg-none d-sm-block" style={{ bottom: "0" }}></div>
-        </Swiper>
+        </div>
+        {isPagination ? (
+          <div className="row">
+            <div className="col-lg-12 mt--60">
+              <Pagination
+                totalPages={totalPages}
+                pageNumber={page}
+                handleClick={handleClick}
+              />
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </>
   );
 };
 
-export default Instruktur;
+export default TutorAll;
