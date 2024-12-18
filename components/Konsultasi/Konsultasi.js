@@ -17,17 +17,17 @@ const KonsultasiComp = () => {
   }, []);
   return (
     <>
-      <div className="rbt-banner-area rbt-banner-8 variation-02 with-shape">
+      <div className="rbt-banner-area rbt-banner-8 variation-02" data-gradient-overlay="7">
         <KonsultasiBanner />
       </div>
 
-      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2  mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
+      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2">
         <div className="container">
           <AboutKonsultasi />
         </div>
       </div>
 
-      <div className="rbt-section-gap2Top">
+      <div className="rbt-section-gap2Bottom" id="konsultasi-pricing">
         <div className="section-title text-center mb--50">
           <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>

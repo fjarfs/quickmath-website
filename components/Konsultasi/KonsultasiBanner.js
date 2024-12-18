@@ -6,6 +6,7 @@ import Link from "next/link";
 import Typed from "typed.js";
 
 import treeSvg from "../../public/images/icons/tree-shape.svg";
+import { useMediaQuery } from "react-responsive";
 
 const KonsultasiBanner = () => {
   useEffect(() => {
@@ -22,6 +23,9 @@ const KonsultasiBanner = () => {
       typeitInstance.destroy();
     };
   }, []);
+
+  const isMobile = useMediaQuery({ query: "(max-width:768px)" });
+
   return (
     <>
       <div className="container">
@@ -29,26 +33,42 @@ const KonsultasiBanner = () => {
           <div className="col-lg-10 offset-lg-1">
             <div className="content">
               <div className="inner text-center">
-                <h2>
+                {isMobile ? (
+                  <h2>
+                  Bingung dengan Tugas?
+                  <br /> Konsultasikan Langsung dengan <br /> Tutor Ahli Kami!
+                </h2>
+                ) : (
+                  <h2>
                   Bingung dengan Tugas
                   <span className="header-caption ms-2">
                     <span className="cd-headline clip is-full-width">
                       <span className="cd-words-wrapper">
-                        <b className="is-visible theme-gradient"></b>
+                        <b className="is-visible text-white"></b>
                       </span>
                     </span>
                   </span>
-                  ? <br/> Konsultasikan Langsung dengan <br/> Tutor Ahli Kami!
+                  ? <br /> Konsultasikan Langsung dengan <br /> Tutor Ahli Kami!
                 </h2>
-                <p className="description has-medium-font-size mt--20">
-                Dapatkan bantuan profesional untuk menyelesaikan tugas sekolah atau kuliah dengan mudah. Konsultasi personal kapan saja, di mana saja!
+                )}
+                <p className="description has-medium-font-size mt--20 text-white">
+                  Konsultasi personal kapan saja, di mana saja!
                 </p>
+
+                <Link className="rbt-btn btn-white hover-icon-reverse" href="#konsultasi-pricing">
+                  <div className="icon-reverse-wrapper">
+                    <span className="btn-text">Pesan Sekarang</span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
-        </div>
-        <div className="shape-image">
-          <Image src={treeSvg} width={912} height={513} alt="Shape" />
         </div>
       </div>
     </>

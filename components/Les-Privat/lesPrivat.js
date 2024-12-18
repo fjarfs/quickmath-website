@@ -17,13 +17,16 @@ const LesPrivatComp = () => {
   }, []);
   return (
     <>
-      <div className="rbt-banner-area rbt-banner-1">
+      <div
+        className="slider-area rbt-banner-5 height-750"
+        data-gradient-overlay="7"
+      >
         <LesPrivatBanner />
       </div>
 
       <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2">
         <div className="container">
-          <AboutLesPrivat/>
+          <AboutLesPrivat />
         </div>
       </div>
 
@@ -33,7 +36,7 @@ const LesPrivatComp = () => {
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
         <div className="container">
-          <LesPrivatePricing/>
+          <LesPrivatePricing />
         </div>
       </div>
 

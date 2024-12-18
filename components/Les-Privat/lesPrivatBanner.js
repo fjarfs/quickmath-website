@@ -10,39 +10,52 @@ import education1 from "../../public/images/feature/les_2.png";
 const LesPrivatBanner = () => {
   return (
     <>
-      <div className="container-fluid px-5 pb--50 px-md-4">
-        <div className="row pb--120 pt--20">
-          <div className="col-md-12 space-responsive-xxl">
-            <div className="content row">
-              <div className="inner col-md-7">
-                <h1 className="title">
-                  Belajar
-                  <span className="theme-gradient">
-                    {" "}
-                    Kapan Saja dan Di Mana Saja{" "}
-                  </span>
-                  Untuk Semua Tingkatan
+      <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="inner text-center">
+                <h1 className="title display-one">
+                  Mulai Belajar
+                  <span>Kapan &amp; </span>
+                  <span>Di mana Saja</span>.
                 </h1>
-                <div className="more-author-text">
-                  <h5 className="total-join-students">
-                    Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga
-                    Kuliah
-                  </h5>
+                <p className="description">
+                Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga Kuliah!
+                </p>
+                <div className="rbt-button-group">
+                  <Link
+                    className="rbt-btn btn-white hover-icon-reverse"
+                    href="#"
+                  >
+                    <div className="icon-reverse-wrapper">
+                      <span className="btn-text">Pesan Sekarang</span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                    </div>
+                  </Link>
+                  <Link
+                    className="rbt-btn btn-border hover-icon-reverse color-white"
+                    href="/contact"
+                  >
+                    <div className="icon-reverse-wrapper">
+                      <span className="btn-text">Hubungi Kami</span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                    </div>
+                  </Link>
                 </div>
-              </div>
-              <div className="shape-wrapper col-md-4" id="scene">
-                <Image
-                  className="rounded-5"
-                  src={education1}
-                  width={400}
-                  height={300}
-                  alt="Education Images"
-                />
               </div>
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
