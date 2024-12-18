@@ -16,7 +16,7 @@ import React, { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 
 const PromoLayout = () => {
-  const ITEMS_PER_PAGE = 3; // Jumlah item per halaman
+  const ITEMS_PER_PAGE = 6; // Jumlah item per halaman
   const [allPromos] = useState(PromoData.promoList); // Data asli
   const [filteredPromos, setFilteredPromos] = useState(allPromos); // Data setelah difilter
   const [page, setPage] = useState(1); // Halaman aktif
@@ -70,7 +70,7 @@ const PromoLayout = () => {
           <div className="rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="inner">
               <div className="container">
-                <PromoListAll promo={selectedGridPromos} start={0} end={3}/>
+                <PromoListAll promo={selectedGridPromos} start={0} end={6}/>
                 {totalPages > 1 ? (
                   <div className="row">
                     <div className="col-lg-12 mt--60">
