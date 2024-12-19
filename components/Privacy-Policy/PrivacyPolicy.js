@@ -15,8 +15,8 @@ const PrivacyPolicy = () => {
             </div>
           </div>
           <div className="breadcrumb-content-top text-center">
-            <h1 className="title">Privacy Policy</h1>
-            <p className="mb--20">Histudy Course Privacy Policy Here.</p>
+            <h1 className="title">Kebijakan Privasi</h1>
+            <p className="mb--20">Kebijakan Privasi QuickMath disini.</p>
             <ul className="page-list">
               <li className="rbt-breadcrumb-item">
                 <Link href="/">Home</Link>

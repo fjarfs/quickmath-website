@@ -8,11 +8,11 @@
             "feature": [
                 {
                     "text": "Konsultasi Tugas",
-                    "link": ""
+                    "link": "/konsultasi"
                 },
                 {
                     "text": "Les Privat",
-                    "link": ""
+                    "link": "/les-privat"
                 },
                 {
                     "text": "Bank Materi",
@@ -38,7 +38,7 @@
             "usefulLinks": [
                 {
                     "text": "Kebijakan Privasi",
-                    "link": ""
+                    "link": "/privacy-policy"
                 },
                 {
                     "text": "Tentang Kami",
@@ -50,7 +50,7 @@
                 },
                 {
                     "text": "Artikel",
-                    "link": ""
+                    "link": "/artikel-all"
                 }
             ],
             "socialLink": [
@@ -68,6 +68,10 @@
                 },
                 {
                     "icon": "feather-linkedin",
+                    "link": ""
+                },
+                {
+                    "icon": "ri-whatsapp-line",
                     "link": ""
                 }
             ]

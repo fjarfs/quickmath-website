@@ -10,20 +10,21 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Instagram from "@/components/Instagram/Instagram";
 import PrivacyPolicy from "@/components/Privacy-Policy/PrivacyPolicy";
+import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
+import FooterMain from "@/components/Footer/Footer-Main";
 
 const PrivacyPolicyPage = () => {
   return (
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
 
           <PrivacyPolicy />
-          <Instagram />
 
-          <FooterOne />
+          <FooterMain />
         </Context>
       </Provider>
     </>
