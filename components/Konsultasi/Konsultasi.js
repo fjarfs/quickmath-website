@@ -17,11 +17,11 @@ const KonsultasiComp = () => {
   }, []);
   return (
     <>
-      <div className="rbt-banner-area rbt-banner-8 variation-02" data-gradient-overlay="7">
+      <div className="rbt-banner-area rbt-banner-8 variation-02 with-shape">
         <KonsultasiBanner />
       </div>
 
-      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2">
+      <div className="rbt-about-area about-style-1 bg-transparent rbt-section-gap2Bottom mt_dec--100 mt_md_dec--30 mt_sm_dec--30">
         <div className="container">
           <AboutKonsultasi />
         </div>

@@ -5,29 +5,31 @@ import Image from "next/image";
 import Link from "next/link";
 import Typed from "typed.js";
 
-import education1 from "../../public/images/feature/les_2.png";
+import lesPrivatIcon from "../../public/images/feature/les_2.png"
 
 const LesPrivatBanner = () => {
   return (
     <>
-      <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="inner text-center">
-                <h1 className="title display-one">
+      <div className="container rbt-section-gap2">
+        <div className="row justify-content-between align-items-center">
+          <div className="col-lg-8">
+            <div className="content">
+              <div className="inner">
+                <h1 className="title">
                   Mulai Belajar
-                  <span>Kapan &amp; </span>
-                  <span>Di mana Saja</span>.
+                  <span className="color-primary"> Kapan & Di Mana </span>
+                  Saja
                 </h1>
                 <p className="description">
-                Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga Kuliah!
+                Bimbingan Belajar Online untuk Semua Jenjang, dari
+                  <strong> SD hingga Kuliah!</strong>
                 </p>
-                <div className="rbt-button-group">
+                <div className="slider-btn">
                   <Link
-                    className="rbt-btn btn-white hover-icon-reverse"
+                    className="rbt-btn btn-gradient hover-icon-reverse"
                     href="#"
                   >
-                    <div className="icon-reverse-wrapper">
+                    <span className="icon-reverse-wrapper">
                       <span className="btn-text">Pesan Sekarang</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
@@ -35,27 +37,23 @@ const LesPrivatBanner = () => {
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
-                    </div>
-                  </Link>
-                  <Link
-                    className="rbt-btn btn-border hover-icon-reverse color-white"
-                    href="/contact"
-                  >
-                    <div className="icon-reverse-wrapper">
-                      <span className="btn-text">Hubungi Kami</span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                    </div>
+                    </span>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
+          <div className="col-lg-4">
+            <Image
+              className="rounded-5"
+              src={lesPrivatIcon}
+              width={360}
+              height={270}
+              alt="Education Images"
+            />
+          </div>
         </div>
+      </div>
     </>
   );
 };

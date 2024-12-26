@@ -18,8 +18,7 @@ const LesPrivatComp = () => {
   return (
     <>
       <div
-        className="slider-area rbt-banner-5 height-750"
-        data-gradient-overlay="7"
+        className="rbt-banner-area rbt-banner-1 variation-2"
       >
         <LesPrivatBanner />
       </div>

@@ -23,9 +23,6 @@ const KonsultasiBanner = () => {
       typeitInstance.destroy();
     };
   }, []);
-
-  const isMobile = useMediaQuery({ query: "(max-width:768px)" });
-
   return (
     <>
       <div className="container">
@@ -33,42 +30,42 @@ const KonsultasiBanner = () => {
           <div className="col-lg-10 offset-lg-1">
             <div className="content">
               <div className="inner text-center">
-                {isMobile ? (
-                  <h2>
-                  Bingung dengan Tugas?
-                  <br /> Konsultasikan Langsung dengan <br /> Tutor Ahli Kami!
-                </h2>
-                ) : (
-                  <h2>
-                  Bingung dengan Tugas
+                <h1 className="title">
+                  Bingung dengan Tugas <br/>
                   <span className="header-caption ms-2">
                     <span className="cd-headline clip is-full-width">
                       <span className="cd-words-wrapper">
-                        <b className="is-visible text-white"></b>
+                        <b className="is-visible theme-gradient"></b>
                       </span>
                     </span>
                   </span>
-                  ? <br /> Konsultasikan Langsung dengan <br /> Tutor Ahli Kami!
-                </h2>
-                )}
-                <p className="description has-medium-font-size mt--20 text-white">
-                  Konsultasi personal kapan saja, di mana saja!
+                  ?
+                </h1>
+                <p className="description has-medium-font-size mt--20">
+                Konsultasi personal kapan saja, di mana saja!
                 </p>
-
-                <Link className="rbt-btn btn-white hover-icon-reverse" href="#konsultasi-pricing">
-                  <div className="icon-reverse-wrapper">
-                    <span className="btn-text">Pesan Sekarang</span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
+                <div className="slider-btn rbt-button-group justify-content-center">
+                  <Link
+                    className="rbt-btn btn-gradient hover-icon-reverse"
+                    href="#"
+                  >
+                    <span className="icon-reverse-wrapper">
+                      <span className="btn-text">Pesan Sekarang</span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
                     </span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
-                    </span>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="shape-image">
+          <Image src={treeSvg} width={912} height={513} alt="Shape" />
         </div>
       </div>
     </>
