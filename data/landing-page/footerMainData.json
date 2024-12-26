@@ -49,6 +49,10 @@
                     "link": ""
                 },
                 {
+                    "text": "Bantuan",
+                    "link": "/faqs"
+                },
+                {
                     "text": "Artikel",
                     "link": "/artikel-all"
                 }
