@@ -194,5 +194,67 @@
       "strong": "Histudy educational platform",
       "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil."
     }
+  ],
+  "faqAboutUs" : [
+    {
+      "title": "Pertanyaan yang sering ditanyakan?",
+      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi.",
+      "faqBody": [
+        {
+          "collapse": "collapseOne4",
+          "heading": "headingOne4",
+          "expanded": true,
+          "collapsed": true,
+          "show": true,
+          "accordionTitle": "Apakah ini legal?",
+          "desc": "Pasti legal, karena kami merupakan platform bimbingan belajar online untuk konsultasi tugas, pr atau persiapan ujian, bukan joki."
+        },
+        {
+          "collapse": "collapseTwo4",
+          "heading": "headingTwo4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Bagaimana jika pengerjaan belum dikirimkan sesuai dengan waktu yang ditentukan?",
+          "desc": "Kami akan berikan garansi uang kembali"
+        },
+        {
+          "collapse": "collapseThree4",
+          "heading": "headingThree4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Bagaimana jika hasil pangerjaan tidak benar 100%?",
+          "desc": "Kami akan berikan garansi uang kembali atau gratis konsultasi berikutnya"
+        },
+        {
+          "collapse": "collapseFour4",
+          "heading": "headingFour4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Apakah bisa booking waktu untuk konsultasi dadakan?",
+          "desc": "Bisa, harus booking dulu dan pilih paket Real Time"
+        },
+        {
+          "collapse": "collapseFive4",
+          "heading": "headingFive4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Apakah jika booking waktu harus bayar dulu?",
+          "desc": "Iya. Untuk biaya booking waktu adalah RP 5.000"
+        },
+        {
+          "collapse": "collapseSix4",
+          "heading": "headingSix4",
+          "expanded": false,
+          "collapsed": false,
+          "show": false,
+          "accordionTitle": "Jika sudah booking waktu, bisakah diundur?",
+          "desc": "Jika sudah booking waktu, maka bisa diundur tetapi konfirmasi terlebih dahulu"
+        }
+      ]
+    }
   ]
 }

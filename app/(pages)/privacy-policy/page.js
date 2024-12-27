@@ -1,7 +1,8 @@
+import BackToTop from "@/app/backToTop";
 import PrivacyPolicyPage from "./(privacy-policy)";
 
 export const metadata = {
-  title: "Privacy Policy - Online Courses & Education NEXTJS14 Template",
+  title: "Kebijakan Privasi - QuickMath",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 
@@ -9,6 +10,8 @@ const PrivacyPolicyLayout = () => {
   return (
     <>
       <PrivacyPolicyPage />
+
+      <BackToTop/>
     </>
   );
 };

@@ -2,9 +2,9 @@
     "footerMainData": [
         {
             "description": "QuickMath adalah platform pembelajaran online untuk semua jenjang pendidikan. Dengan fitur andalan seperti konsultasi tugas dan les privat, kami siap membantu Anda mencapai hasil belajar terbaik, kapan saja dan di mana saja.",
-            "phone": "(406) 555-0120",
-            "mail": "rainbow@example.com",
-            "address": "North America, USA",
+            "phone": "+6282133599318",
+            "mail": "admin@quickmath.id",
+            "address": "Grand Vilamas Estate, BE, Cinangka, Sawangan, Depok, Jawa Barat",
             "feature": [
                 {
                     "text": "Konsultasi Tugas",
@@ -45,8 +45,8 @@
                     "link": "/about-us"
                 },
                 {
-                    "text": "Syarat dan Ketentuan",
-                    "link": ""
+                    "text": "Syarat & Ketentuan",
+                    "link": "/terms-conditions"
                 },
                 {
                     "text": "Bantuan",
@@ -58,6 +58,10 @@
                 }
             ],
             "socialLink": [
+                {
+                    "icon": "ri-whatsapp-line",
+                    "link": ""
+                },
                 {
                     "icon": "feather-facebook",
                     "link": ""
@@ -72,10 +76,6 @@
                 },
                 {
                     "icon": "feather-linkedin",
-                    "link": ""
-                },
-                {
-                    "icon": "ri-whatsapp-line",
                     "link": ""
                 }
             ]

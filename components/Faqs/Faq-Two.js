@@ -6,7 +6,7 @@ const FaqTwo = () => {
     return (
         <>
         {AboutData &&
-        AboutData.aboutThree.map((data, index) => (
+        AboutData.faqAboutUs.map((data, index) => (
           <div className="row g-5 align-items-start" key={index}>
             <div className="col-lg-6">
               <div className="content">

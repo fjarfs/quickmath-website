@@ -82,17 +82,17 @@ const FooterMain = () => {
                       <h5 className="ft-title">Hubungi Kami</h5>
                       <ul className="ft-link">
                         <li>
-                          <span>Phone:</span>
+                          <span>Nomor Telepon: </span>
                           <Link href="#">{footer.phone}</Link>
                         </li>
                         <li>
-                          <span>E-mail:</span>
-                          <Link href="mailto:hr@example.com">
+                          <span>E-mail: </span>
+                          <Link href="mailto:admin@quickmath.id">
                             {footer.mail}
                           </Link>
                         </li>
                         <li>
-                          <span>Location:</span> {footer.address}
+                          <span>Lokasi: </span> {footer.address}
                         </li>
                       </ul>
                       <ul className="social-icon social-default icon-naked justify-content-start mt--20">
