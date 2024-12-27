@@ -93,6 +93,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                     toggle={pricingThree}
                     styleType="three"
                     parentClass="style-2"
+                    linkButton={"/download-apps"}
                   />
                 ))}
               </div>
@@ -105,6 +106,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                     toggle={pricingThree}
                     styleType="three"
                     parentClass="style-2"
+                    linkButton={"/download-apps"}
                   />
                 ))}
               </div>
@@ -117,6 +119,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                     toggle={pricingThree}
                     styleType="three"
                     parentClass="style-2"
+                    linkButton={"/download-apps"}
                   />
                 ))}
               </div>

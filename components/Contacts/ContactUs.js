@@ -16,7 +16,7 @@ const ContactUs = ({}) => {
                 <div className="call-to-btn text-start mt--30">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse radius-round"
-                    href="#"
+                    href="https://wa.me/6282133599318?text=Hello%20there!%20I%20would%20like%20to%20ask%20about%20your%20services."
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Hubungi Kami</span>

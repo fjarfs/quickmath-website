@@ -84,7 +84,7 @@ const HeaderMain = ({
               <div className="rbt-button-group d-none d-xl-block">
                 <Link
                   className="rbt-btn btn-gradient hover-icon-reverse hover-transform-none"
-                  href="#"
+                  href="/download-apps"
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">{btnText}</span>
@@ -96,7 +96,7 @@ const HeaderMain = ({
                     </span>
                   </span>
                 </Link>
-                <Link className="rbt-btn btn-white hover-icon-reverse hover-transform-none" href="#">
+                <Link className="rbt-btn btn-white hover-icon-reverse hover-transform-none" href="/download-apps">
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Sign In</span>
                     <span className="btn-icon">

@@ -2,9 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import logo from "../../public/logo_hor.svg";
-import logoLight from "../../public/images/dark/logo/logo-light.png";
 
-import FooterData from "../../data/footer.json";
 import FooterMainData from "../../data/landing-page/footerMainData.json"
 import SingleFooter from "./FooterProps/SingleFooter";
 import CopyRight from "./CopyRight";
@@ -83,7 +81,7 @@ const FooterMain = () => {
                       <ul className="ft-link">
                         <li>
                           <span>Nomor Telepon: </span>
-                          <Link href="#">{footer.phone}</Link>
+                          <Link href="https://wa.me/6282133599318?text=Hello%20there!%20I%20would%20like%20to%20ask%20about%20your%20services.">{footer.phone}</Link>
                         </li>
                         <li>
                           <span>E-mail: </span>

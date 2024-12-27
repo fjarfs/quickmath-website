@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
+const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => {
   const {
     title,
     badge,
@@ -136,7 +136,7 @@ const ExclusivePlan = ({ item, parentClass, styleType, toggle }) => {
                 ? "bg-pink-opacity"
                 : ""
             } hover-icon-reverse w-100`}
-            href="#"
+            href={linkButton}
           >
             <div className="icon-reverse-wrapper">
               <span className="btn-text">Pesan Sekarang</span>

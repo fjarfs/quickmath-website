@@ -5,7 +5,7 @@ import Image from "next/image";
 import downloadPLayStore from "/public/images/icons/download-playstore.svg";
 import downloadAppStore from "/public/images/icons/download-appstore.svg";
 
-const OurApps = () => {
+const DownloadApps = () => {
   return (
     <>
       <div className="rbt-call-to-action-area rbt-section-gap bg-color-secondary-alt">
@@ -20,7 +20,10 @@ const OurApps = () => {
                   </h1>
                   <p>Tersedia di Pay Store dan App Store</p>
                   <div className="d-flex justify-content-center">
-                    <Link className="mr--5" href="https://play.google.com/store/apps/details?id=com.quickmath.customer">
+                    <Link
+                      className="mr--5"
+                      href="https://play.google.com/store/apps/details?id=com.quickmath.customer"
+                    >
                       <Image
                         src={downloadPLayStore}
                         width={200}
@@ -29,7 +32,10 @@ const OurApps = () => {
                         alt="Education Logo Images"
                       />
                     </Link>
-                    <Link className="ml--5" href="https://apps.apple.com/app/id6739167059">
+                    <Link
+                      className="ml--5"
+                      href="https://apps.apple.com/app/id6739167059"
+                    >
                       <Image
                         src={downloadAppStore}
                         width={190}
@@ -49,4 +55,4 @@ const OurApps = () => {
   );
 };
 
-export default OurApps;
+export default DownloadApps;
