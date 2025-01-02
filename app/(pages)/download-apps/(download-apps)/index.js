@@ -8,9 +8,14 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
 import FooterMain from "@/components/Footer/Footer-Main";
-import DownloadApps from "@/components/Our-Apps/DownloadApps";
+import ComingSoonData from "/data/elements/comingSoon.json";
+import ComingSoonComp from "@/components/Coming-Soon/ComingSoon";
+import OurApps from "@/components/Our-Apps/OurApps";
 
-const DownloadAppsPage = () => {
+
+const DownloadAppsLayout = () => {
+  const OurAppsData = ComingSoonData.our_apps;
+
   return (
     <>
       <Provider store={Store}>
@@ -18,7 +23,7 @@ const DownloadAppsPage = () => {
           <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
 
-          <DownloadApps/>
+          <OurApps OurAppsData={OurAppsData} start={2} end={3}/>
 
           <FooterMain />
         </Context>
@@ -27,4 +32,4 @@ const DownloadAppsPage = () => {
   );
 };
 
-export default DownloadAppsPage;
+export default DownloadAppsLayout;

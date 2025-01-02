@@ -3,15 +3,16 @@ import Link from "next/link";
 
 import AboutData from "../../data/elements/about.json";
 
-const AboutSix = ({ btnClass, btnText }) => {
+const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
   return (
     <>
       {AboutData &&
-        AboutData.aboutSix.map((data, index) => (
+        AboutData.map((data, index) => (
           <div className="row g-5 align-items-center" key={index}>
             <div className="col-lg-5">
               <div className="content">
                 <Image
+                  className={imgClass}
                   src={data.img}
                   width={638}
                   height={410}
@@ -33,11 +34,11 @@ const AboutSix = ({ btnClass, btnText }) => {
                   <p className="description mt--20">
                     <strong>{data.strong}</strong> {data.desc}
                   </p>
-                  {/* <div className="read-more-btn mt--40">
+                  <div className="read-more-btn mt--40">
                     <Link className={`rbt-btn ${btnClass}`} href="#">
                       <span data-text={`${btnText}`}>{btnText}</span>
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,7 +3,6 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import sal from "sal.js";
-import PromoListData from "../../../data/landing-page/promoList.json"
 import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import Context from "@/context/Context";
@@ -11,22 +10,15 @@ import Context from "@/context/Context";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
-import CourseHead from "@/components/Course-Details/Course-Sections/course-head";
-import CourseDetailsOne from "@/components/Course-Details/CourseDetails-One";
-import CourseActionBottom from "@/components/Course-Details/Course-Sections/Course-Action-Bottom";
-import SimilarCourses from "@/components/Course-Details/Course-Sections/SimilarCourses";
 import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
 import FooterMain from "@/components/Footer/Footer-Main";
 import PromoDetails from "@/components/Promo/PromoDetails";
 
-const SinglePromo = ({ getParams }) => {
+const SinglePromo = ({ getParams, getPromo }) => {
   const router = useRouter();
-  const postId = parseInt(getParams.promoId);
-  let getPromo;
+  const postId = parseInt(getParams.id);
 
-  getPromo = JSON.parse(JSON.stringify(PromoListData.promoList));
-
-  const checkMatch = getPromo.find((promo) => promo.id === postId);
+  const checkMatch = getPromo.data.find((promo) => promo.id === postId);
 
   useEffect(() => {
     if (!checkMatch && postId) {

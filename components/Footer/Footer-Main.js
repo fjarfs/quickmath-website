@@ -47,7 +47,7 @@ const FooterMain = () => {
                       <div className="contact-btn mt--30">
                         <Link
                           className="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                          href="#"
+                          href="https://wa.me/6282133599318?text=Hello%20there!%20I%20would%20like%20to%20ask%20about%20your%20services."
                         >
                           <div className="icon-reverse-wrapper">
                             <span className="btn-text">Hubungi Kami</span>
@@ -97,7 +97,7 @@ const FooterMain = () => {
                         {footer.socialLink.map((value, innerIndex) => (
                           <li key={innerIndex}>
                             <Link href={value.link}>
-                              <i className={value.icon}></i>
+                              <i className={value.icon} style={{ fontSize: "20px" }}></i>
                             </Link>
                           </li>
                         ))}

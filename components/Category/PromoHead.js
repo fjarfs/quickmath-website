@@ -56,9 +56,9 @@ const PromoHead = ({
                     >
                       {[
                         "Semua Promo",
-                        "konsultasi tugas",
-                        "les privat",
-                        "bank materi",
+                        "Konsultasi Tugas",
+                        "Les Private Online",
+                        "Bank Materi",
                       ].map((promoType, index) => (
                         <li
                           key={index}
@@ -80,7 +80,7 @@ const PromoHead = ({
                                 0
                                 {
                                   category.filter(
-                                    (promo) => promo.promoType === promoType
+                                    (promo) => promo.product.name === promoType
                                   ).length
                                 }
                               </span>

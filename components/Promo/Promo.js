@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
-import { useEffect, useState } from "react";
-import Pagination from "../Common/Pagination";
 
 const PromoListAll = ({ promo, start, end }) => {
   const { toggle } = useAppContext();
+
+  console.log(promo)
 
   return (
     <>
@@ -27,7 +27,7 @@ const PromoListAll = ({ promo, start, end }) => {
                   <Link href={`/promo-details/${data.id}`}>
                     <Image
                       className="h-100"
-                      src={data.thumbnail}
+                      src={data.image_url}
                       width={362}
                       height={448}
                       alt="Card image"
@@ -36,32 +36,32 @@ const PromoListAll = ({ promo, start, end }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h4 className="rbt-card-title fs-2">
-                    <Link href={`/promo-details/${data.id}`}>{data.title}</Link>
+                    <Link href={`/promo-details/${data.id}`}>{data.slug}</Link>
                   </h4>
 
                   <div className="mt-auto">
                     <div className="mb--20">
                       <div className="d-flex">
                         <div className="rbt-avater mr--10">
-                          <i class="ri-calendar-2-fill"></i>
+                          <i className="ri-calendar-2-fill"></i>
                           <span className="fs-4 ml--10">Periode:</span>
                         </div>
                         <div className="rbt-author-info">
-                          <span className="fs-4 fw-bold">{data.startDate}</span>
+                          <span className="fs-4 fw-bold">{data.start_date}</span>
                           <span className="fs-4 fw-bold">
                             {" "}
-                            - {data.endDate}
+                            - {data.end_date}
                           </span>
                         </div>
                       </div>
                       <div className="d-flex">
                         <div className="rbt-avater mr--10">
-                          <i class="ri-discount-percent-fill"></i>
+                          <i className="ri-discount-percent-fill"></i>
                           <span className="fs-4 ml--10">Kode Promo:</span>
                         </div>
                         <div className="rbt-author-info">
                           <span className="current-price fs-4 fw-bold">
-                            {data.voucherCode}
+                            {data.code}
                           </span>
                         </div>
                       </div>

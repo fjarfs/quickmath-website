@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 const PromoDetailLayout = ({ params }) => {
   const router = useRouter();
-  const postId = params.courseId;
+  const postId = params.id;
 
   useEffect(() => {
     if (postId === undefined) {

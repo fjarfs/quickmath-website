@@ -1,7 +1,7 @@
 "use client";
 
 import CourseDetails from "../../../../data/course-details/courseData.json";
-import PromoData from "../../../../data/landing-page/promoList.json";
+// import PromoData from "../../../../data/landing-page/promoList.json";
 
 import PromoHead from "@/components/Category/PromoHead";
 import Pagination from "@/components/Common/Pagination";
@@ -15,9 +15,9 @@ import Store from "@/redux/store";
 import React, { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 
-const PromoLayout = () => {
+const PromoLayout = ({PromoData}) => {
   const ITEMS_PER_PAGE = 6; // Jumlah item per halaman
-  const [allPromos] = useState(PromoData.promoList); // Data asli
+  const [allPromos] = useState(PromoData.data); // Data asli
   const [filteredPromos, setFilteredPromos] = useState(allPromos); // Data setelah difilter
   const [page, setPage] = useState(1); // Halaman aktif
   const [totalPages, setTotalPages] = useState(0); // Total halaman
@@ -33,7 +33,7 @@ const PromoLayout = () => {
   const filterItem = (type) => {
     const updatedPromos =
       type !== "Semua Promo"
-        ? allPromos.filter((promo) => promo.promoType === type)
+        ? allPromos.filter((promo) => promo.product.name === type)
         : allPromos;
 
     setFilteredPromos(updatedPromos);
@@ -53,6 +53,7 @@ const PromoLayout = () => {
   useEffect(() => {
     setTotalPages(Math.ceil(filteredPromos.length / ITEMS_PER_PAGE));
   }, [filteredPromos]);
+
   return (
     <>
       <Provider store={Store}>

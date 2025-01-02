@@ -6,6 +6,7 @@ import AboutThree from "./About-Three";
 import TestimonialSix from "../Testimonials/Testimonial-Six";
 import Link from "next/link";
 import FaqTwo from "../Faqs/Faq-Two";
+import AboutData from "../../data/elements/about.json";
 
 const TentangKamiPage = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const TentangKamiPage = () => {
     <>
       <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap2">
         <div className="container">
-          <AboutSix />
+          <AboutSix AboutData={AboutData.aboutSix} btnClass="d-none" />
         </div>
       </div>
 

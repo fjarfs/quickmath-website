@@ -27,7 +27,7 @@ const LesPrivatBanner = () => {
                 <div className="slider-btn">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
+                    href="/download-apps"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Pesan Sekarang</span>

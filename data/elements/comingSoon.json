@@ -1,0 +1,69 @@
+{
+    "bank_materi": [
+        {
+            "tag": "TENTANG BANK MATERI",
+            "title": "Sudah Tahu Tentang Fitur Bank Materi? Yuk Cari Tahu!",
+            "breadcrumb": "Bank Materi",
+            "strong": "Bank Materi",
+            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "img": "/images/feature/materi.png"
+        }
+    ],
+    "math_solver": [
+        {
+            "tag": "TENTANG MATH SOLVER",
+            "title": "Sudah Tahu Tentang Fitur Math Solver? Yuk Cari Tahu!",
+            "breadcrumb": "Math Solver",
+            "strong": "Math Solver",
+            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "img": "/images/feature/mathsolver.png"
+        }
+    ],
+    "misi": [
+        {
+            "tag": "TENTANG MISI",
+            "title": "Sudah Tahu Tentang Fitur Misi? Yuk Cari Tahu!",
+            "breadcrumb": "Misi",
+            "strong": "Misi",
+            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "img": "/images/feature/mission.png"
+        }
+    ],
+    "chat_ai": [
+        {
+            "tag": "TENTANG CHAT AI",
+            "title": "Sudah Tahu Tentang Fitur Chat Ai? Yuk Cari Tahu!",
+            "breadcrumb": "Chat Ai",
+            "strong": "Chat Ai",
+            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "img": "/images/feature/chat-ai.png"
+        }
+    ],
+    "kode_referral": [
+        {
+            "tag": "TENTANG KODE REFERRAL",
+            "title": "Sudah Tahu Tentang Fitur Kode Referral? Yuk Cari Tahu!",
+            "breadcrumb": "Kode Referral",
+            "strong": "Kode Referral",
+            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "img": "/images/feature/referral.png"
+        }
+    ],
+    "our_apps": [
+        {
+            "title": "Unduh Aplikasi Kami,",
+            "sub_title": "Mulai Belajar Kapan Saja dan Di Mana Saja!",
+            "description": "Tersedia di Pay Store dan App Store"
+        },
+        {
+            "title": "Unduh Aplikasi Kami,",
+            "sub_title": "Untuk Mengakses Seluruh Fitur QuickMath!",
+            "description": "Tersedia di Pay Store dan App Store"
+        },
+        {
+            "title": "Daftar dan Nikmati Seluruh Fitur Kami",
+            "sub_title": "Dengan Mengunduh Aplikasi Kami!",
+            "description": "Tersedia di Pay Store dan App Store"
+        }
+    ]
+}

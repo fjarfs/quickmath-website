@@ -47,7 +47,7 @@ const KonsultasiBanner = () => {
                 <div className="slider-btn rbt-button-group justify-content-center">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="#"
+                    href="/download-apps"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Pesan Sekarang</span>

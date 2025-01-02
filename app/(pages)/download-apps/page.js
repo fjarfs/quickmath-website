@@ -1,19 +1,19 @@
 import BackToTop from "@/app/backToTop";
-import DownloadAppsPage from "./(download-apps)";
+import DownloadAppsLayout from "./(download-apps)";
 
 export const metadata = {
   title: "Download Apps - QuickMath",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 
-const DownloadAppsLayout = () => {
+const DownloadAppsPage = () => {
   return (
     <>
-      <DownloadAppsPage />
+      <DownloadAppsLayout />
 
       <BackToTop/>
     </>
   );
 };
 
-export default DownloadAppsLayout;
+export default DownloadAppsPage;

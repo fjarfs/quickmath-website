@@ -3,6 +3,7 @@ import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { api } from "@/utils/api";
 import axios from "axios";
+import useSWR from "swr";
 
 const rootDirectory = path.join(process.cwd(), "data/blog");
 
@@ -66,3 +67,14 @@ export async function getServerSideProps() {
   }
 }
 
+export const getAllPromo = async () => {
+  try {
+    const res = await axios.get(api("/promo-all"));
+    const promoAll = await res.data
+
+    return promoAll;
+  } catch (err) {
+    console.error("Error fetching all promos:", err);
+    throw new Error("Failed to fetch promos");
+  }
+}

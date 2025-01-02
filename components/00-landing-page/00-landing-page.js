@@ -5,6 +5,7 @@ import sal from "sal.js";
 import Link from "next/link";
 
 // Data
+import ComingSoonData from "/data/elements/comingSoon.json"
 
 // Components
 import MainHomeBanner from "./MainHomeBanner";
@@ -209,7 +210,7 @@ const MainPage = ({ blogs, promo }) => {
                   href="/tutor-all"
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Lihat Instruktur Lain</span>
+                    <span className="btn-text">Lihat Semua Tutor</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -226,7 +227,7 @@ const MainPage = ({ blogs, promo }) => {
         {/* END TEACHER / INSTRUKTUR */}
 
         {/* START ARTIKEL SECTION */}
-        <div className="rbt-blog-area bg-color-extra2 rbt-section-gap2Bottom">
+        <div className="rbt-blog-area bg-color-extra2 rbt-section-gap">
           <div className="container">
             <div className="row g-5 align-items-center mb--30">
               <div className="col-lg-6 col-md-6 col-12">
@@ -269,7 +270,7 @@ const MainPage = ({ blogs, promo }) => {
 
         {/* START OUR APPS */}
         <div className="rbt-section-gap2Top">
-          <OurApps />
+          <OurApps OurAppsData={ComingSoonData.our_apps} start={0} end={1}/>
         </div>
         {/* END OUR APPS */}
       </main>
