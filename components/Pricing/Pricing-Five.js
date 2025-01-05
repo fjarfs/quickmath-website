@@ -4,7 +4,7 @@ import React from "react";
 const PricingFive = ({ title, tag }) => {
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         {title ? (
           <div className="row g-5 mb--60">
             <div className="col-12">
@@ -170,7 +170,7 @@ const PricingFive = ({ title, tag }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

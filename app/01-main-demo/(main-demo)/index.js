@@ -19,8 +19,8 @@ const HomePageLayout = ({ getBlog }) => {
       <Context>
         <MobileMenu />
         <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
-        <MainDemo blogs={getBlog} />
-        <Cart />
+        {/* <MainDemo blogs={getBlog} /> */}
+        {/* <Cart /> */}
 
         <Separator />
         <FooterThree />

@@ -25,8 +25,8 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
   };
 
   useEffect(() => {
-    setBlogs(blogdata);
-    setTotalPages(Math.ceil(blogdata.length / 10));
+    setBlogs(blogdata.data);
+    setTotalPages(Math.ceil(blogdata.data.length / 10));
   }, [setTotalPages, setBlogs]);
   return (
     <>
@@ -47,7 +47,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
                 <div className="rbt-card-img">
                   <Link href={`/artikel-details/${data.slug}`}>
                     <Image
-                      src={data.thumbnail.large}
+                      src={data.cover_photo_path_url}
                       width={450}
                       height={267}
                       priority

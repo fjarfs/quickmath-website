@@ -33,13 +33,13 @@ const BlogGridPage = ({ getAllBlogs }) => {
           <Banner col="col-lg-12" text="All Blog" blogdata={getAllBlogs} />
           <div className="rbt-blog-area rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="container">
-              <BlogGrid
+              {/* <BlogGrid
                 isPagination={true}
                 blogdata={getAllBlogs}
                 top={true}
                 start={1}
                 end={6}
-              />
+              /> */}
             </div>
           </div>
 

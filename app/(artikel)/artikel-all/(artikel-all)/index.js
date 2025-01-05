@@ -15,6 +15,10 @@ import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
 import FooterMain from "@/components/Footer/Footer-Main";
 
 const ArtikelAllPage = ({ getAllBlogs }) => {
+  const allArticles = getAllBlogs.data;
+
+  console.log(allArticles)
+
   useEffect(() => {
     sal({
       threshold: 0.01,
@@ -35,7 +39,7 @@ const ArtikelAllPage = ({ getAllBlogs }) => {
             <div className="container">
               <BlogGrid
                 isPagination={true}
-                blogdata={getAllBlogs}
+                blogdata={allArticles}
                 top={true}
                 start={0}
                 end={6}

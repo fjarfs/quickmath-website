@@ -1,6 +1,6 @@
 import BackToTop from "@/app/backToTop";
-import { getAllPostsMeta } from "@/mdx";
 import ArtikelAllPage from "./(artikel-all)";
+import { getAllArticles } from "@/mdx";
 
 export const metadata = {
   title: "QuickMath - Semua Artikel",
@@ -8,11 +8,12 @@ export const metadata = {
 };
 
 const ArtikelAllLayout = async () => {
-  const blog = await getAllPostsMeta();
+  // const blog = await getAllPostsMeta();
+  const articles = await getAllArticles();
 
   return (
     <>
-      <ArtikelAllPage getAllBlogs={blog} />
+      <ArtikelAllPage getAllBlogs={articles} />
 
       <BackToTop />
     </>

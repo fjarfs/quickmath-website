@@ -94,3 +94,15 @@ export const getAllPromo = async () => {
     throw new Error("Failed to fetch promos");
   }
 }
+
+export const getAllArticles = async () => {
+  try {
+    const res = await axios.get(api("/article/all"));
+    const articleAll = await res.data
+
+    return articleAll;
+  } catch (err) {
+    console.error("Error fetching all promos:", err);
+    throw new Error("Failed to fetch promos");
+  }
+}

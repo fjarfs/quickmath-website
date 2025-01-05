@@ -11,7 +11,7 @@ const PricingTwo = ({ title, tag }) => {
 
   return (
     <>
-      {PricingData &&
+      {/* {PricingData &&
         PricingData.pricingTwo.map((data, index) => (
           <div className="container" key={index}>
             <div className="row g-5 mb--60">
@@ -91,7 +91,7 @@ const PricingTwo = ({ title, tag }) => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
     </>
   );
 };

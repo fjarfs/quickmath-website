@@ -11,7 +11,7 @@ const PricingThree = ({ title, tag, col, position }) => {
 
   return (
     <>
-      {PricingData &&
+      {/* {PricingData &&
         PricingData.pricingThree.map((data, index) => (
           <div className="container" key={index}>
             <div className="row g-5 mb--60">
@@ -95,7 +95,7 @@ const PricingThree = ({ title, tag, col, position }) => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
     </>
   );
 };

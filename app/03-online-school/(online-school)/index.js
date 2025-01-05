@@ -18,9 +18,9 @@ const OnlineSchoolPage = ({ getBlog }) => {
         <Context>
           <MobileMenu />
           <HeaderStyleEleven />
-          <Cart />
+          {/* <Cart />
 
-          <OnlineSchool blogs={getBlog} />
+          <OnlineSchool blogs={getBlog} /> */}
 
           <FooterOne />
         </Context>

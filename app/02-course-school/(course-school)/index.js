@@ -18,9 +18,9 @@ const CourseSchoolPage = ({ getBlog }) => {
         <Context>
           <MobileMenu />
           <HeaderStyleSix headerType="rbt-transparent-header" />
-          <Cart />
+          {/* <Cart />
 
-          <CourseSchool blogs={getBlog} />
+          <CourseSchool blogs={getBlog} /> */}
 
           <FooterFour />
         </Context>
