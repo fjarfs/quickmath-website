@@ -1,18 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const BlogGridTop = ({ BlogData }) => {
   // Media query untuk mendeteksi perangkat mobile
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   return (
     <div className="container">
-      {isMobile ? (
+      {isClient && isMobile ? (
         // Swiper hanya di perangkat mobile
         <Swiper spaceBetween={20} slidesPerView={1}>
-          {BlogData.map((data, index) => (
+          {BlogData.data.map((data, index) => (
             <SwiperSlide key={index}>
               <div
                 className={`rbt-card ${
@@ -22,9 +29,9 @@ const BlogGridTop = ({ BlogData }) => {
                 }`}
               >
                 <div className="rbt-card-img">
-                  <Link href={`/artikel-details/${data.slug}`}>
+                  <Link key={index} href={`/artikel-details/${data.slug}`}>
                     <Image
-                      src={data.thumbnail.large}
+                      src={data.cover_photo_path_url}
                       width={580}
                       height={300}
                       priority
@@ -34,12 +41,13 @@ const BlogGridTop = ({ BlogData }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h3 className="rbt-card-title">
-                    <Link href={`/artikel-details/${data.slug}`}>{data.title}</Link>
+                    <Link key={index} href={`/artikel-details/${data.slug}`}>{data.title}</Link>
                   </h3>
-                  <p className="rbt-card-text">{data.desc}</p>
+                  <p className="rbt-card-text">{data.sub_body}</p>
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
+                      key={index}
                       href={`/artikel-details/${data.slug}`}
                     >
                       {index === 0 ? "Learn More" : "Read Article"}
@@ -74,7 +82,7 @@ const BlogGridTop = ({ BlogData }) => {
             data-sal="slide-up"
             data-sal-duration="800"
           >
-            {BlogData.slice(0, 1).map((data, index) => (
+            {BlogData.data.slice(0, 1).map((data, index) => (
               <div
                 className="rbt-card variation-02 height-330 rbt-hover"
                 key={index}
@@ -82,7 +90,7 @@ const BlogGridTop = ({ BlogData }) => {
                 <div className="rbt-card-img">
                   <Link href={`/artikel-details/${data.slug}`}>
                     <Image
-                      src={data.thumbnail.large}
+                      src={data.cover_photo_path_url}
                       width={580}
                       height={300}
                       priority
@@ -96,7 +104,7 @@ const BlogGridTop = ({ BlogData }) => {
                       {data.title}
                     </Link>
                   </h3>
-                  <p className="rbt-card-text">{data.desc}</p>
+                  <p className="rbt-card-text">{data.sub_body}</p>
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
@@ -130,7 +138,7 @@ const BlogGridTop = ({ BlogData }) => {
             data-sal="slide-up"
             data-sal-duration="800"
           >
-            {BlogData.slice(1, 4).map((data, index) => (
+            {BlogData.data.slice(1, 4).map((data, index) => (
               <div
                 className={`rbt-card card-list variation-02 rbt-hover ${
                   index !== 0 ? "mt--30" : ""
@@ -140,7 +148,7 @@ const BlogGridTop = ({ BlogData }) => {
                 <div className="rbt-card-img">
                   <Link href={`/blog-details/${data.slug}`}>
                     <Image
-                      src={data.thumbnail.large}
+                      src={data.cover_photo_path_url}
                       width={580}
                       height={300}
                       priority

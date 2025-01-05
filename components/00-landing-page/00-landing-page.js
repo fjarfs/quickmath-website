@@ -18,9 +18,10 @@ import Instruktur from "../Team/Instruktur";
 import BlogGridTop from "../Blogs/Blog-Sections/BlogGrid-Top";
 import ContactUs from "../Contacts/ContactUs";
 import OurApps from "../Our-Apps/OurApps";
+import dynamic from "next/dynamic";
 
 
-const MainPage = ({ blogs, promo }) => {
+const MainPage = ({ articles, promo }) => {
   useEffect(() => {
     sal({
       threshold: 0.01,
@@ -73,18 +74,10 @@ const MainPage = ({ blogs, promo }) => {
               <div className="col-lg-6 col-md-6 col-6">
                 <div className="read-more-btn text-start text-md-end">
                   <Link
-                    className="rbt-btn btn-md btn-gradient hover-icon-reverse"
+                    className="rbt-btn btn-md btn-gradient rbt-switch-btn"
                     href="/promo"
                   >
-                    <div className="icon-reverse-wrapper">
-                      <span className="btn-text">Semua Promo</span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                      <span className="btn-icon">
-                        <i className="feather-arrow-right"></i>
-                      </span>
-                    </div>
+                    <span className="btn-text" data-text="Semua Promo">Semua Promo</span>
                   </Link>
                 </div>
               </div>
@@ -255,7 +248,7 @@ const MainPage = ({ blogs, promo }) => {
                 </div>
               </div>
             </div>
-            <BlogGridTop BlogData={blogs} />
+            <BlogGridTop BlogData={articles} />
           </div>
         </div>
         {/* END ARTIKEL SECTION */}

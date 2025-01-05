@@ -43,6 +43,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                   <SwiperSlide key={`basic-${innerIndex}`}>
                     <BasicPlan
                       {...item}
+                      linkButton="/download-apps"
                       item={item}
                       toggle={pricingThree}
                       styleType="three"
@@ -56,6 +57,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                   <SwiperSlide key={`standard-${innerIndex}`}>
                     <StandardPlan
                       {...item}
+                      linkButton="/download-apps"
                       item={item}
                       toggle={pricingThree}
                       styleType="three"
@@ -69,6 +71,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                   <SwiperSlide key={`exclusive-${innerIndex}`}>
                     <ExclusivePlan
                       {...item}
+                      linkButton="/download-apps"
                       item={item}
                       toggle={pricingThree}
                       styleType="three"

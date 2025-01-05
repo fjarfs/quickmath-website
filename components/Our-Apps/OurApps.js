@@ -10,7 +10,7 @@ const OurApps = ({OurAppsData, start, end}) => {
     <>
       {OurAppsData &&
         OurAppsData.slice(start, end).map((data, index) => (
-          <div className="rbt-call-to-action-area rbt-section-gap bg-color-secondary-alt">
+          <div key={index} className="rbt-call-to-action-area rbt-section-gap bg-color-secondary-alt">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">

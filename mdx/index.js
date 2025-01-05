@@ -42,16 +42,32 @@ export const getAllPostsMeta = async () => {
   return posts;
 };
 
-
-export async function getServerSideProps() {
+export const fetchData = async () => {
   try {
     // Fetch data dari beberapa endpoint
     const res1 = await axios.get(api('/promo'))
     const dataPromo = await res1.data
+
+    const res2 = await axios.get(api('/article'))
+    const dataArticle = await res2.data
+
+    return { dataPromo, dataArticle }
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    throw error;
+  }
+}
+
+export async function getServerSideProps() {
+  try {
+
+    const { dataPromo, dataArticle } = await fetchData();
+    
     // Kirim data ke komponen melalui props
     return {
       props: {
         dataPromo,
+        dataArticle,
         message: 'SSR is working!',
       },
     };
@@ -59,8 +75,8 @@ export async function getServerSideProps() {
     console.error('Error fetching data:', error);
     return {
       props: {
-        data1: null,
-        data2: null,
+        dataPromo: null,
+        dataArticle: null,
         error: 'Failed to fetch data',
       },
     };

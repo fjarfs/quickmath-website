@@ -8,11 +8,11 @@ export const metadata = {
 };
 
 const LandingPage = async () => {
-  const blog = await getAllPostsMeta();
-  const dataPromo = await getServerSideProps();
+  // const blog = await getAllPostsMeta();
+  const dataSsr = await getServerSideProps();
   return (
     <>
-      <LandingPageLayout getBlog={blog} data={dataPromo} />
+      <LandingPageLayout dataSsr={dataSsr} />
 
       <BackToTop/>
     </>

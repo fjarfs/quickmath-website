@@ -12,15 +12,16 @@ import Separator from "@/components/Common/Separator";
 import MainPage from "@/components/00-landing-page/00-landing-page";
 import FooterMain from "@/components/Footer/Footer-Main";
 
-const LandingPageLayout = ({ getBlog, data, error }) => {
-  const dataPromo = data.props.dataPromo
+const LandingPageLayout = ({ dataSsr, error }) => {
+  const dataPromo = dataSsr.props.dataPromo
+  const dataArticle = dataSsr.props.dataArticle
 
   return (
     <Provider store={Store}>
       <Context>
         <MobileMenu />
         <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-        <MainPage blogs={getBlog} promo={dataPromo}/>
+        <MainPage articles={dataArticle} promo={dataPromo}/>
 
         <Separator />
         <FooterMain />

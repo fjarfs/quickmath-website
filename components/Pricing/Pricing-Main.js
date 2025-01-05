@@ -1,15 +1,26 @@
 import Link from "next/link";
-import React, { useState } from "react";
-import LesPrivate from "./Plans/LesPrivatPricing";
-import LesPrivatePricing from "./Plans/LesPrivatPricing";
-import KonsultasiPricing from "./Plans/KonsultasiPricing";
+import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
+const LesPrivatePricing = dynamic(() => import("./Plans/LesPrivatPricing"), { ssr: false });
+const KonsultasiPricing = dynamic(() => import("./Plans/KonsultasiPricing"), { ssr: false });
 
 const PricingMain = ({ title, tag }) => {
   const [pricing, setPricing] = useState({
     LesPrivat: false,
     Konsultasi: true,
-    Materi: false,
   });
+
+  const [isClient, setIsClient] = useState(false);
+
+  // Pastikan komponen hanya dirender di sisi klien
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // Jangan render apa pun di server
+  }
 
   return (
     <>
@@ -35,7 +46,6 @@ const PricingMain = ({ title, tag }) => {
                         setPricing({
                           LesPrivat: false,
                           Konsultasi: true,
-                          Materi: false,
                         })
                       }
                     >
@@ -52,7 +62,6 @@ const PricingMain = ({ title, tag }) => {
                         setPricing({
                           LesPrivat: true,
                           Konsultasi: false,
-                          Materi: false,
                         })
                       }
                     >

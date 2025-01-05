@@ -6,8 +6,6 @@ import { useAppContext } from "@/context/Context";
 const PromoListAll = ({ promo, start, end }) => {
   const { toggle } = useAppContext();
 
-  console.log(promo)
-
   return (
     <>
       <div
