@@ -8,13 +8,15 @@ import { useEffect, useState } from "react";
 import BlogGridTop from "./Blog-Sections/BlogGrid-Top";
 import Pagination from "../Common/Pagination";
 
-const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
+const BlogGrid = ({ isPagination, blogdata, top }) => {
   const [blogs, setBlogs] = useState([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
 
-  const startIndex = (page - 1) * 10;
-  const selectedGridBlogs = blogs.slice(startIndex, startIndex + 10);
+  const perPage = blogdata.per_page;
+
+  const startIndex = (page - 1) * perPage;
+  const selectedGridBlogs = blogs.slice(startIndex, startIndex + perPage);
 
   const handleClick = (num) => {
     setPage(num);
@@ -26,8 +28,10 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
 
   useEffect(() => {
     setBlogs(blogdata.data);
-    setTotalPages(Math.ceil(blogdata.data.length / 10));
+    setPage(blogdata.current_page);
+    setTotalPages(Math.ceil(blogdata.to / perPage));
   }, [setTotalPages, setBlogs]);
+
   return (
     <>
       {top ? (
@@ -41,7 +45,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
 
       <div className="row g-5 mt--15">
         {blogdata &&
-          selectedGridBlogs.slice(start, end).map((data, index) => (
+          selectedGridBlogs.map((data, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" key={index}>
               <div className="rbt-card variation-02 rbt-hover">
                 <div className="rbt-card-img">
@@ -61,7 +65,8 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
                       {data.title}
                     </Link>
                   </h5>
-                  <p className="rbt-card-text">{data?.desc}</p>
+                  
+                  <p className="rbt-card-text">{data?.sub_body}</p>
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
@@ -84,6 +89,7 @@ const BlogGrid = ({ isPagination, blogdata, top, start, end }) => {
                         </svg>
                       </i>
                     </Link>
+                    <p className="fs-5">{data.published_at}</p>
                   </div>
                 </div>
               </div>

@@ -17,8 +17,6 @@ import FooterMain from "@/components/Footer/Footer-Main";
 const ArtikelAllPage = ({ getAllBlogs }) => {
   const allArticles = getAllBlogs.data;
 
-  console.log(allArticles)
-
   useEffect(() => {
     sal({
       threshold: 0.01,
@@ -41,8 +39,6 @@ const ArtikelAllPage = ({ getAllBlogs }) => {
                 isPagination={true}
                 blogdata={allArticles}
                 top={true}
-                start={0}
-                end={6}
               />
             </div>
           </div>
