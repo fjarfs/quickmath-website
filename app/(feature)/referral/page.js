@@ -1,18 +1,18 @@
 import BackToTop from "@/app/backToTop";
-import KodeReferralLayout from "./(kode-referral)";
+import ReferralLayout from "./(referral)";
 
 export const metadata = {
-  title: "QuickMath - Kode Referral",
+  title: "QuickMath - Referral",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 
-const KodeReferralPage = () => {
+const ReferralPage = () => {
   return (
     <>
-      <KodeReferralLayout />
+      <ReferralLayout />
       <BackToTop />
     </>
   );
 };
 
-export default KodeReferralPage;
+export default ReferralPage;

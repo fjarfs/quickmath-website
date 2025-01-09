@@ -1,4 +1,47 @@
 {
+  "referral_data": [
+    {
+      "sectionTitle": "Apa saja keuntungan program Referral QuickMath?",
+      "body": [
+        {
+          "title": "Grow Confident",
+          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-01.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Accive Good Job",
+          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-04.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Best Learning",
+          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-03.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false
+        },
+        {
+          "title": "Modern Skills",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-02.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false
+        }
+      ]
+    }
+  ],
   "serviceOne": [
     {
       "sectionTitle": "Style One.",

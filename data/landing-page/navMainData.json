@@ -65,8 +65,8 @@
                   },
                   {
                     "id": 7,
-                    "link": "/kode-referral",
-                    "title": "Kode Referral",
+                    "link": "/referral",
+                    "title": "Referral",
                     "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
                     "img": "/images/feature/referral.png",
                     "badget": "Coming Soon"

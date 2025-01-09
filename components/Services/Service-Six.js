@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import ServiceData from "../../data/elements/service.json";
+import ReferralData from "../../data/elements/referral.json";
 
 const ServiceSix = () => {
   return (
     <>
-      {ServiceData &&
-        ServiceData.serviceSix.map((data, index) => (
+      {ReferralData &&
+        ReferralData.benefit_feature.map((data, index) => (
           <div className="container" key={index}>
             <div className="row mb--60">
               <div className="col-lg-12">
@@ -52,9 +52,7 @@ const ServiceSix = () => {
                         />
                       </div>
                       <div className="content">
-                        <h6 className="title">
-                          <Link href="#">{item.title}</Link>
-                        </h6>
+                        <h6 className="title">{item.title}</h6>
                         <p className="description">{item.desc}</p>
                       </div>
                     </div>

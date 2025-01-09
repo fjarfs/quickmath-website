@@ -10,8 +10,9 @@ import { Provider } from "react-redux";
 import ComingSoonComp from "@/components/Coming-Soon/ComingSoon";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import ComingSoonData from "/data/elements/comingSoon.json";
+import Referral from "@/components/Referral/Referral";
 
-const KodeReferralLayout = () => {
+const ReferralLayout = () => {
   const AboutData = ComingSoonData.kode_referral;
   const OurAppsData = ComingSoonData.our_apps;
 
@@ -21,9 +22,8 @@ const KodeReferralLayout = () => {
         <Context>
           <MobileMenu />
           <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-          <BreadCrumb title="Kode Referral" text="Kode Referral" />
 
-          <ComingSoonComp AboutData={AboutData} OurAppsData={OurAppsData}/>
+          <Referral/>
 
           <Separator />
           <FooterMain />
@@ -33,4 +33,4 @@ const KodeReferralLayout = () => {
   );
 };
 
-export default KodeReferralLayout;
+export default ReferralLayout;

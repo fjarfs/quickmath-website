@@ -1,21 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import dynamic from "next/dynamic";
 
 import CounterHead from "../Counters/Counter-Head";
-
-import CounterData from "../../data/elements/counter.json";
 import FlowData from "../../data/landing-page/flowData.json";
-import useFetch from "@/context/useFetch";
 
-const Odometer = dynamic(() => import("react-odometerjs"), {
-  ssr: false,
-  loading: () => <span>00</span>,
-});
 
 const FlowKonsultasi = ({ isDesc, head }) => {
-  const { values } = useFetch(CounterData, "counterOne");
 
   return (
     <>

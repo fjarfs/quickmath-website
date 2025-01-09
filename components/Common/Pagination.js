@@ -3,6 +3,8 @@ import Link from "next/link";
 const Pagination = ({ totalPages, pageNumber, handleClick }) => {
   const pages = [...Array(totalPages).keys()].map((num) => num + 1);
 
+  console.log(pages)
+
   const handlePreviousClick = () => {
     handleClick(pageNumber - 1);
   };

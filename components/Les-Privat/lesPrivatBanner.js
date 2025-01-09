@@ -43,7 +43,7 @@ const LesPrivatBanner = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 d-sm-none d-lg-flex justify-content-center">
             <Image
               className="rounded-5"
               src={lesPrivatIcon}
