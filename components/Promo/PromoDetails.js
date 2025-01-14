@@ -9,24 +9,22 @@ const PromoDetails = ({ checkMatchCourses }) => {
       <div className="col-lg-8">
         <div className="course-details-content">
           <div className="rbt-course-feature-box rbt-shadow-box thuumbnail">
-            {checkMatchCourses.promoImg && (
-              <PromoDetailBanner
-                bannerImg={checkMatchCourses.promoImg}
-                title={checkMatchCourses.title}
+          <PromoDetailBanner
+                bannerImg={checkMatchCourses.image_url}
+                title={checkMatchCourses.slug}
                 shortDesc={checkMatchCourses.desc}
               />
-            )}
           </div>
 
-          {checkMatchCourses &&
+          {/* {checkMatchCourses &&
             checkMatchCourses.promoTnc.map((data, index) => (
               <PromoTnc {...data} key={index} checkMatchCourses={data} />
-            ))}
+            ))} */}
 
-          {checkMatchCourses &&
+          {/* {checkMatchCourses &&
             checkMatchCourses.stepToClaimPromo.map((data, index) => (
               <CaraKlaimPromo {...data} key={index} checkMatchCourses={data} />
-            ))}
+            ))} */}
 
           {/* <div
             className="rbt-course-feature-box rbt-shadow-box details-wrapper mt--30"

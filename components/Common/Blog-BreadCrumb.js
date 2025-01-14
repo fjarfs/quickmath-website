@@ -28,24 +28,23 @@ const BlogBreadCrumb = ({ matchedBlog }) => {
               {matchedBlog && (
                 <div className="author-info">
                   <Link href="#">
-                    <strong>{matchedBlog.name}</strong>
+                    <strong>Author Name</strong>
                   </Link>
-                  in
-                  <Link href="#">
+                  {/* <Link href="#">
                     <strong>{matchedBlog.position}</strong>
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </li>
             {matchedBlog && (
               <li className="list-item">
                 <i className="feather-clock"></i>
-                <span>{matchedBlog.publishedAt}</span>
+                <span>Aug 27 2024</span>
               </li>
             )}
           </ul>
-          {matchedBlog && <h1 className="title">{matchedBlog.title}</h1>}
-          {matchedBlog && <p>{matchedBlog.desc}</p>}
+          {matchedBlog && <h1 className="title">Title-1</h1>}
+          {matchedBlog && <p>Short desc</p>}
         </div>
       </div>
     </>

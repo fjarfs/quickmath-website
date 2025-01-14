@@ -65,19 +65,18 @@ const MainPage = ({ articles, promo }) => {
         <div className="rbt-promo-area rbt-section-gapBottom bg-color-extra2">
           <div className="container">
             <div className="row g-5 align-items-center mb--30">
-              <div className="col-lg-6 col-md-6 col-6">
+              <div className="col-lg-6 col-md-6 col-5">
                 <div className="section-title">
-                  <span className="subtitle bg-pink-opacity">Promo</span>
                   <h4 className="title">Promo Saat Ini</h4>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 col-6">
+              <div className="col-lg-6 col-md-6 col-7">
                 <div className="read-more-btn text-start text-md-end">
                   <Link
                     className="rbt-btn btn-md btn-gradient rbt-switch-btn"
                     href="/promo"
                   >
-                    <span className="btn-text" data-text="Semua Promo">Semua Promo</span>
+                    <span className="btn-text" data-text="Lihat Semua Promo">Lihat Semua Promo</span>
                   </Link>
                 </div>
               </div>

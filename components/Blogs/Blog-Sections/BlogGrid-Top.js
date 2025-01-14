@@ -146,7 +146,7 @@ const BlogGridTop = ({ BlogData }) => {
                 key={index}
               >
                 <div className="rbt-card-img">
-                  <Link href={`/blog-details/${data.slug}`}>
+                  <Link href={`/artikel-details/${data.slug}`}>
                     <Image
                       src={data.cover_photo_path_url}
                       width={580}
@@ -158,14 +158,14 @@ const BlogGridTop = ({ BlogData }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h5 className="rbt-card-title">
-                    <Link href={`/blog-details/${data.slug}`}>
+                    <Link href={`/artikel-details/${data.slug}`}>
                       {data.title}
                     </Link>
                   </h5>
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
-                      href={`/blog-details/${data.slug}`}
+                      href={`/artikel-details/${data.slug}`}
                     >
                       Read Article
                       <i>

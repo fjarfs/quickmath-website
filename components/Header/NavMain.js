@@ -13,7 +13,13 @@ const NavMain = () => {
 
   const pathname = usePathname();
 
-  const isActive = (href) => pathname.startsWith(href);
+  const isActive = (menuItem) => {
+    // Periksa apakah menu saat ini cocok dengan URL
+    if (menuItem === "home") {
+      return pathname === "/"; // Aktifkan jika di halaman beranda
+    }
+    return pathname.startsWith(`/${menuItem}`); // Aktifkan untuk sub-menu
+  };
 
   const toggleMenuItem = (item) => {
     setActiveMenuItem(activeMenuItem === item ? null : item);
@@ -25,7 +31,10 @@ const NavMain = () => {
         {/* HOME */}
         <li className="position-static">
           <Link
-            className={`${activeMenuItem === "home" ? "open" : ""}`}
+            className={`${
+              isActive("home") || activeMenuItem === "home" ? "active" : ""
+            }`}
+            onClick={() => toggleMenuItem("home")}
             href="/"
           >
             Home
@@ -44,7 +53,7 @@ const NavMain = () => {
           </Link>
           <div
             className={`rbt-megamenu ${
-              activeMenuItem === "layanan" ? "active d-block" : ""
+              isActive("layanan") || activeMenuItem === "layanan" ? "active" : ""
             }`}
           >
             <div className="wrapper">
@@ -57,7 +66,7 @@ const NavMain = () => {
                           <div className="col-lg-3" key={innerIndex}>
                             <div className="mt--30 position-relative rbt-link-hover">
                               <Link href={value.link}>
-                                <div className="inner rbt-link-hover d-flex text-start p-2">
+                                <div className="inner d-flex text-start p-2">
                                   <div className="icons">
                                     <Image
                                       src={value.img}
@@ -68,7 +77,7 @@ const NavMain = () => {
                                     />
                                   </div>
                                   <div className="content ml--10">
-                                    <h5 className="mb--0 title theme-gradient">
+                                    <h5 className="mb--0 title">
                                       {value.title}
                                     </h5>
                                     <p className="description fs-5">
@@ -92,7 +101,10 @@ const NavMain = () => {
         {/* PROMO */}
         <li className="position-static">
           <Link
-            className={`${activeMenuItem === "promo" ? "open" : ""}`}
+            className={`${
+              isActive("promo") || activeMenuItem === "promo" ? "active" : ""
+            }`}
+            onClick={() => toggleMenuItem("promo")}
             href="/promo"
           >
             Promo
@@ -103,7 +115,12 @@ const NavMain = () => {
         <li className="position-static">
           <Link
             href="/about-us"
-            className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
+            className={`${
+              isActive("about-us") || activeMenuItem === "about-us"
+                ? "active"
+                : ""
+            }`}
+            onClick={() => toggleMenuItem("about-us")}
           >
             Tentang Kami
           </Link>
@@ -113,7 +130,12 @@ const NavMain = () => {
         <li className="position-static">
           <Link
             href="/testimoni"
-            className={`${activeMenuItem === "testimoni" ? "open" : ""}`}
+            className={`${
+              isActive("testimoni") || activeMenuItem === "testimoni"
+                ? "active"
+                : ""
+            }`}
+            onClick={() => toggleMenuItem("testimoni")}
           >
             Testimoni
           </Link>
@@ -123,7 +145,12 @@ const NavMain = () => {
         <li className="position-static">
           <Link
             href="/harga-paket"
-            className={`${activeMenuItem === "pricing" ? "open" : ""}`}
+            className={`${
+              isActive("harga-paket") || activeMenuItem === "harga-paket"
+                ? "active"
+                : ""
+            }`}
+            onClick={() => toggleMenuItem("harga-paket")}
           >
             Harga Paket
           </Link>
@@ -133,7 +160,12 @@ const NavMain = () => {
         <li className="position-static">
           <Link
             href="/artikel-all"
-            className={`${activeMenuItem === "artikel" ? "open" : ""}`}
+            className={`${
+              isActive("artikel-all") || activeMenuItem === "artikel-all"
+                ? "active"
+                : ""
+            }`}
+            onClick={() => toggleMenuItem("artikel-all")}
           >
             Artikel
           </Link>

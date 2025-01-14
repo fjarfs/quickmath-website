@@ -14,10 +14,7 @@ import { addToCartAction } from "@/redux/action/CartAction";
 const SidebarPromo = ({ checkMatchCourses }) => {
   const pathname = usePathname();
   const { cartToggle, setCart } = useAppContext();
-  const [toggle, setToggle] = useState(false);
   const [hideOnScroll, setHideOnScroll] = useState(false);
-
-  const isCourseDetailsPage = pathname.startsWith("/course-detail-2");
 
   // =====> Start ADD-To-Cart
   const dispatch = useDispatch();
@@ -62,15 +59,14 @@ const SidebarPromo = ({ checkMatchCourses }) => {
       <div className="content-item-content">
         <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
           <div className="rbt-price">
-            <i class="ri-discount-percent-fill mr--5" style={{fontSize: "20px"}}></i>
+            <i className="ri-discount-percent-fill mr--5" style={{fontSize: "20px"}}></i>
             <span className="current-price fs-2">
-              {checkMatchCourses.voucherCode}
+              {checkMatchCourses.code}
             </span>
           </div>
           <div className="discount-time">
             <span className="rbt-badge color-danger bg-color-danger-opacity">
-              <i className="feather-clock"></i> {checkMatchCourses.end_date_ago} days
-              left!
+              <i className="feather-clock"></i> {checkMatchCourses.end_date_ago} tersisa!
             </span>
           </div>
         </div>
@@ -78,16 +74,16 @@ const SidebarPromo = ({ checkMatchCourses }) => {
         <div className="mb--20 mt--20">
           <div className="d-flex mb--10">
             <div className="rbt-avater mr--10">
-              <i class="ri-calendar-2-fill"></i>
+              <i className="ri-calendar-2-fill"></i>
               <span className="fs-4 ml--10">Periode:</span>
             </div>
             <div className="rbt-author-info">
               <span className="fs-4 fw-bold">
-                {checkMatchCourses.startDate}
+                {checkMatchCourses.start_date}
               </span>
               <span className="fs-4 fw-bold">
                 {" "}
-                - {checkMatchCourses.endDate}
+                - {checkMatchCourses.end_date}
               </span>
             </div>
           </div>

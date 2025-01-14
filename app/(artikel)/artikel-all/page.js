@@ -1,6 +1,6 @@
 import BackToTop from "@/app/backToTop";
 import ArtikelAllPage from "./(artikel-all)";
-import { getAllArticles } from "@/mdx";
+import { fetchArticleBySlug, getAllArticles } from "@/mdx";
 
 export const metadata = {
   title: "QuickMath - Semua Artikel",

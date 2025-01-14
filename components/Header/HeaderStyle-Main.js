@@ -31,7 +31,7 @@ const HeaderStyleMain = ({ headerSticky }) => {
           gapSpaceBetween="header-space-betwween"
           navigationEnd="rbt-navigation-start"
           btnClass="btn-gradient icon-hover"
-          btnText="Sign Up"
+          btnText="Daftar"
         />
       </header>
     </>

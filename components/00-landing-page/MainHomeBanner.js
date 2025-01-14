@@ -34,7 +34,7 @@ const MainHomeBanner = ({}) => {
                     className="rbt-btn btn-gradient rbt-switch-btn"
                     href="/download-apps"
                   >
-                    <span data-text="Sign Up Now">Sign Up Now</span>
+                    <span data-text="Daftar Sekarang">Daftar Sekarang</span>
                   </Link>
                 </div>
               </div>

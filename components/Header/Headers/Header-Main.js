@@ -98,7 +98,7 @@ const HeaderMain = ({
                 </Link>
                 <Link className="rbt-btn btn-white hover-icon-reverse hover-transform-none" href="/download-apps">
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Sign In</span>
+                    <span className="btn-text">Masuk</span>
                     <span className="btn-icon">
                       <i className="feather-log-in"></i>
                     </span>

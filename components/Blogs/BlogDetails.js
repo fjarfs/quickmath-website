@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import parse from "html-react-parser";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation } from "swiper/modules";
@@ -13,6 +14,7 @@ import Comment from "./Blog-Sections/Comment";
 
 const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
   const thumbsSwiperRef = useRef(null);
+  const article = matchedBlog.data;
 
   return (
     <>
@@ -21,6 +23,7 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
           ""
         ) : (
           <>
+            {/* START BANNER ARTIKEL */}
             {isSlider ? (
               <div className="post-thumbnail mb--30 position-relative wp-block-image blog-post-gallery-wrapper alignwide">
                 <Swiper
@@ -38,22 +41,17 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
                   }}
                 >
                   <div className="swiper-wrapper">
-                    {matchedBlog &&
-                      matchedBlog.imgPoster.map((item, innerIndex) => (
-                        <SwiperSlide className="swiper-slide" key={innerIndex}>
-                          <figure>
-                            {item.galleryImg && (
-                              <Image
-                                src={item.galleryImg}
-                                width={1085}
-                                height={645}
-                                priority
-                                alt="Blog Images"
-                              />
-                            )}
-                          </figure>
-                        </SwiperSlide>
-                      ))}
+                    <SwiperSlide className="swiper-slide">
+                      <figure>
+                        <Image
+                          src={article.galleryImg}
+                          width={1085}
+                          height={645}
+                          priority
+                          alt="Blog Images"
+                        />
+                      </figure>
+                    </SwiperSlide>
                   </div>
                   <div className="rbt-swiper-arrow rbt-arrow-left">
                     <div className="custom-overfolow">
@@ -73,19 +71,18 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
             ) : (
               <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
                 <figure>
-                  {matchedBlog.imgPoster && (
-                    <Image
-                      src={matchedBlog.imgPoster[0].galleryImg}
-                      width={1085}
-                      height={645}
-                      priority
-                      alt="Blog Images"
-                    />
-                  )}
-                  <figcaption>{matchedBlog.caption}</figcaption>
+                  <Image
+                    src={article.galleryImg}
+                    width={1085}
+                    height={645}
+                    priority
+                    alt="Blog Images"
+                  />
+                  <figcaption>{article.title}</figcaption>
                 </figure>
               </div>
             )}
+            {/* END BANNER ARTIKEL */}
           </>
         )}
 
@@ -114,9 +111,11 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
           ""
         )}
 
-        <p>{matchedBlog.descOne}</p>
+        <div className="rbt-section-gap2Bottom">
+          {parse(article.body)}
+        </div>
 
-        <blockquote
+        {/* <blockquote
           className={`${
             isQuote
               ? "rbt-blockquote mt--0 alignwide square rbt-border-none bg-color-gray-light"
@@ -129,8 +128,8 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
               {matchedBlog.city}
             </Link>
           </cite>
-        </blockquote>
-        {isQuote ? (
+        </blockquote> */}
+        {/* {isQuote ? (
           ""
         ) : (
           <div className="wp-block-gallery columns-3 is-cropped">
@@ -154,9 +153,9 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
                 ))}
             </ul>
           </div>
-        )}
+        )} */}
 
-        <h4>{matchedBlog.title}</h4>
+        {/* <h4>{matchedBlog.title}</h4>
 
         <p>
           <Link href="#">{matchedBlog.linkOne}</Link> {matchedBlog.descTwo}
@@ -168,9 +167,9 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
 
         <p>
           <Link href="#">{matchedBlog.linkTwo}</Link> {matchedBlog.descSaven}
-        </p>
+        </p> */}
 
-        <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
+        {/* <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
           <figure>
             {matchedBlog.addImg && (
               <Image
@@ -184,9 +183,9 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
 
             <figcaption>{matchedBlog.caption}</figcaption>
           </figure>
-        </div>
+        </div> */}
 
-        <p>{matchedBlog.descFive}</p>
+        {/* <p>{matchedBlog.descFive}</p>
         <h4>{matchedBlog.titleTwo}</h4>
 
         <p>
@@ -196,16 +195,16 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
 
         <p>
           <Link href="#">{matchedBlog.linkTwo}</Link> {matchedBlog.descFive}
-        </p>
+        </p> */}
 
-        <div className="tagcloud">
+        {/* <div className="tagcloud">
           {matchedBlog &&
             matchedBlog.tags.map((tagItem, innerIndex) => (
               <Link href="#" key={innerIndex}>
                 {tagItem}
               </Link>
             ))}
-        </div>
+        </div> */}
 
         <div className="social-share-block">
           <div className="post-like">
@@ -214,7 +213,7 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
               <span>2.2k Like</span>
             </Link>
           </div>
-          <ul className="social-icon social-default transparent-with-border">
+          {/* <ul className="social-icon social-default transparent-with-border">
             {matchedBlog &&
               matchedBlog.social.map((socialItem, innerIndex) => (
                 <li key={innerIndex}>
@@ -223,15 +222,15 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
                   </Link>
                 </li>
               ))}
-          </ul>
+          </ul> */}
         </div>
 
-        <div className="about-author">
+        {/* <div className="about-author">
           {matchedBlog &&
             matchedBlog.author.map((author, innerIndex) => (
               <BlogAuthor {...author} author={author} key={innerIndex} />
             ))}
-        </div>
+        </div> */}
         <div className="rbt-comment-area">
           <div className="rbt-total-comment-post">
             <div className="title">
@@ -254,12 +253,12 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
 
         <div className="rbt-comment-area">
           <h4 className="title">2 comments</h4>
-          <ul className="comment-list">
+          {/* <ul className="comment-list">
             {matchedBlog &&
               matchedBlog.comment.map((comnt, innerIndex) => (
                 <Comment {...comnt} comnt={comnt} key={innerIndex} />
               ))}
-          </ul>
+          </ul> */}
         </div>
       </div>
     </>

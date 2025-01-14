@@ -25,8 +25,8 @@ const NavMobile = () => {
         {/* HOME */}
         <li className="position-static">
           <Link
-            className={`${activeMenuItem === "home" ? "open" : ""}`}
-            href="/landing-page"
+            className={`${activeMenuItem === "home" ? "active" : ""}`}
+            href="/"
           >
             Home
           </Link>
@@ -123,7 +123,7 @@ const NavMobile = () => {
         {/* ARTIKEL */}
         <li className="position-static">
           <Link
-            href="#"
+            href="/artikel-all"
             className={`${activeMenuItem === "artikel" ? "open" : ""}`}
           >
             Artikel

@@ -16,13 +16,13 @@ import PromoDetails from "@/components/Promo/PromoDetails";
 
 const SinglePromo = ({ getParams, getPromo }) => {
   const router = useRouter();
-  const postId = parseInt(getParams.id);
+  const postSlug = getParams.promoId;
 
-  const checkMatch = getPromo.data.find((promo) => promo.id === postId);
+  const checkMatch = getPromo.data.find(promo => promo.slug === postSlug);
 
   useEffect(() => {
-    if (!checkMatch && postId) {
-      router.push("/course-filter-one-toggle");
+    if (!checkMatch && postSlug) {
+      router.push("/promo");
     }
 
     sal({

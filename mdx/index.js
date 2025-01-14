@@ -42,6 +42,16 @@ export const getAllPostsMeta = async () => {
   return posts;
 };
 
+export const fetchArticleBySlug = async (slug) => {
+  try {
+    const response = await axios.get(api(`/article/${slug}`));
+    return response.data; // Data artikel
+  } catch (error) {
+    console.error("Error fetching article by slug:", error);
+    throw error;
+  }
+};
+
 export const fetchData = async () => {
   try {
     // Fetch data dari beberapa endpoint
