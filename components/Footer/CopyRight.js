@@ -22,7 +22,7 @@ const CopyRight = () => {
                   <Link href="/privacy-policy">Kebijakan Privasi</Link>
                 </li>
                 <li>
-                  <Link href="#">Log In & Sign Up</Link>
+                  <Link href="#">Daftar & Masuk</Link>
                 </li>
               </ul>
             </div>

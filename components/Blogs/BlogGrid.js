@@ -34,14 +34,6 @@ const BlogGrid = ({ isPagination, blogdata, top }) => {
 
   return (
     <>
-      {top ? (
-        <BlogGridTop
-          BlogData={blogdata}
-          selectedGridBlogs={selectedGridBlogs}
-        />
-      ) : (
-        ""
-      )}
 
       <div className="row g-5 mt--15">
         {blogdata &&

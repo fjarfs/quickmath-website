@@ -22,12 +22,12 @@ const PromoListAll = ({ promo, start, end }) => {
             >
               <div className="h-100">
                 <div className="rbt-card-img">
-                  <Link href={`/promo-details/${data.slug}`}>
+                  <Link href={`/promo-details/${data.slug}`} className="position-relative" style={{ width: "100%", height: "104px" }}>
                     <Image
                       className="h-100"
                       src={data.image_url}
-                      width={362}
-                      height={448}
+                      fill
+                      style={{ objectFit: "cover" }}
                       alt="Card image"
                     />
                   </Link>

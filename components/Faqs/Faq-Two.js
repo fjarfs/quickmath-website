@@ -1,22 +1,15 @@
-
 import Link from "next/link";
 import AboutData from "../../data/elements/about.json";
 
 const FaqTwo = () => {
-    return (
-        <>
-        {AboutData &&
+  return (
+    <>
+      {AboutData &&
         AboutData.faqAboutUs.map((data, index) => (
           <div className="row g-5 align-items-start" key={index}>
             <div className="col-lg-6">
               <div className="content">
-                <h2
-                  className="title mb--0"
-                  data-sal="slide-up"
-                  data-sal-duration="700"
-                >
-                  {data.title}
-                </h2>
+                <h2>{data.title}</h2>
               </div>
             </div>
             <div className="col-lg-6">
@@ -62,8 +55,8 @@ const FaqTwo = () => {
             </div>
           </div>
         ))}
-        </>
-    )
-}
+    </>
+  );
+};
 
 export default FaqTwo;

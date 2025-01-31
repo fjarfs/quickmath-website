@@ -48,12 +48,16 @@ const PromoList = ({ PromoListData }) => {
                     <div className="rbt-cat-box rbt-cat-box-1 variation-3 text-center">
                       <div className="inner">
                         <div className="thumbnail">
-                          <Link href={`/promo-details/${item.id}`}>
+                          <Link
+                            className="position-relative"
+                            href={`/promo-details/${item.id}`}
+                            style={{ width: "100%", height: "104px" }}
+                          >
                             <Image
                               src={item.image_url}
-                              width={304}
-                              height={166}
+                              fill
                               alt="Promo Images"
+                              style={{ objectFit: "cover" }}
                             />
                           </Link>
                         </div>

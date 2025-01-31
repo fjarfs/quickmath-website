@@ -157,7 +157,7 @@ const BlogGridTop = ({ BlogData }) => {
                   </Link>
                 </div>
                 <div className="rbt-card-body">
-                  <h5 className="rbt-card-title">
+                  <h5 className="rbt-card-title-side">
                     <Link href={`/artikel-details/${data.slug}`}>
                       {data.title}
                     </Link>
