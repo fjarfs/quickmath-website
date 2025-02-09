@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const PromoDetailBanner = ({ bannerImg, title, shortDesc }) => {
+const PromoDetailBanner = ({ bannerImg, title, desc }) => {
   return (
     <>
       <Image
@@ -14,7 +14,7 @@ const PromoDetailBanner = ({ bannerImg, title, shortDesc }) => {
       />
       <div className="content mt--20">
         <h4 className="title-img">{title}</h4>
-        <p className="description">{shortDesc}</p>
+        <p className="description">{desc}</p>
       </div>
     </>
   );

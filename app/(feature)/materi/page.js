@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import BankMateriLayout from "./(bank-materi)";
+import BankMateriLayout from "./(materi)";
 
 export const metadata = {
   title: "QuickMath - Materi",

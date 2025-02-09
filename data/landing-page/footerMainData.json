@@ -16,7 +16,7 @@
                 },
                 {
                     "text": "Materi",
-                    "link": "/bank-materi"
+                    "link": "/bank"
                 },
                 {
                     "text": "Math Solver",
@@ -42,7 +42,7 @@
                 },
                 {
                     "text": "Tentang Kami",
-                    "link": "/about-us"
+                    "link": "/tentang-kami"
                 },
                 {
                     "text": "Syarat & Ketentuan",
@@ -54,7 +54,7 @@
                 },
                 {
                     "text": "Artikel",
-                    "link": "/artikel-all"
+                    "link": "/artikel"
                 }
             ],
             "socialLink": [

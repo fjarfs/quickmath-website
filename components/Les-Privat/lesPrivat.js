@@ -34,7 +34,7 @@ const LesPrivatComp = () => {
 
       <div className="rbt-section-gap2bottom">
         <div className="section-title text-center mb--50">
-          <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
+          <span className="subtitle bg-pink-opacity">HARGA</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
         <div className="container">

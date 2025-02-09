@@ -101,13 +101,13 @@ const NavMobile = () => {
           </Link>
         </li>
 
-        {/* HARGA PAKET */}
+        {/* HARGA */}
         <li className="position-static">
           <Link
-            href="/harga-paket"
+            href="/harga"
             className={`${activeMenuItem === "pricing" ? "open" : ""}`}
           >
-            Harga Paket
+            Harga
           </Link>
         </li>
 
@@ -124,8 +124,8 @@ const NavMobile = () => {
         {/* TENTANG KAMI */}
         <li className="position-static">
           <Link
-            href="/about-us"
-            className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
+            href="/tentang-kami"
+            className={`${activeMenuItem === "tentang-kami" ? "open" : ""}`}
           >
             Tentang Kami
           </Link>
@@ -134,7 +134,7 @@ const NavMobile = () => {
         {/* ARTIKEL */}
         <li className="position-static">
           <Link
-            href="/artikel-all"
+            href="/artikel"
             className={`${activeMenuItem === "artikel" ? "open" : ""}`}
           >
             Artikel

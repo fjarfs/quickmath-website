@@ -34,7 +34,7 @@ const PromoListAll = ({ promo, start, end }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h4 className="rbt-card-title fs-2">
-                    <Link href={`/promo-details/${data.slug}`}>{data.slug}</Link>
+                    <Link href={`/promo-details/${data.slug}`}>{data.name}</Link>
                   </h4>
 
                   <div className="mt-auto">
@@ -71,7 +71,7 @@ const PromoListAll = ({ promo, start, end }) => {
                       >
                         Lihat Detail<i className="feather-arrow-right"></i>
                       </Link>
-                      <Link className="rbt-btn btn-sm" href="#">
+                      <Link className="rbt-btn btn-sm" href="/download-apps">
                         Gunakan
                       </Link>
                     </div>

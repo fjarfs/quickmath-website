@@ -103,10 +103,7 @@ const SidebarPromo = ({ checkMatchCourses }) => {
         <div className="add-to-card-button mt--15">
           <Link
             className="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
-            href="#"
-            onClick={() =>
-              addToCartFun(checkMatchCourses.id, amount, checkMatchCourses)
-            }
+            href="/download-apps"
           >
             <span className="btn-text">Gunakan Sekarang</span>
             <span className="btn-icon">

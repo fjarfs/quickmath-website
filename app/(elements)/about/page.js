@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import AboutPage from "./(about)";
+import AboutPage from "./(tentang-kami)";
 
 export const metadata = {
   title: "About - Platform Bimbingan Belajar Online",

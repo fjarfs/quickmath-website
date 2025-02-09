@@ -34,7 +34,7 @@ const KonsultasiComp = () => {
 
       <div className="rbt-section-gap2Bottom" id="konsultasi-pricing">
         <div className="section-title text-center mb--10">
-          <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
+          <span className="subtitle bg-pink-opacity">HARGA</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
         <div className="container-fluid">

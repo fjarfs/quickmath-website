@@ -147,7 +147,7 @@ const MainPage = ({ articles, promo }) => {
         {/* START PRICING */}
         <div className="rbt-pricing-area bg-color-light rbt-section-gap">
           <PricingMain
-            tag={"Harga Paket"}
+            tag={"Harga"}
             title={"Harga Fleksibel, Sesuai Kebutuhan"}
           />
         </div>
@@ -232,7 +232,7 @@ const MainPage = ({ articles, promo }) => {
                 <div className="read-more-btn text-start text-md-end">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse"
-                    href="/artikel-all"
+                    href="/artikel"
                   >
                     <div className="icon-reverse-wrapper">
                       <span className="btn-text">Lihat Artikel Lainnya</span>

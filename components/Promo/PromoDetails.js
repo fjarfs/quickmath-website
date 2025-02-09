@@ -11,8 +11,8 @@ const PromoDetails = ({ checkMatchCourses }) => {
           <div className="rbt-course-feature-box rbt-shadow-box thuumbnail">
           <PromoDetailBanner
                 bannerImg={checkMatchCourses.image_url}
-                title={checkMatchCourses.slug}
-                shortDesc={checkMatchCourses.desc}
+                title={checkMatchCourses.name}
+                desc={checkMatchCourses.desc}
               />
           </div>
 

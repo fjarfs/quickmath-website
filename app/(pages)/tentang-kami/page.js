@@ -1,19 +1,19 @@
 import BackToTop from "@/app/backToTop";
-import HargaPaketLayout from "./(harga-paket)";
+import AboutUsLayout from "./(tentang-kami)";
 
 export const metadata = {
-  title: "QuickMath - Harga Paket",
+  title: "QuickMath - Tentang Kami",
   description: "Platform Bimbingan Belajar Online",
 };
 
-const HargaPaketPage = () => {
+const AboutUsPage = () => {
   return (
     <>
-      <HargaPaketLayout />
+      <AboutUsLayout />
 
       <BackToTop />
     </>
   );
 };
 
-export default HargaPaketPage;
+export default AboutUsPage;

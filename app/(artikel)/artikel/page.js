@@ -1,5 +1,5 @@
 import BackToTop from "@/app/backToTop";
-import ArtikelAllPage from "./(artikel-all)";
+import ArtikelAllPage from "./(artikel)";
 import { fetchArticleBySlug, getAllArticles } from "@/mdx";
 
 export const metadata = {

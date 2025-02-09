@@ -111,18 +111,18 @@ const NavMain = () => {
           </Link>
         </li>
 
-        {/* HARGA PAKET */}
+        {/* HARGA */}
         <li className="position-static">
           <Link
-            href="/harga-paket"
+            href="/harga"
             className={`${
-              isActive("harga-paket") || activeMenuItem === "harga-paket"
+              isActive("harga") || activeMenuItem === "harga"
                 ? "active"
                 : ""
             }`}
-            onClick={() => toggleMenuItem("harga-paket")}
+            onClick={() => toggleMenuItem("harga")}
           >
-            Harga Paket
+            Harga
           </Link>
         </li>
 
@@ -144,13 +144,13 @@ const NavMain = () => {
         {/* TENTANG KAMI */}
         <li className="position-static">
           <Link
-            href="/about-us"
+            href="/tentang-kami"
             className={`${
-              isActive("about-us") || activeMenuItem === "about-us"
+              isActive("tentang-kami") || activeMenuItem === "tentang-kami"
                 ? "active"
                 : ""
             }`}
-            onClick={() => toggleMenuItem("about-us")}
+            onClick={() => toggleMenuItem("tentang-kami")}
           >
             Tentang Kami
           </Link>
@@ -159,13 +159,13 @@ const NavMain = () => {
         {/* ARTIKEL */}
         <li className="position-static">
           <Link
-            href="/artikel-all"
+            href="/artikel"
             className={`${
-              isActive("artikel-all") || activeMenuItem === "artikel-all"
+              isActive("artikel") || activeMenuItem === "artikel"
                 ? "active"
                 : ""
             }`}
-            onClick={() => toggleMenuItem("artikel-all")}
+            onClick={() => toggleMenuItem("artikel")}
           >
             Artikel
           </Link>

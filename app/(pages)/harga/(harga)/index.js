@@ -18,11 +18,11 @@ const HargaPaketLayout = () => {
         <Context>
           <MobileMenu />
           <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
-          <BreadCrumb title="Biaya & Benefit Langganan" text="Harga Paket" />
+          <BreadCrumb title="Harga" text="Harga" />
 
           <div className="rbt-pricing-area rbt-section-gap2">
             <PricingMain
-              tag={"Harga Paket"}
+              tag={"Harga"}
               title={"Harga Fleksibel, Sesuai Kebutuhan"}
             />
           </div>

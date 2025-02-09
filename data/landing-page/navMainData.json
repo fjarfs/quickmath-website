@@ -33,7 +33,7 @@
                   },
                   {
                     "id": 3,
-                    "link": "/bank-materi",
+                    "link": "/bank",
                     "title": "Materi",
                     "shortDesc": "Kumpulan materi dalam bentu vidio yang akan membantu kamu dalam memahami pelajaran",
                     "img": "/images/feature/materi.png",
@@ -90,8 +90,8 @@
             "hasPositionStatic": false
         },
         {
-            "menuTitle": "Harga Paket",
-            "menuType": "harga-paket",
+            "menuTitle": "Harga",
+            "menuType": "harga",
             "href": "",
             "hasMegamenu": false,
             "hasMenuChild": false,

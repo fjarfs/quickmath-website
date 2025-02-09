@@ -58,7 +58,6 @@ const PromoHead = ({
                         "Semua Promo",
                         "Konsultasi Tugas",
                         "Les Private Online",
-                        "Materi",
                       ].map((promoType, index) => (
                         <li
                           key={index}
