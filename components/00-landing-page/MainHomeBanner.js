@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import education1 from "../../public/images/banner/bannerMain.png";
+import education1 from "../../public/images/banner/foto-utama.png";
 
 const MainHomeBanner = ({}) => {
   return (
@@ -21,8 +21,7 @@ const MainHomeBanner = ({}) => {
                 </h1>
                 <div className="more-author-text">
                   <h5 className="total-join-students">
-                    Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga
-                    Kuliah
+                    Platform Bimbingan Belajar Online untuk semua Jenjang Pendidikan, SD SMP SMP hingga Kuliah
                   </h5>
                   <p className="subtitle">
                     Daftar Sekarang dan Mulai Perjalanan Belajarmu!
@@ -42,9 +41,9 @@ const MainHomeBanner = ({}) => {
                 <Image
                   className="rounded-5"
                   src={education1}
-                  width={360}
+                  width={500}
                   height={270}
-                  alt="Education Images"
+                  alt="QuickMath"
                 />
               </div>
             </div>

@@ -89,7 +89,7 @@
         {
             "id": 3,
             "title": "50%",
-            "promoType": "bank materi",
+            "promoType": "materi",
             "desc": "Ini masih boleh lah diskonnya",
             "thumbnail": "/images/category/image/web-design.jpg",
             "voucherCode": "VERILERG",
@@ -111,7 +111,7 @@
         {
             "id": 5,
             "title": "Diskon 70%",
-            "promoType": "bank materi",
+            "promoType": "materi",
             "desc": "Nah ini masih boleh lah diskonnya",
             "thumbnail": "/images/category/image/web-design.jpg",
             "voucherCode": "VERILERG",

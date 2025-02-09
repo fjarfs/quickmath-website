@@ -181,7 +181,28 @@ const TestimonialFour = () => {
                 </div>
               ))}
             </div> */}
+            <div className="row">
+            <div className="col-lg-12">
+              <div className="load-more-btn mt--50 text-center">
+                <Link
+                  className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
+                  href="/tutor-all"
+                >
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">Lihat Semua Review</span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </Link>
+              </div>
+            </div>
           </div>
+          </div>
+          
         ))}
     </>
   );

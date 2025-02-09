@@ -7,7 +7,7 @@ import downloadAppStore from "/public/images/icons/download-appstore.svg";
 
 const Redirect = () => {
   useEffect(() => {
-    // // URL Skema aplikasi (ganti dengan skema aplikasi Anda)
+    // // URL Skema aplikasi (ganti dengan skema aplikasi Kamu)
     // const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer";
     // // URL fallback ke Play Store atau App Store
     // const fallbackUrl =
@@ -40,10 +40,10 @@ const Redirect = () => {
         <div className="section-title text-center mb--20">
           <h2 className="title">
             Menuju QuickMath...
-            <br /> Nikmati Kemudahan Belajar Anda!
+            <br /> Nikmati Kemudahan Belajar Kamu!
           </h2>
           <p className="description mt--10">
-            Belum punya aplikasi kami? Anda akan segera dialihkan ke Play Store
+            Belum punya aplikasi kami? Kamu akan segera dialihkan ke Play Store
             atau App Store untuk mengunduhnya dan mulai belajar.
           </p>
         </div>

@@ -13,7 +13,7 @@ const TestimoniAll = ({ isDesc, start, end, isPagination, testimoniData }) => {
             <div className="section-title text-center">
               <span className="subtitle bg-primary-opacity">Testimoni Siswa</span>
               <h2 className="title">Cerita Sukses Para Pelajar</h2>
-              {isDesc ? <p className="description mt--20">Belajar efektif untuk semua jenjang, kuasai dunia, dan raih
+              {isDesc ? <p className="description mt--20">Belajar efektif untuk semua jenjang, kuasai pelajaran, dan raih
                 masa depan gemilang bersama QuickMath.</p> : ""}
             </div>
           </div>
@@ -41,7 +41,7 @@ const TestimoniAll = ({ isDesc, start, end, isPagination, testimoniData }) => {
                   </div>
                   <div className="description">
                     <p className="subtitle-3">{data.desc}</p>
-                    <div className="rating mt--20">
+                    {/* <div className="rating mt--20">
                       <Link href="#">
                         <i className="fa fa-star"></i>
                       </Link>
@@ -57,7 +57,7 @@ const TestimoniAll = ({ isDesc, start, end, isPagination, testimoniData }) => {
                       <Link href="#">
                         <i className="fa fa-star"></i>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

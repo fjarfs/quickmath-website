@@ -3,8 +3,8 @@ import MarketplacePage from "./(marketplace)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Marketplace - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Marketplace - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const MarketplaceLayout = async () => {

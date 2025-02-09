@@ -1,11 +1,11 @@
 {
     "bank_materi": [
         {
-            "tag": "TENTANG BANK MATERI",
-            "title": "Sudah Tahu Tentang Fitur Bank Materi? Yuk Cari Tahu!",
-            "breadcrumb": "Bank Materi",
-            "strong": "Bank Materi",
-            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "tag": "TENTANG MATERI",
+            "title": "Sudah Tahu Tentang Fitur Materi? Yuk Cari Tahu!",
+            "breadcrumb": "Materi",
+            "strong": "Fitur Materi",
+            "desc": "menyediakan video pembelajaran yang bisa diakses kapan saja. Siswa dapat berlangganan selama 1, 3, atau 12 bulan serta memilih paket sesuai jenjang pendidikan. Dengan akses fleksibel, belajar jadi lebih mudah dan efektif!",
             "img": "/images/feature/materi.png"
         }
     ],
@@ -15,7 +15,7 @@
             "title": "Sudah Tahu Tentang Fitur Math Solver? Yuk Cari Tahu!",
             "breadcrumb": "Math Solver",
             "strong": "Math Solver",
-            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "desc": "adalah alat pintar yang membantu menyelesaikan soal matematika secara instan. Cukup masukkan soal, dan sistem akan memberikan jawaban lengkap beserta langkah-langkahnya. Cocok untuk berbagai tingkat kesulitan, dari perhitungan dasar hingga aljabar dan kalkulus!",
             "img": "/images/feature/mathsolver.png"
         }
     ],
@@ -25,7 +25,7 @@
             "title": "Sudah Tahu Tentang Fitur Misi? Yuk Cari Tahu!",
             "breadcrumb": "Misi",
             "strong": "Misi",
-            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "desc": "adalah tantangan seru yang bisa dikerjakan untuk mengasah kemampuan. Jika berhasil menyelesaikan misi, pengguna akan mendapatkan koin yang bisa dikumpulkan dan dapat digunakan untuk transaksi lainnya!",
             "img": "/images/feature/mission.png"
         }
     ],
@@ -35,7 +35,7 @@
             "title": "Sudah Tahu Tentang Fitur Chat Ai? Yuk Cari Tahu!",
             "breadcrumb": "Chat Ai",
             "strong": "Chat Ai",
-            "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
+            "desc": "adalah AI pintar yang bisa menjawab pertanyaan, membantu mengerjakan soal, serta menjelaskan materi pelajaran dengan cepat dan mudah. Cukup chat, dan AI akan memberikan solusi terbaik!",
             "img": "/images/feature/chat-ai.png"
         }
     ],
@@ -53,17 +53,17 @@
         {
             "title": "Unduh Aplikasi Kami,",
             "sub_title": "Mulai Belajar Kapan Saja dan Di Mana Saja!",
-            "description": "Tersedia di Pay Store dan App Store"
+            "description": "Tersedia di Play Store dan Apple Store"
         },
         {
             "title": "Unduh Aplikasi Kami,",
             "sub_title": "Untuk Mengakses Seluruh Fitur QuickMath!",
-            "description": "Tersedia di Pay Store dan App Store"
+            "description": "Tersedia di Play Store dan Apple Store"
         },
         {
             "title": "Website sedang dalam perbaikan.",
             "sub_title": "Tetap terhubung lewat aplikasi mobile kami!",
-            "description": "Tersedia di Pay Store dan App Store"
+            "description": "Tersedia di Play Store dan Apple Store"
         }
     ]
 }

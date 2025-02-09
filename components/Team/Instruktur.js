@@ -51,7 +51,7 @@ const Instruktur = ({start, end}) => {
                           <span className="location">{item.location}</span>
                         </span>
                         <p className="description">{item.desc}</p>
-                        <ul className="social-icon social-default icon-naked mt--20">
+                        {/* <ul className="social-icon social-default icon-naked mt--20">
                           <li>
                             <Link href="https://www.facebook.com/">
                               <i className="feather-facebook"></i>
@@ -67,7 +67,7 @@ const Instruktur = ({start, end}) => {
                               <i className="feather-instagram"></i>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

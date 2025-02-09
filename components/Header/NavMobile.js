@@ -27,6 +27,7 @@ const NavMobile = () => {
           <Link
             className={`${activeMenuItem === "home" ? "active" : ""}`}
             href="/"
+            onClick={() => toggleMenuItem("home")}
           >
             Home
           </Link>
@@ -100,16 +101,6 @@ const NavMobile = () => {
           </Link>
         </li>
 
-        {/* TENTANG KAMI */}
-        <li className="position-static">
-          <Link
-            href="/about-us"
-            className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
-          >
-            Tentang Kami
-          </Link>
-        </li>
-
         {/* HARGA PAKET */}
         <li className="position-static">
           <Link
@@ -117,6 +108,26 @@ const NavMobile = () => {
             className={`${activeMenuItem === "pricing" ? "open" : ""}`}
           >
             Harga Paket
+          </Link>
+        </li>
+
+        {/* TESTIMONNI */}
+        <li className="position-static">
+          <Link
+            href="/testimoni"
+            className={`${activeMenuItem === "testimoni" ? "open" : ""}`}
+          >
+            Testimoni
+          </Link>
+        </li>
+
+        {/* TENTANG KAMI */}
+        <li className="position-static">
+          <Link
+            href="/about-us"
+            className={`${activeMenuItem === "aboutUs" ? "open" : ""}`}
+          >
+            Tentang Kami
           </Link>
         </li>
 

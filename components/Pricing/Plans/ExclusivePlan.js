@@ -36,12 +36,16 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
               ? "color-secondary"
               : isPink
               ? "color-pink"
-              : ""
+              : "color-warning"
           }`}
         >
           {title}
         </h3>
-        <span className="rbt-badge mb--35">{badge}</span>
+        {
+          badge && (
+            <span className="rbt-badge mb--35">{badge}</span>
+          )
+        }
         <div className="price-wrap">
           <div className={`yearly-pricing ${toggle ? "d-none" : "d-block"}`}>
             <span
@@ -52,7 +56,7 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
                   ? "color-secondary"
                   : isPink
                   ? "color-pink"
-                  : ""
+                  : "color-warning"
               }`}
             >
               ${yearlyAmount}
@@ -65,7 +69,7 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
                   ? "color-secondary"
                   : isPink
                   ? "color-pink"
-                  : ""
+                  : "color-warning"
               }`}
             >
               /{yearlyDuration}
@@ -81,7 +85,7 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
                   ? "color-secondary"
                   : isPink
                   ? "color-pink"
-                  : ""
+                  : "color-warning"
               }`}
             >
               {formatToRupiah(monthlyAmount)} - {formatToRupiah(highPrice)}
@@ -94,7 +98,7 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
                   ? "color-secondary"
                   : isPink
                   ? "color-pink"
-                  : ""
+                  : "color-warning"
               }`}
             >
               /{monthlyDuration}
@@ -134,7 +138,7 @@ const ExclusivePlan = ({ linkButton, item, parentClass, styleType, toggle }) => 
                 ? "bg-secondary-opacity"
                 : isPink
                 ? "bg-pink-opacity"
-                : ""
+                : "bg-warning-opacity"
             } hover-icon-reverse w-100`}
             href={linkButton}
           >

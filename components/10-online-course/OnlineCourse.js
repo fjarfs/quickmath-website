@@ -177,7 +177,7 @@ const OnlineCourse = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-secondary-opacity">Courses</span>
-                <h2 className="title">Histudy All Courses</h2>
+                <h2 className="title">QuickMath All Courses</h2>
               </div>
             </div>
           </div>
@@ -205,10 +205,10 @@ const OnlineCourse = () => {
               <div className="content">
                 <div className="section-title text-start">
                   <h2 className="title">
-                    Want to stay informed about new courses & histudy?
+                    Want to stay informed about new courses & QuickMath?
                   </h2>
                   <p className="description mt--20">
-                    Histudy educational platform ipsum dolor sit amet
+                    QuickMath educational platform ipsum dolor sit amet
                     consectetur adipisicing elit. Nam inventore praesentium
                     alias incidunt! Veritatis.
                   </p>

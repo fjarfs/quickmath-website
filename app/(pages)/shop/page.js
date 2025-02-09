@@ -1,8 +1,8 @@
 import ShopPage from "./(shop)";
 
 export const metadata = {
-  title: "Shop - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Shop - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const ShopLayout = () => {

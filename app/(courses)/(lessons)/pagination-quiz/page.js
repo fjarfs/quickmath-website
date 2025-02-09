@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import PaginationQuizLayout from "./(pagination)";
 
 export const metadata = {
-  title: "Pagination Quiz - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Pagination Quiz - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const LessonLayout = () => {

@@ -1,51 +1,51 @@
 {
   "team": [
     {
-      "img": "/images/team/team-01.jpg",
+      "img": "/images/team/hanin.png",
       "isLarge": true,
       "isActive": true,
       "details": [
         {
-          "img": "/images/team/team-01.jpg",
-          "name": "Mames Mary",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/hanin.png",
+          "name": "Hanin",
+          "type": "Matematika",
+          "location": "Indonesia",
+          "desc": "Lulusan Sarjana Pendidikan Matematika.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-02.jpg",
+      "img": "/images/team/asep.png",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-02.jpg",
-          "name": "Christopher",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/asep.png",
+          "name": "Asep Budiman",
+          "type": "English",
+          "location": "Indonesia",
+          "desc": "Lulusan Doktor Hunan Normal University, China. Penerima beasiswa LPDP dan mejadi Dosen di kampus ternama di Indonesia.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-03.jpg",
+      "img": "/images/team/ria.png",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-03.jpg",
-          "name": "Robert Song",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/ria.png",
+          "name": "Ria",
+          "type": "Kimia",
+          "location": "Indonesia",
+          "desc": "lulusan terbaik Universitas Negeri.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -61,8 +61,8 @@
           "name": "William Susan",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -78,8 +78,8 @@
           "name": "Soseph Sara",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -95,8 +95,8 @@
           "name": "Thomas Dal",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -112,8 +112,8 @@
           "name": "Irma J. Erwin",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -129,8 +129,8 @@
           "name": "John Due",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -146,8 +146,8 @@
           "name": "Joo Bieden",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }
@@ -163,8 +163,8 @@
           "name": "Alejandro",
           "type": "English Teacher",
           "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
         }

@@ -49,7 +49,11 @@ const StandardPlan = ({ linkButton, item, parentClass, styleType, toggle }) => {
         >
           {title}
         </h3>
-        <span className="rbt-badge mb--35">{badge}</span>
+        {
+          badge && (
+            <span className="rbt-badge mb--35">{badge}</span>
+          )
+        }
         <div className="price-wrap">
           <div className={`yearly-pricing ${toggle ? "d-none" : "d-block"}`}>
             <span

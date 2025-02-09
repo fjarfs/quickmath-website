@@ -4,7 +4,7 @@ const { default: KonsultasiLayout } = require("./(konsultasi)");
 
 export const metadata = {
   title: "QuickMath - Konsultasi Tugas",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const KonsultasiPage = () => {

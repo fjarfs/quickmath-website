@@ -3,7 +3,7 @@ import DownloadAppsLayout from "./(download-apps)";
 
 export const metadata = {
   title: "Download Apps - QuickMath",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const DownloadAppsPage = () => {

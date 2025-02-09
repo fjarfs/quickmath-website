@@ -21,7 +21,7 @@ const LesPrivatBanner = () => {
                   Saja
                 </h1>
                 <p className="description">
-                Bimbingan Belajar Online untuk Semua Jenjang, dari
+                Datapkan tutor privat terbaik langsung dari aplikasi, untuk semua jenjang dan mata pelajaran
                   <strong> SD hingga Kuliah!</strong>
                 </p>
                 <div className="slider-btn">

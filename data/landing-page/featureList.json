@@ -3,7 +3,7 @@
         {
             "id": 1,
             "category": "Konsultasi",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Konsultasi tugas, tanya jawab dan diskusi via chat dengan tutor terbaik sampai memhaminya",
             "featIcon": "/images/feature/konsultasi.png",
             "isActiveFeat": true,
             "path": "/konsultasi",
@@ -19,7 +19,7 @@
         {
             "id": 2,
             "category": "Les Privat",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Belajar kapan saja dan dimana saja secara live. Dapatkan tutor privat terbaik",
             "featIcon": "/images/feature/les.png",
             "isActiveFeat": true,
             "path": "/les-privat",
@@ -35,7 +35,7 @@
         {
             "id": 3,
             "category": "Materi",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Kumpulan materi dalam bentu vidio yang akan membantu kamu dalam memahami pelajaran",
             "featIcon": "/images/feature/materi.png",
             "isActiveFeat": true,
             "path": "/bank-materi",
@@ -51,7 +51,7 @@
         {
             "id": 4,
             "category": "Math Solver",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Kalkulator canggih buat memecahkan soal matematika lengkap dengan caranya",
             "featIcon": "/images/feature/mathsolver.png",
             "isActiveFeat": true,
             "path": "/math-solver",
@@ -67,7 +67,7 @@
         {
             "id": 5,
             "category": "Misi",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Selesaikan misi-misi dan kamu akan mendapatkan koin QuickMath.",
             "featIcon": "/images/feature/mission.png",
             "isActiveFeat": true,
             "path": "/misi",
@@ -83,7 +83,7 @@
         {
             "id": 6,
             "category": "Chat AI",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Asisten pintar yang bantu jawab soal dan jelasin materi pelajaran dengan simpel.",
             "featIcon": "/images/feature/chat-ai.png",
             "isActiveFeat": true,
             "path": "/chat-ai",
@@ -99,7 +99,7 @@
         {
             "id": 7,
             "category": "Referral",
-            "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+            "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus koin",
             "featIcon": "/images/feature/referral.png",
             "isActiveFeat": true,
             "path": "/kode-referral",

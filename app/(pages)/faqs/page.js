@@ -1,8 +1,8 @@
 import FaqsPage from "./(faqs)";
 
 export const metadata = {
-  title: "Faqs - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Faqs - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const FaqsLayout = () => {

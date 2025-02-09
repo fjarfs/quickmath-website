@@ -61,7 +61,7 @@ const MainDemo = ({ blogs }) => {
                     Top Popular Course
                   </span>
                   <h2 className="title">
-                    Histudy Course student <br /> can join with us.
+                    QuickMath Course student <br /> can join with us.
                   </h2>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const MainDemo = ({ blogs }) => {
                       EDUCATION FOR EVERYONE
                     </span>
                     <h2 className="title">
-                      People like histudy education. <br /> No joking - here’s
+                      People like QuickMath education. <br /> No joking - here’s
                       the proof!
                     </h2>
                   </div>

@@ -19,7 +19,7 @@
                     "id": 1,
                     "link": "/konsultasi",
                     "title": "Konsultasi Tugas",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Konsultasi tugas, tanya jawab dan diskusi via chat dengan tutor terbaik sampai memhaminya",
                     "img": "/images/feature/konsultasi.png",
                     "badget": ""
                   },
@@ -27,15 +27,15 @@
                     "id": 2,
                     "link": "/les-privat",
                     "title": "Les Privat",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Belajar kapan saja dan dimana saja secara live. Dapatkan tutor privat terbaik",
                     "img": "/images/feature/les.png",
                     "badget": ""
                   },
                   {
                     "id": 3,
                     "link": "/bank-materi",
-                    "title": "Bank Materi",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "title": "Materi",
+                    "shortDesc": "Kumpulan materi dalam bentu vidio yang akan membantu kamu dalam memahami pelajaran",
                     "img": "/images/feature/materi.png",
                     "badget": "Coming Soon"
                   },
@@ -43,7 +43,7 @@
                     "id": 4,
                     "link": "/math-solver",
                     "title": "Math Solver",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Kalkulator canggih buat memecahkan soal matematika lengkap dengan caranya",
                     "img": "/images/feature/mathsolver.png",
                     "badget": "Coming Soon"
                   },
@@ -51,7 +51,7 @@
                     "id": 5,
                     "link": "/misi",
                     "title": "Misi",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Selesaikan misi-misi dan kamu akan mendapatkan koin QuickMath.",
                     "img": "/images/feature/mission.png",
                     "badget": "Coming Soon"
                   },
@@ -59,7 +59,7 @@
                     "id": 6,
                     "link": "/chat-ai",
                     "title": "Chat AI",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Asisten pintar yang bantu jawab soal dan jelasin materi pelajaran dengan simpel.",
                     "img": "/images/feature/chat-ai.png",
                     "badget": "Coming Soon"
                   },
@@ -67,7 +67,7 @@
                     "id": 7,
                     "link": "/referral",
                     "title": "Referral",
-                    "shortDesc": "Belajar privat dengan guru terbaik pilihan QuickMath",
+                    "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus koin",
                     "img": "/images/feature/referral.png",
                     "badget": "Coming Soon"
                   }

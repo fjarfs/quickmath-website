@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import LessonQuizResultLayout from "./(quiz-result)";
 
 export const metadata = {
-  title: "Lesson Quiz Result - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Lesson Quiz Result - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const LessonQuizResultPage = () => {

@@ -24,9 +24,9 @@ const PricingMain = ({ title, tag }) => {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid" style={{padding: 50}}>
         {title ? (
-          <div className="row g-5 mb--60">
+          <div className="row g-5 mb--60" >
             <div className="col-12 col-lg-6 col-md-6">
               <div className="section-title text-start">
                 <span className="subtitle bg-pink-opacity">{tag}</span>

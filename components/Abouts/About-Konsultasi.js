@@ -24,7 +24,7 @@ const AboutKonsultasi = () => {
               data-sal="slide-up"
               data-sal-duration="700"
             >
-              <p className="mb--40 mb_sm--20 description">{data.desc}</p>
+              <p className="mb--20 mb_sm--10 description">{data.desc}</p>
             </div>
           </div>
         ))}

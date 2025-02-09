@@ -3,8 +3,8 @@ import QuizWithPoinLayout from "./(point)";
 
 export const metadata = {
   title:
-    "Quiz with individual point - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Quiz with individual point - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const LessonLayout = () => {

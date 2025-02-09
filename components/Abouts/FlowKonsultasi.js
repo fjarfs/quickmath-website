@@ -12,7 +12,7 @@ const FlowKonsultasi = ({ isDesc, head }) => {
     <>
       {FlowData &&
         FlowData.dataOne.map((data, index) => (
-          <div className="container" key={index}>
+          <div className="container mb--100" key={index}>
             {head === undefined ? (
               <CounterHead
                 bgClass="bg-primary-opacity"

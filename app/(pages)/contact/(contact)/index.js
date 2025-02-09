@@ -29,7 +29,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                      QuickMath Course Contact <br /> can join with us.
                     </h2>
                   </div>
                 </div>

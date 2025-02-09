@@ -3,8 +3,8 @@ import ReviewPage from "./(reviews)";
 
 export const metadata = {
   title:
-    "Instructor Reviews Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Reviews Course - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const ReviewLayout = () => {

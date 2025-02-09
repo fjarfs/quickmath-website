@@ -27756,7 +27756,7 @@ blockquote.has-text-align-right cite,
 @media only screen and (max-width: 767px) {
   .rbt-banner-1.variation-2 {
     padding: 0 15px;
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 50px;
   }
 }

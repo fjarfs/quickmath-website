@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import CardPage from "./(card)";
 
 export const metadata = {
-  title: "Card - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Card - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const CardLayout = () => {

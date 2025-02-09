@@ -3,7 +3,7 @@ import PrivacyPolicyPage from "./(privacy-policy)";
 
 export const metadata = {
   title: "Kebijakan Privasi - QuickMath",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const PrivacyPolicyLayout = () => {

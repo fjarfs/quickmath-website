@@ -3,7 +3,7 @@ import MathSolverLayout from "./(math-solver)";
 
 export const metadata = {
   title: "QuickMath - Math Solver",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const MathSolverPage = () => {

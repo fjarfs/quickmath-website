@@ -4,7 +4,7 @@ import LesLayout from "./(les-privat)";
 
 export const metadata = {
   title: "QuickMath - Les Privat",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const KonsultasiPage = () => {

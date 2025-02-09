@@ -11,12 +11,12 @@ const ContactUs = ({}) => {
             <div className="inner">
               <div className="content text-left">
                 <h4 className="title">
-                  Punya Pertanyaan? <br/>Kami Siap Membantu Anda!
+                  Punya Pertanyaan? <br/>Kami Siap Membantu Kamu!
                 </h4>
                 <div className="call-to-btn text-start mt--30">
                   <Link
                     className="rbt-btn btn-gradient hover-icon-reverse radius-round"
-                    href="https://wa.me/6282133599318?text=Hello%20there!%20I%20would%20like%20to%20ask%20about%20your%20services."
+                    href="https://wa.me/6282133599318"
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Hubungi Kami</span>

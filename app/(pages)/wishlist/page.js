@@ -1,8 +1,8 @@
 import WishlistPage from "./(wishlist)";
 
 export const metadata = {
-  title: "Wishlist - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Wishlist - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const WishlistLayout = () => {

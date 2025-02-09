@@ -3,7 +3,7 @@ import TestimoniLayout from "./(testimoni)";
 
 export const metadata = {
   title: "QuickMath - Testimoni",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const TestimoniPage = () => {

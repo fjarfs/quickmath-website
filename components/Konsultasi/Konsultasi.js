@@ -7,6 +7,7 @@ import ContactUs from "../Contacts/ContactUs";
 import AboutKonsultasi from "../Abouts/About-Konsultasi";
 import { useEffect } from "react";
 import sal from "sal.js";
+import Link from "next/link";
 
 const KonsultasiComp = () => {
   useEffect(() => {
@@ -27,12 +28,16 @@ const KonsultasiComp = () => {
         </div>
       </div>
 
+      <div className="rbt-section-gap2Top">
+        <FlowKonsultasi />
+      </div>
+
       <div className="rbt-section-gap2Bottom" id="konsultasi-pricing">
-        <div className="section-title text-center mb--50">
+        <div className="section-title text-center mb--10">
           <span className="subtitle bg-pink-opacity">HARGA PAKET</span>
           <h2 className="title">Harga Fleksibel Sesuai Kebutuhan</h2>
         </div>
-        <div className="container">
+        <div className="container-fluid">
         <KonsultasiPricing />
         </div>
       </div>
@@ -44,27 +49,43 @@ const KonsultasiComp = () => {
       </div>
 
       <div className="rbt-section-gap2Top">
-        <FlowKonsultasi />
-      </div>
-
-      <div className="rbt-section-gap2Top">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                  Instruktur Kami
+                  Master Tutor Kami
                 </span>
-                <h2 className="title">Guru Inspirasi Anda</h2>
+                <h2 className="title">Tutor Inspirasi Kamu</h2>
               </div>
             </div>
           </div>
           <Instruktur />
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="load-more-btn mt--50 text-center">
+                <Link
+                  className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
+                  href="/tutor-all"
+                >
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">Lihat Semua Tutor</span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="rbt-section-gap2">
-        <TestimonialFour />
+        <TestimonialFour start={0} end={3}/>
       </div>
     </>
   );

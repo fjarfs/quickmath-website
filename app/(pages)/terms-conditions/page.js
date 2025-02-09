@@ -3,7 +3,7 @@ import TermsConditionPage from "./(terms-conditions)";
 
 export const metadata = {
   title: "Syarat & Ketentuan - QuickMath",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const TermsConditionLayout = () => {

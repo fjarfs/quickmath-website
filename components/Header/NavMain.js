@@ -111,18 +111,18 @@ const NavMain = () => {
           </Link>
         </li>
 
-        {/* TENTANG KAMI */}
+        {/* HARGA PAKET */}
         <li className="position-static">
           <Link
-            href="/about-us"
+            href="/harga-paket"
             className={`${
-              isActive("about-us") || activeMenuItem === "about-us"
+              isActive("harga-paket") || activeMenuItem === "harga-paket"
                 ? "active"
                 : ""
             }`}
-            onClick={() => toggleMenuItem("about-us")}
+            onClick={() => toggleMenuItem("harga-paket")}
           >
-            Tentang Kami
+            Harga Paket
           </Link>
         </li>
 
@@ -141,18 +141,18 @@ const NavMain = () => {
           </Link>
         </li>
 
-        {/* HARGA PAKET */}
+        {/* TENTANG KAMI */}
         <li className="position-static">
           <Link
-            href="/harga-paket"
+            href="/about-us"
             className={`${
-              isActive("harga-paket") || activeMenuItem === "harga-paket"
+              isActive("about-us") || activeMenuItem === "about-us"
                 ? "active"
                 : ""
             }`}
-            onClick={() => toggleMenuItem("harga-paket")}
+            onClick={() => toggleMenuItem("about-us")}
           >
-            Harga Paket
+            Tentang Kami
           </Link>
         </li>
 

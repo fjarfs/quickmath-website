@@ -37,13 +37,13 @@ const PrivacyPolicy = () => {
               <h4>Selamat Datang di Kebijakan Privasi PT QUICKMATH EDUKASI INDONESIA (QUICKMATH)</h4>
               <p>
                 Kebijakan Privasi ini menjelaskan kebijakan dan prosedur Kami
-                terkait pengumpulan, penggunaan, dan pengungkapan informasi Anda
-                saat Anda menggunakan Layanan, serta menjelaskan hak privasi
-                Anda dan bagaimana hukum melindungi Anda.
+                terkait pengumpulan, penggunaan, dan pengungkapan informasi Kamu
+                saat Kamu menggunakan Layanan, serta menjelaskan hak privasi
+                Kamu dan bagaimana hukum melindungi Kamu.
               </p>
               <p>
-                Kami menggunakan Data Pribadi Anda untuk menyediakan dan
-                meningkatkan Layanan. Dengan menggunakan Layanan, Anda
+                Kami menggunakan Data Pribadi Kamu untuk menyediakan dan
+                meningkatkan Layanan. Dengan menggunakan Layanan, Kamu
                 menyetujui pengumpulan dan penggunaan informasi sesuai dengan
                 Kebijakan Privasi ini. Kebijakan Privasi ini dibuat dengan
                 bantuan{" "}
@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
                 <li>
                   <p>
                     <strong>Akun</strong> berarti akun unik yang dibuat untuk
-                    Anda guna mengakses Layanan kami atau bagian dari Layanan
+                    Kamu guna mengakses Layanan kami atau bagian dari Layanan
                     kami.
                   </p>
                 </li>
@@ -102,8 +102,8 @@ const PrivacyPolicy = () => {
                 <li>
                   <p>
                     <strong>Cookie</strong> adalah file kecil yang ditempatkan
-                    pada komputer, perangkat seluler, atau perangkat lain Anda
-                    oleh situs web, yang berisi detail riwayat penelusuran Anda
+                    pada komputer, perangkat seluler, atau perangkat lain Kamu
+                    oleh situs web, yang berisi detail riwayat penelusuran Kamu
                     di situs web tersebut untuk berbagai kegunaan.
                   </p>
                 </li>
@@ -174,7 +174,7 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>
                   <p>
-                    <strong>Anda</strong> berarti individu yang mengakses atau
+                    <strong>Kamu</strong> berarti individu yang mengakses atau
                     menggunakan Layanan, atau perusahaan, atau badan hukum lain
                     atas nama individu tersebut mengakses atau menggunakan
                     Layanan, sebagaimana berlaku.
@@ -182,13 +182,13 @@ const PrivacyPolicy = () => {
                 </li>
               </ul>
 
-              <h4>Pengumpulan dan Penggunaan Data Pribadi Anda</h4>
+              <h4>Pengumpulan dan Penggunaan Data Pribadi Kamu</h4>
               <h5>Jenis Data yang Dikumpulkan</h5>
               <h6>Data Pribadi</h6>
               <p>
-                Saat menggunakan Layanan Kami, Kami mungkin meminta Anda untuk
+                Saat menggunakan Layanan Kami, Kami mungkin meminta Kamu untuk
                 memberikan informasi pribadi tertentu yang dapat digunakan untuk
-                menghubungi atau mengidentifikasi Anda. Informasi pribadi dapat
+                menghubungi atau mengidentifikasi Kamu. Informasi pribadi dapat
                 mencakup, tetapi tidak terbatas pada:
               </p>
               <ul>
@@ -205,25 +205,25 @@ const PrivacyPolicy = () => {
               </p>
               <p>
                 Data Penggunaan dapat mencakup informasi seperti alamat Protokol
-                Internet perangkat Anda (misalnya, alamat IP), jenis browser,
-                versi browser, halaman Layanan kami yang Anda kunjungi, waktu
-                dan tanggal kunjungan Anda, waktu yang dihabiskan di
+                Internet perangkat Kamu (misalnya, alamat IP), jenis browser,
+                versi browser, halaman Layanan kami yang Kamu kunjungi, waktu
+                dan tanggal kunjungan Kamu, waktu yang dihabiskan di
                 halaman-halaman tersebut, pengenal perangkat unik, dan data
                 diagnostik lainnya.
               </p>
               <p>
-                Ketika Anda mengakses Layanan melalui perangkat seluler, Kami
+                Ketika Kamu mengakses Layanan melalui perangkat seluler, Kami
                 mungkin mengumpulkan informasi tertentu secara otomatis,
                 termasuk tetapi tidak terbatas pada jenis perangkat seluler yang
-                Anda gunakan, ID unik perangkat seluler Anda, alamat IP
-                perangkat seluler Anda, sistem operasi perangkat seluler Anda,
-                jenis browser Internet seluler yang Anda gunakan, pengenal
+                Kamu gunakan, ID unik perangkat seluler Kamu, alamat IP
+                perangkat seluler Kamu, sistem operasi perangkat seluler Kamu,
+                jenis browser Internet seluler yang Kamu gunakan, pengenal
                 perangkat unik, dan data diagnostik lainnya.
               </p>
 
               <h5>Informasi dari Layanan Media Sosial Pihak Ketiga</h5>
               <p>
-                Perusahaan memungkinkan Anda untuk membuat akun dan masuk untuk
+                Perusahaan memungkinkan Kamu untuk membuat akun dan masuk untuk
                 menggunakan Layanan melalui Layanan Media Sosial Pihak Ketiga
                 berikut:
               </p>
@@ -235,23 +235,23 @@ const PrivacyPolicy = () => {
                 <li>LinkedIn</li>
               </ul>
               <p>
-                Jika Anda memutuskan untuk mendaftar melalui atau memberikan
+                Jika Kamu memutuskan untuk mendaftar melalui atau memberikan
                 kami akses ke Layanan Media Sosial Pihak Ketiga, Kami dapat
                 mengumpulkan Data Pribadi yang sudah terkait dengan akun Layanan
-                Media Sosial Pihak Ketiga Anda, seperti nama Anda, alamat email
-                Anda, aktivitas Anda, atau daftar kontak Anda.
+                Media Sosial Pihak Ketiga Kamu, seperti nama Kamu, alamat email
+                Kamu, aktivitas Kamu, atau daftar kontak Kamu.
               </p>
 
               <h5>Informasi yang Dikumpulkan saat Menggunakan Aplikasi</h5>
               <p>
                 Saat menggunakan Aplikasi Kami, untuk menyediakan fitur-fitur
-                Aplikasi Kami, Kami dapat mengumpulkan, dengan izin Anda
+                Aplikasi Kami, Kami dapat mengumpulkan, dengan izin Kamu
                 sebelumnya:
               </p>
               <ul>
                 <li>
                   Gambar dan informasi lain dari kamera dan pustaka foto
-                  perangkat Anda
+                  perangkat Kamu
                 </li>
               </ul>
               <p>
@@ -259,11 +259,11 @@ const PrivacyPolicy = () => {
                 Layanan Kami, untuk meningkatkan dan menyesuaikan Layanan Kami.
                 Informasi tersebut dapat diunggah ke server Perusahaan dan/atau
                 server Penyedia Layanan, atau dapat disimpan hanya di perangkat
-                Anda.
+                Kamu.
               </p>
               <p>
-                Anda dapat mengaktifkan atau menonaktifkan akses ke informasi
-                ini kapan saja melalui pengaturan perangkat Anda.
+                Kamu dapat mengaktifkan atau menonaktifkan akses ke informasi
+                ini kapan saja melalui pengaturan perangkat Kamu.
               </p>
 
               <h5>Teknologi Pelacakan dan Cookie</h5>
@@ -278,10 +278,10 @@ const PrivacyPolicy = () => {
               <ul>
                 <li>
                   <strong>Cookie atau Cookie Browser.</strong> Cookie adalah
-                  file kecil yang ditempatkan di perangkat Anda. Anda dapat
-                  mengatur browser Anda untuk menolak semua Cookie atau memberi
-                  tahu Anda ketika Cookie dikirim. Namun, jika Anda tidak
-                  menerima Cookie, Anda mungkin tidak dapat menggunakan beberapa
+                  file kecil yang ditempatkan di perangkat Kamu. Kamu dapat
+                  mengatur browser Kamu untuk menolak semua Cookie atau memberi
+                  tahu Kamu ketika Cookie dikirim. Namun, jika Kamu tidak
+                  menerima Cookie, Kamu mungkin tidak dapat menggunakan beberapa
                   bagian dari Layanan Kami.
                 </li>
                 <li>
@@ -297,13 +297,13 @@ const PrivacyPolicy = () => {
               <p>
                 Cookie dapat berupa Cookie "Persisten" atau "Sesi". Cookie
                 Persisten tetap ada di komputer pribadi atau perangkat seluler
-                Anda saat Anda offline, sedangkan Cookie Sesi dihapus segera
-                setelah Anda menutup browser web Anda.
+                Kamu saat Kamu offline, sedangkan Cookie Sesi dihapus segera
+                setelah Kamu menutup browser web Kamu.
               </p>
 
-              <h4>Penggunaan Data Pribadi Anda</h4>
+              <h4>Penggunaan Data Pribadi Kamu</h4>
               <p>
-                Perusahaan dapat menggunakan Data Pribadi Anda untuk tujuan
+                Perusahaan dapat menggunakan Data Pribadi Kamu untuk tujuan
                 berikut:
               </p>
               <ul>
@@ -312,41 +312,41 @@ const PrivacyPolicy = () => {
                   , termasuk untuk memantau penggunaan Layanan Kami.
                 </li>
                 <li>
-                  <strong>Untuk mengelola Akun Anda:</strong> untuk mengelola
-                  pendaftaran Anda sebagai pengguna Layanan. Data Pribadi yang
-                  Anda berikan dapat memberi Anda akses ke berbagai fitur
-                  Layanan yang tersedia untuk Anda sebagai pengguna terdaftar.
+                  <strong>Untuk mengelola Akun Kamu:</strong> untuk mengelola
+                  pendaftaran Kamu sebagai pengguna Layanan. Data Pribadi yang
+                  Kamu berikan dapat memberi Kamu akses ke berbagai fitur
+                  Layanan yang tersedia untuk Kamu sebagai pengguna terdaftar.
                 </li>
                 <li>
                   <strong>Untuk melaksanakan kontrak:</strong> pengembangan,
                   kepatuhan, dan pelaksanaan kontrak pembelian untuk produk,
-                  barang, atau layanan yang telah Anda beli atau kontrak lainnya
+                  barang, atau layanan yang telah Kamu beli atau kontrak lainnya
                   dengan Kami melalui Layanan.
                 </li>
                 <li>
-                  <strong>Untuk menghubungi Anda:</strong> Untuk menghubungi
-                  Anda melalui email, panggilan telepon, SMS, atau bentuk
+                  <strong>Untuk menghubungi Kamu:</strong> Untuk menghubungi
+                  Kamu melalui email, panggilan telepon, SMS, atau bentuk
                   komunikasi elektronik lainnya terkait pembaruan atau
                   komunikasi informatif mengenai fitur, produk, atau layanan
-                  yang Anda gunakan.
+                  yang Kamu gunakan.
                 </li>
                 <li>
                   <strong>
-                    Untuk memberikan Anda berita atau penawaran khusus:
+                    Untuk memberikan Kamu berita atau penawaran khusus:
                   </strong>{" "}
-                  Memberikan Anda informasi tentang produk atau layanan yang
-                  mirip dengan yang telah Anda beli atau tanyakan, kecuali jika
-                  Anda memilih untuk tidak menerima informasi tersebut.
+                  Memberikan Kamu informasi tentang produk atau layanan yang
+                  mirip dengan yang telah Kamu beli atau tanyakan, kecuali jika
+                  Kamu memilih untuk tidak menerima informasi tersebut.
                 </li>
               </ul>
 
-              <h4>Penyimpanan Data Pribadi Anda</h4>
+              <h4>Penyimpanan Data Pribadi Kamu</h4>
               <p>
-                Perusahaan akan menyimpan Data Pribadi Anda hanya selama
+                Perusahaan akan menyimpan Data Pribadi Kamu hanya selama
                 diperlukan untuk tujuan yang tercantum dalam Kebijakan Privasi
-                ini. Kami akan menyimpan dan menggunakan Data Pribadi Anda
+                ini. Kami akan menyimpan dan menggunakan Data Pribadi Kamu
                 sejauh diperlukan untuk memenuhi kewajiban hukum kami (misalnya,
-                jika kami diharuskan menyimpan data Anda untuk mematuhi hukum
+                jika kami diharuskan menyimpan data Kamu untuk mematuhi hukum
                 yang berlaku), menyelesaikan sengketa, dan menegakkan perjanjian
                 dan kebijakan hukum kami.
               </p>
@@ -359,47 +359,47 @@ const PrivacyPolicy = () => {
                 jangka waktu yang lebih lama.
               </p>
 
-              <h4>Transfer Data Pribadi Anda</h4>
+              <h4>Transfer Data Pribadi Kamu</h4>
               <p>
-                Informasi Anda, termasuk Data Pribadi, diproses di kantor
+                Informasi Kamu, termasuk Data Pribadi, diproses di kantor
                 operasi Perusahaan dan di tempat lain di mana pihak-pihak yang
                 terlibat dalam pemrosesan berada. Ini berarti bahwa informasi
                 tersebut dapat ditransfer ke — dan disimpan di — komputer yang
                 berlokasi di luar negara bagian, provinsi, negara, atau
-                yurisdiksi pemerintah Anda di mana undang-undang perlindungan
-                data dapat berbeda dari yurisdiksi Anda.
+                yurisdiksi pemerintah Kamu di mana undang-undang perlindungan
+                data dapat berbeda dari yurisdiksi Kamu.
               </p>
               <p>
-                Persetujuan Anda terhadap Kebijakan Privasi ini diikuti dengan
-                pengiriman informasi tersebut merupakan persetujuan Anda
+                Persetujuan Kamu terhadap Kebijakan Privasi ini diikuti dengan
+                pengiriman informasi tersebut merupakan persetujuan Kamu
                 terhadap transfer tersebut.
               </p>
               <p>
                 Perusahaan akan mengambil semua langkah yang wajar untuk
-                memastikan bahwa data Anda diperlakukan dengan aman dan sesuai
+                memastikan bahwa data Kamu diperlakukan dengan aman dan sesuai
                 dengan Kebijakan Privasi ini dan bahwa tidak ada transfer Data
-                Pribadi Anda yang akan dilakukan ke suatu organisasi atau negara
+                Pribadi Kamu yang akan dilakukan ke suatu organisasi atau negara
                 kecuali ada kontrol yang memadai di tempat termasuk keamanan
-                data Anda dan informasi pribadi lainnya.
+                data Kamu dan informasi pribadi lainnya.
               </p>
 
-              <h4>Penghapusan Data Pribadi Anda</h4>
+              <h4>Penghapusan Data Pribadi Kamu</h4>
               <p>
-                Anda memiliki hak untuk menghapus atau meminta bantuan Kami
+                Kamu memiliki hak untuk menghapus atau meminta bantuan Kami
                 dalam menghapus Data Pribadi yang telah Kami kumpulkan tentang
-                Anda.
+                Kamu.
               </p>
               <p>
-                Layanan Kami dapat memberi Anda kemampuan untuk menghapus
-                informasi tertentu tentang Anda dari dalam Layanan.
+                Layanan Kami dapat memberi Kamu kemampuan untuk menghapus
+                informasi tertentu tentang Kamu dari dalam Layanan.
               </p>
               <p>
-                Anda dapat memperbarui, mengubah, atau menghapus informasi Anda
-                kapan saja dengan masuk ke Akun Anda, jika Anda memilikinya, dan
-                mengunjungi bagian pengaturan akun yang memungkinkan Anda untuk
-                mengelola informasi pribadi Anda. Anda juga dapat menghubungi
+                Kamu dapat memperbarui, mengubah, atau menghapus informasi Kamu
+                kapan saja dengan masuk ke Akun Kamu, jika Kamu memilikinya, dan
+                mengunjungi bagian pengaturan akun yang memungkinkan Kamu untuk
+                mengelola informasi pribadi Kamu. Kamu juga dapat menghubungi
                 Kami untuk meminta akses, mengoreksi, atau menghapus informasi
-                pribadi apa pun yang telah Anda berikan kepada Kami.
+                pribadi apa pun yang telah Kamu berikan kepada Kami.
               </p>
               <p>
                 Namun, harap diperhatikan bahwa Kami mungkin perlu menyimpan
@@ -407,26 +407,26 @@ const PrivacyPolicy = () => {
                 hukum untuk melakukannya.
               </p>
 
-              <h4>Pengungkapan Data Pribadi Anda</h4>
+              <h4>Pengungkapan Data Pribadi Kamu</h4>
               <h5>Transaksi Bisnis</h5>
               <p>
                 Jika Perusahaan terlibat dalam merger, akuisisi, atau penjualan
-                aset, Data Pribadi Anda dapat dipindahkan. Kami akan memberikan
-                pemberitahuan sebelum Data Pribadi Anda dipindahkan dan tunduk
+                aset, Data Pribadi Kamu dapat dipindahkan. Kami akan memberikan
+                pemberitahuan sebelum Data Pribadi Kamu dipindahkan dan tunduk
                 pada Kebijakan Privasi yang berbeda.
               </p>
 
               <h5>Penegakan Hukum</h5>
               <p>
                 Dalam keadaan tertentu, Perusahaan mungkin diminta untuk
-                mengungkapkan Data Pribadi Anda jika diwajibkan oleh hukum atau
+                mengungkapkan Data Pribadi Kamu jika diwajibkan oleh hukum atau
                 sebagai tanggapan atas permintaan yang sah oleh otoritas publik
                 (misalnya pengadilan atau lembaga pemerintah).
               </p>
 
               <h5>Kebutuhan Hukum Lainnya</h5>
               <p>
-                Perusahaan dapat mengungkapkan Data Pribadi Anda dengan itikad
+                Perusahaan dapat mengungkapkan Data Pribadi Kamu dengan itikad
                 baik bahwa tindakan tersebut diperlukan untuk:
               </p>
               <ul>
@@ -444,13 +444,13 @@ const PrivacyPolicy = () => {
                 <li>Melindungi dari tanggung jawab hukum</li>
               </ul>
 
-              <h4>Keamanan Data Pribadi Anda</h4>
+              <h4>Keamanan Data Pribadi Kamu</h4>
               <p>
-                Keamanan Data Pribadi Anda penting bagi Kami, tetapi ingat bahwa
+                Keamanan Data Pribadi Kamu penting bagi Kami, tetapi ingat bahwa
                 tidak ada metode transmisi melalui Internet, atau metode
                 penyimpanan elektronik yang 100% aman. Meskipun Kami berusaha
                 menggunakan cara yang dapat diterima secara komersial untuk
-                melindungi Data Pribadi Anda, Kami tidak dapat menjamin keamanan
+                melindungi Data Pribadi Kamu, Kami tidak dapat menjamin keamanan
                 mutlaknya.
               </p>
 
@@ -459,8 +459,8 @@ const PrivacyPolicy = () => {
                 Layanan Kami tidak ditujukan untuk siapa pun di bawah usia 13
                 tahun. Kami tidak dengan sengaja mengumpulkan informasi yang
                 dapat diidentifikasi secara pribadi dari siapa pun di bawah usia
-                13 tahun. Jika Anda adalah orang tua atau wali dan Anda
-                mengetahui bahwa anak Anda telah memberikan Data Pribadi kepada
+                13 tahun. Jika Kamu adalah orang tua atau wali dan Kamu
+                mengetahui bahwa anak Kamu telah memberikan Data Pribadi kepada
                 Kami, harap hubungi Kami. Jika Kami mengetahui bahwa Kami telah
                 mengumpulkan Data Pribadi dari siapa pun di bawah usia 13 tahun
                 tanpa verifikasi persetujuan orang tua, Kami akan mengambil
@@ -468,19 +468,19 @@ const PrivacyPolicy = () => {
               </p>
               <p>
                 Jika Kami harus mengandalkan persetujuan sebagai dasar hukum
-                untuk memproses informasi Anda dan negara Anda memerlukan
+                untuk memproses informasi Kamu dan negara Kamu memerlukan
                 persetujuan dari orang tua, Kami mungkin memerlukan persetujuan
-                orang tua Anda sebelum Kami mengumpulkan dan menggunakan
+                orang tua Kamu sebelum Kami mengumpulkan dan menggunakan
                 informasi tersebut.
               </p>
 
               <h4>Tautan ke Situs Web Lain</h4>
               <p>
                 Layanan Kami mungkin berisi tautan ke situs web lain yang tidak
-                dioperasikan oleh Kami. Jika Anda mengklik tautan pihak ketiga,
-                Anda akan diarahkan ke situs pihak ketiga tersebut. Kami sangat
-                menyarankan Anda untuk meninjau Kebijakan Privasi setiap situs
-                yang Anda kunjungi.
+                dioperasikan oleh Kami. Jika Kamu mengklik tautan pihak ketiga,
+                Kamu akan diarahkan ke situs pihak ketiga tersebut. Kami sangat
+                menyarankan Kamu untuk meninjau Kebijakan Privasi setiap situs
+                yang Kamu kunjungi.
               </p>
               <p>
                 Kami tidak memiliki kendali atas dan tidak bertanggung jawab
@@ -491,25 +491,25 @@ const PrivacyPolicy = () => {
               <h4>Perubahan pada Kebijakan Privasi ini</h4>
               <p>
                 Kami dapat memperbarui Kebijakan Privasi Kami dari waktu ke
-                waktu. Kami akan memberi tahu Anda tentang setiap perubahan
+                waktu. Kami akan memberi tahu Kamu tentang setiap perubahan
                 dengan memposting Kebijakan Privasi baru di halaman ini.
               </p>
               <p>
-                Kami akan memberi tahu Anda melalui email dan/atau pemberitahuan
+                Kami akan memberi tahu Kamu melalui email dan/atau pemberitahuan
                 yang mencolok di Layanan Kami, sebelum perubahan menjadi efektif
                 dan memperbarui tanggal "Terakhir diperbarui" di bagian atas
                 Kebijakan Privasi ini.
               </p>
               <p>
-                Anda disarankan untuk meninjau Kebijakan Privasi ini secara
+                Kamu disarankan untuk meninjau Kebijakan Privasi ini secara
                 berkala untuk mengetahui perubahan apa pun. Perubahan pada
                 Kebijakan Privasi ini berlaku saat diposting di halaman ini.
               </p>
 
               <h4>Hubungi Kami</h4>
               <p>
-                Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini,
-                Anda dapat menghubungi kami:
+                Jika Kamu memiliki pertanyaan tentang Kebijakan Privasi ini,
+                Kamu dapat menghubungi kami:
               </p>
               <ul>
                 <li>Melalui email: admin@quickmath.id</li>

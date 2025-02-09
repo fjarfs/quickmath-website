@@ -1,8 +1,8 @@
 import CheckoutPage from "./(checkout)";
 
 export const metadata = {
-  title: "Checkout - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Checkout - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const CheckoutLayout = () => {

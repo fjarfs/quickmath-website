@@ -25,25 +25,27 @@ const OurApps = ({OurAppsData, start, end}) => {
                         <Link
                           className="mr--5"
                           href="https://play.google.com/store/apps/details?id=com.quickmath.customer"
+                          target="_blank"
                         >
                           <Image
                             src={downloadPLayStore}
                             width={200}
                             height={50}
                             priority={true}
-                            alt="Education Logo Images"
+                            alt="Play Store"
                           />
                         </Link>
                         <Link
                           className="ml--5"
                           href="https://apps.apple.com/app/id6739167059"
+                          target="_blank"
                         >
                           <Image
                             src={downloadAppStore}
-                            width={190}
+                            width={180}
                             height={50}
                             priority={true}
-                            alt="Education Logo Images"
+                            alt="Apple Store"
                           />
                         </Link>
                       </div>

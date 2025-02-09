@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import AccordionPage from "./(accordion)";
 
 export const metadata = {
-  title: "Accordion - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Accordion - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const AccordionLayout = () => {

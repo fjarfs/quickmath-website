@@ -1,3 +1,3 @@
-const BASE_URL = 'https://dev-dashboard.quickmath.id/api/v1';
+const BASE_URL = process.env.API_URL;
 
 export const api = ( endpoint ) => `${BASE_URL}${endpoint}`

@@ -3,8 +3,8 @@ import BlogGridPage from "./(blog-grid)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Blog Grid - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Blog Grid - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const BlogGridLayout = async () => {

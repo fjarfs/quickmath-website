@@ -3,7 +3,7 @@ import TutorAllLayout from "./(tutor-all)";
 
 export const metadata = {
   title: "QuickMath - Semua Tutor",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const TutorAllPage = () => {

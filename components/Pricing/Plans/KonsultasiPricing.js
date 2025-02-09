@@ -79,6 +79,20 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                     />
                   </SwiperSlide>
                 ))}
+
+                {/* ExclusivePlan Slides */}
+                {data.realTime.map((item, innerIndex) => (
+                  <SwiperSlide key={`exclusive-${innerIndex}`}>
+                    <ExclusivePlan
+                      {...item}
+                      linkButton="/download-apps"
+                      item={item}
+                      toggle={pricingThree}
+                      styleType="three"
+                      parentClass="style-2"
+                    />
+                  </SwiperSlide>
+                ))}
                 <div
                   className="rbt-swiper-pagination d-lg-none d-sm-block"
                   style={{ bottom: "0" }}
@@ -87,7 +101,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
             ) : (
               // Layout grid untuk desktop
               <div className="row g-5">
-              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+              <div className="col-xl-3 col-lg-6 col-md-6 col-12">
                 {data.reguler.map((item, innerIndex) => (
                   <BasicPlan
                     {...item}
@@ -100,7 +114,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                   />
                 ))}
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+              <div className="col-xl-3 col-lg-6 col-md-6 col-12">
                 {data.kilat.map((item, innerIndex) => (
                   <StandardPlan
                     {...item}
@@ -113,7 +127,20 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                   />
                 ))}
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+              <div className="col-xl-3 col-lg-6 col-md-6 col-12">
+                {data.flash.map((item, innerIndex) => (
+                  <ExclusivePlan
+                    {...item}
+                    key={innerIndex}
+                    item={item}
+                    toggle={pricingThree}
+                    styleType="three"
+                    parentClass="style-2"
+                    linkButton={"/download-apps"}
+                  />
+                ))}
+              </div>
+              <div className="col-xl-3 col-lg-6 col-md-6 col-12">
                 {data.realTime.map((item, innerIndex) => (
                   <ExclusivePlan
                     {...item}

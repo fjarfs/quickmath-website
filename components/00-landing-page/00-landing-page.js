@@ -48,7 +48,7 @@ const MainPage = ({ articles, promo }) => {
                   </span>
                   <h2 className="title">
                     Jelajahi Layanan Terbaik
-                    <br /> yang Membantu Anda Meraih Prestasi
+                    <br /> yang Membantu Kamu Meraih Prestasi
                   </h2>
                 </div>
               </div>
@@ -99,7 +99,7 @@ const MainPage = ({ articles, promo }) => {
                     Top Popular Course
                   </span>
                   <h2 className="title">
-                    Histudy Course student <br /> can join with us.
+                    QuickMath Course student <br /> can join with us.
                   </h2>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const MainPage = ({ articles, promo }) => {
                 <div className="section-title pl--100 pl_md--30 pl_sm--0">
                   <h2 className="title">Cerita Sukses Para Pelajar</h2>
                   <p className="description mt--20">
-                    Belajar efektif untuk semua jenjang, kuasai dunia, dan raih
+                    Belajar efektif untuk semua jenjang, kuasai pelajaran, dan raih
                     masa depan gemilang bersama QuickMath.
                   </p>
                   <div className="veiw-more-btn mt--20">
@@ -189,7 +189,7 @@ const MainPage = ({ articles, promo }) => {
                   <span className="subtitle bg-primary-opacity">
                     Master Tutor Kami
                   </span>
-                  <h2 className="title">Master Tutor Inspirasi Anda</h2>
+                  <h2 className="title">Master Tutor Inspirasi Kamu</h2>
                 </div>
               </div>
             </div>

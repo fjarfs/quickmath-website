@@ -3,8 +3,8 @@ import AssignmentsPage from "./(assignments)";
 
 export const metadata = {
   title:
-    "Instructor Assignments - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Assignments - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const AssignmentsLayout = () => {

@@ -2,7 +2,7 @@
   "aboutOne": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
+      "title": "Know About QuickMath",
       "subTitle": " Learning Platform",
       "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
       "images": [
@@ -53,7 +53,7 @@
   "aboutTwo": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
+      "title": "Know About QuickMath",
       "subTitle": " Learning Platform",
       "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
       "images": [
@@ -106,8 +106,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Histudy ? How does it work?",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose."
+          "accordionTitle": "What is QuickMath ? How does it work?",
+          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose."
         },
         {
           "collapse": "collapseTwo4",
@@ -125,7 +125,7 @@
           "collapsed": false,
           "show": false,
           "accordionTitle": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Histudy. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "desc": "Yes, We will get update the QuickMath. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
         },
         {
           "collapse": "collapseFour4",
@@ -133,8 +133,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "How can I run Histudy html template?",
-          "desc": "You can run Histudy easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node."
+          "accordionTitle": "How can I run QuickMath html template?",
+          "desc": "You can run QuickMath easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node."
         }
       ]
     }
@@ -142,13 +142,13 @@
   "aboutKonsultasi": [
     {
       "title": "Apa itu Konsultasi Tugas?",
-      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi."
+      "desc": "Membantu siswa menyelesaikan soal, PR, atau mempersiapkan ujian dengan lebih mudah. Melalui chat dengan tutor terbaik, siswa bisa mendapatkan penjelasan yang jelas dan solusi yang tepat untuk berbagai mata pelajaran. Layanan ini dirancang untuk membuat belajar jadi lebih efektif dan menyenangkan."
     }
   ],
   "aboutLesPrivat": [
     {
       "title": "Apa itu Les Privat?",
-      "desc": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi."
+      "desc": "Pembelajaran satu-satu melalui meet online live, khusus untuk satu siswa agar lebih fokus. Siswa bisa memilih tutor terbaik dan bebas request materi atau soal sesuai kebutuhan. Setiap sesi berlangsung selama 45 menit, menjadikan belajar lebih efektif, fleksibel, dan interaktif!"
     }
   ],
   "aboutFour": [
@@ -161,7 +161,7 @@
   "aboutFive": [
     {
       "name": "John Lee",
-      "title": "The Founder Of Histudy Academy.",
+      "title": "The Founder Of QuickMath Academy.",
       "info": "Web teacher and leacture for future development.",
       "designation": "Web designer & developer",
       "phone": "+01910203040",
@@ -181,17 +181,17 @@
   ],
   "aboutSaven": [
     {
-      "tag": "ABOUT HISTUDY",
-      "title": "What is Histudy For You?.",
-      "strong": "Histudy educational platform",
+      "tag": "ABOUT QuickMath",
+      "title": "What is QuickMath For You?.",
+      "strong": "QuickMath educational platform",
       "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil.",
       "img": "/images/about/about-06.png"
     }
   ],
   "aboutEight": [
     {
-      "title": "What is Histudy For You?.",
-      "strong": "Histudy educational platform",
+      "title": "What is QuickMath For You?.",
+      "strong": "QuickMath educational platform",
       "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil."
     }
   ],
@@ -259,9 +259,9 @@
   ],
   "aboutBankMateri": [
     {
-      "tag": "TENTANG BANK MATERI",
-      "title": "Sudah Tahu Tentang Fitur Bank Materi? Yuk Cari Tahu!",
-      "strong": "Bank Materi",
+      "tag": "TENTANG MATERI",
+      "title": "Sudah Tahu Tentang Fitur Materi? Yuk Cari Tahu!",
+      "strong": "Materi",
       "desc": "adalah platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang",
       "img": "/images/feature/materi.png"
     }

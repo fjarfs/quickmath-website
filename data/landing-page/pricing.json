@@ -5,33 +5,37 @@
             "title": "Harga Fleksibel, Sesuai Kebutuhan",
             "konsultasi": "Konsultasi Tugas",
             "lesPrivat": "Les Privat",
-            "materi": "Bank Materi",
+            "materi": "Materi",
             "reguler": [
               {
-                "title": "Reguler",
-                "badge": "Free for a Month",
+                "title": "Next Day",
+                "badge": "",
                 "yearlyDuration": "yearly",
-                "monthlyAmount": 1500,
-                "highPrice": 9000,
+                "monthlyAmount": 2000,
+                "highPrice": 12500,
                 "monthlyDuration": "soal",
                 "isPopular": false,
                 "isPrimary": true,
                 "isActive": false,
                 "list": [
                   {
-                    "text": "Penjelasan tiap soal",
+                    "text": "SD SMP SMA Kuliah",
                     "isCheck": true
                   },
                   {
-                    "text": "Konsultasi soal via chat",
+                    "text": "Semua mata pelajaran",
                     "isCheck": true
                   },
                   {
-                    "text": "Rata-rata pengerjaan 1 menit",
+                    "text": "Penjelasan tiap soal/materi",
                     "isCheck": true
                   },
                   {
-                    "text": "Maksimal pengerjaan 1 hari",
+                    "text": "Konsultasi via chat",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Minimal penyelesaian 1 hari",
                     "isCheck": true
                   },
                   {
@@ -43,31 +47,75 @@
             ],
             "kilat": [
               {
-                "title": "Kilat",
-                "badge": "Most Popular",
+                "title": "Today",
+                "badge": "",
                 "yearlyDuration": "yearly",
                 "yearlyAmount": 100.99,
-                "monthlyAmount": 2500,
-                "highPrice": 10000,
+                "monthlyAmount": 3000,
+                "highPrice": 13000,
                 "monthlyDuration": "soal",
                 "isPopular": true,
                 "isSecondary": true,
                 "isActive": true,
                 "list": [
                   {
-                    "text": "Penjelasan tiap soal",
+                    "text": "SD SMP SMA Kuliah",
                     "isCheck": true
                   },
                   {
-                    "text": "Konsultasi soal via chat",
+                    "text": "Semua mata pelajaran",
                     "isCheck": true
                   },
                   {
-                    "text": "Rata-rata pengerjaan 1 menit",
+                    "text": "Penjelasan tiap soal/materi",
                     "isCheck": true
                   },
                   {
-                    "text": "Maksimal pengerjaan 5 jam",
+                    "text": "Konsultasi via chat",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Maksimal penyelesaian 1 hari",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Garansi uang kembali",
+                    "isCheck": true
+                  }
+                ]
+              }
+            ],
+            "flash": [
+              {
+                "title": "Flash",
+                "badge": "",
+                "yearlyDuration": "yearly",
+                "yearlyAmount": 99.99,
+                "monthlyAmount": 3000,
+                "highPrice": 14000,
+                "monthlyDuration": "soal",
+                "isPopular": false,
+                "isGreen": true,
+                "isActive": false,
+                "list": [
+                  {
+                    "text": "SD SMP SMA Kuliah",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Semua mata pelajaran",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Penjelasan tiap soal/materi",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Konsultasi via chat",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Maksimal penyelesaian 5 jam",
                     "isCheck": true
                   },
                   {
@@ -80,30 +128,34 @@
             "realTime": [
               {
                 "title": "Real Time",
-                "badge": "Free for a Month",
+                "badge": "",
                 "yearlyDuration": "yearly",
                 "yearlyAmount": 99.99,
-                "monthlyAmount": 3000,
-                "highPrice": 11000,
+                "monthlyAmount": 3500,
+                "highPrice": 15000,
                 "monthlyDuration": "soal",
                 "isPopular": false,
                 "isPink": true,
                 "isActive": false,
                 "list": [
                   {
-                    "text": "Penjelasan tiap soal",
+                    "text": "SD SMP SMA Kuliah",
                     "isCheck": true
                   },
                   {
-                    "text": "Konsultasi soal via chat",
+                    "text": "Semua mata pelajaran",
                     "isCheck": true
                   },
                   {
-                    "text": "Rata-rata pengerjaan 1 menit",
+                    "text": "Penjelasan tiap soal/materi",
                     "isCheck": true
                   },
                   {
-                    "text": "Bisa pesan secara mendadak",
+                    "text": "Konsultasi via chat",
+                    "isCheck": true
+                  },
+                  {
+                    "text": "Penyelesaian secara realtime",
                     "isCheck": true
                   },
                   {

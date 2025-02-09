@@ -27,7 +27,7 @@ const PromoBanner = ({ category }) => {
                   <h1 className="title mb--0">
                     {category && category.category
                       ? category.category
-                      : "Promo Menarik untuk Anda"}
+                      : "Promo Menarik untuk Kamu"}
                   </h1>
                   <Link href="#" className="rbt-badge-2">
                     <div className="image">🎉</div>
@@ -37,7 +37,7 @@ const PromoBanner = ({ category }) => {
                 <p className="description">
                   {category && category.desc
                     ? category.desc
-                    : "Nikmati promo menarik yang dirancang untuk mendukung perjalanan belajar Anda."}
+                    : "Nikmati promo menarik yang dirancang untuk mendukung perjalanan belajar Kamu."}
                 </p>
               </div>
             </div>

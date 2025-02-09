@@ -4,7 +4,7 @@ import { fetchArticleBySlug, getAllArticles } from "@/mdx";
 
 export const metadata = {
   title: "QuickMath - Semua Artikel",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const ArtikelAllLayout = async () => {

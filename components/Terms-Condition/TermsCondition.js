@@ -23,9 +23,9 @@ const TermsCondition = () => {
                 Selamat datang di PT QUICKMATH EDUKASI INDONESIA (QUICKMATH)!
               </strong>{" "}
               <br />
-              Dengan mengakses dan menggunakan layanan kami, Anda setuju untuk
+              Dengan mengakses dan menggunakan layanan kami, Kamu setuju untuk
               mematuhi syarat dan ketentuan yang tercantum di bawah ini. Jika
-              Anda tidak setuju dengan syarat dan ketentuan ini, harap tidak
+              Kamu tidak setuju dengan syarat dan ketentuan ini, harap tidak
               melanjutkan penggunaan layanan kami.
             </p>
             <ul className="page-list">
@@ -122,12 +122,12 @@ const TermsCondition = () => {
               <h4>6. Privasi dan Perlindungan Data</h4>
               <ul>
                 <li>
-                  Kami menghormati privasi Anda. Kebijakan privasi kami
+                  Kami menghormati privasi Kamu. Kebijakan privasi kami
                   menjelaskan bagaimana kami mengumpulkan, menggunakan, dan
-                  melindungi data pribadi Anda.
+                  melindungi data pribadi Kamu.
                 </li>
                 <li>
-                  Dengan menggunakan layanan kami, Anda setuju dengan
+                  Dengan menggunakan layanan kami, Kamu setuju dengan
                   pengumpulan dan penggunaan data sesuai dengan kebijakan
                   privasi kami.
                 </li>
@@ -212,7 +212,7 @@ const TermsCondition = () => {
 
               <h4 class="contact-info">13. Kontak</h4>
               <p>
-                Jika Anda memiliki pertanyaan atau memerlukan klarifikasi lebih
+                Jika Kamu memiliki pertanyaan atau memerlukan klarifikasi lebih
                 lanjut mengenai syarat dan ketentuan ini, silakan hubungi kami
                 melalui:
               </p>

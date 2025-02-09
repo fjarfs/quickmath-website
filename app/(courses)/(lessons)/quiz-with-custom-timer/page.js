@@ -3,8 +3,8 @@ import QuizWithTimeLayout from "./(timer)";
 
 export const metadata = {
   title:
-    "Quiz With Custom Timer - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Quiz With Custom Timer - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const LessonLayout = () => {

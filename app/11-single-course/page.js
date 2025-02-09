@@ -2,8 +2,8 @@ import BackToTop from "../backToTop";
 import SingleCoursePage from "./(single-course)";
 
 export const metadata = {
-  title: "Single Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Single Course - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const SingleCourseLayout = () => {

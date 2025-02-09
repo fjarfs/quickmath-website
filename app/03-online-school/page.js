@@ -3,8 +3,8 @@ import OnlineSchoolPage from "./(online-school)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Online School - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Online School - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 

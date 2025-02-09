@@ -1,10 +1,10 @@
 {
     "footerMainData": [
         {
-            "description": "QuickMath adalah platform pembelajaran online untuk semua jenjang pendidikan. Dengan fitur andalan seperti konsultasi tugas dan les privat, kami siap membantu Anda mencapai hasil belajar terbaik, kapan saja dan di mana saja.",
+            "description": "QuickMath adalah platform pembelajaran online untuk semua jenjang pendidikan. Dengan fitur andalan seperti konsultasi tugas dan les privat, kami siap membantu Kamu mencapai hasil belajar terbaik, kapan saja dan di mana saja.",
             "phone": "+6282133599318",
             "mail": "admin@quickmath.id",
-            "address": "Grand Vilamas Estate, BE, Cinangka, Sawangan, Depok, Jawa Barat",
+            "address": "Grand Vilamas Estate, Nomor B3, Cinangka, Sawangan, Depok, Jawa Barat",
             "feature": [
                 {
                     "text": "Konsultasi Tugas",
@@ -15,7 +15,7 @@
                     "link": "/les-privat"
                 },
                 {
-                    "text": "Bank Materi",
+                    "text": "Materi",
                     "link": "/bank-materi"
                 },
                 {
@@ -60,27 +60,27 @@
             "socialLink": [
                 {
                     "icon": "ri-whatsapp-line",
-                    "link": "https://wa.me/6282133599318?text=Hello%20there!%20I%20would%20like%20to%20ask%20about%20your%20services."
+                    "link": "https://wa.me/6282133599318"
                 },
                 {
                     "icon": "feather-instagram",
-                    "link": "https://www.instagram.com/quickmath.id?igsh=MWo5ZG43bGRsamNiaA=="
+                    "link": "https://www.instagram.com/quickmath.id?from=lp"
                 },
                 {
                     "icon": "ri-tiktok-line",
-                    "link": "https://www.tiktok.com/@quickmath.id?_t=ZS-8sjlaFxVpvM&_r=1"
+                    "link": "https://www.tiktok.com/@quickmath.id"
                 },
                 {
                     "icon": "feather-facebook",
-                    "link": "https://www.facebook.com/share/1AA3SmdMKs/"
+                    "link": "https://web.facebook.com/profile.php?id=100090682086511&_rdc=1&_rdr&from=lp"
                 },
                 {
                     "icon": "ri-twitter-x-line",
-                    "link": "https://x.com/quickmath_id?t=WUYNGnW9pYO53TAnydVg9g&s=09"
+                    "link": "https://x.com/quickmath_id?from=lp"
                 },
                 {
                     "icon": "ri-youtube-line",
-                    "link": "https://youtube.com/@quickmath_id?si=-yFMY24CzuObU9nL"
+                    "link": "https://www.youtube.com/@quickmath_id?from=lp"
                 }
             ]
         }

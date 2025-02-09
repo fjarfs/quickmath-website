@@ -41,7 +41,7 @@ const Shop = () => {
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
-    localStorage.setItem("hiStudy", JSON.stringify(cart));
+    localStorage.setItem("QuickMath", JSON.stringify(cart));
   }, [cart]);
 
   useEffect(() => {
@@ -78,7 +78,7 @@ const Shop = () => {
                             src={data.courseImg}
                             width={355}
                             height={426}
-                            alt="Histudy Book Image"
+                            alt="QuickMath Book Image"
                           />
                         </Link>
                       </div>

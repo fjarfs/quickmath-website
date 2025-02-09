@@ -4,12 +4,13 @@
       "tag": "KENAPA MEMILIH KAMI",
       "title": "Mewujudkan Impian",
       "subTitle": "Melalui Pembelajaran Tanpa Batas",
-      "desc": "Kami hadir untuk memberikan pengalaman belajar terbaik yang dirancang sesuai kebutuhan Anda, didukung teknologi modern dan tutor profesional.",
+      "desc": "Platform bimbingan belajar online yang menghadirkan tutor-tutor terbaik. Membimbing siswa dan mahasiswa dalam pernyelesaian tugas dan persiapan ujian guna mencapai prestasi akademik yang gemilang.",
+      "desc2": "Jangan samakan, QuickMath dengan joki Matematika atau joki ujian Matematika atau joki tugas Matematika, karena QuickMath menyediakan jasa konsultasi tugas, membimbing siswa dan mahasiwa dalam memahami materi",
       "item": [
         {
           "text": "Fleksibilitas Belajar",
           "icon": "feather-heart",
-          "desc": "Sulit memahami materi pelajaran? Butuh bimbingan tugas dan ujian? QuickMath menghadirkan tutor-tutor berpengalaman yang siap membantu Anda mencapai prestasi akademik terbaik",
+          "desc": "Sulit memahami materi pelajaran? Butuh bimbingan tugas dan ujian? QuickMath menghadirkan tutor-tutor berpengalaman yang siap membantu Kamu mencapai prestasi akademik terbaik",
           "collapse": "collapseOne2",
           "heading": "headingOne2",
           "expanded": true,
@@ -22,7 +23,7 @@
         {
           "text": "Berpengalaman",
           "icon": "feather-book",
-          "desc": "Dapatkan bimbingan dari tutor yang berpengalaman yang menyediakan pendekatan bimbingan yang disesuaikan dengan kebutuhan dan gaya belajar Anda",
+          "desc": "Dapatkan bimbingan dari tutor yang berpengalaman yang menyediakan pendekatan bimbingan yang disesuaikan dengan kebutuhan dan gaya belajar Kamu",
           "collapse": "collapseTwo2",
           "heading": "headingTwo2",
           "expanded": false,
@@ -60,14 +61,14 @@
           "mt": "mt--60"
         },
         {
-          "text": "Certified Students",
-          "num": 1000,
+          "text": "Master Tutor",
+          "num": 10,
           "img": "/images/education/kuliah_1.png",
           "mt": "mt_mobile--40"
         },
         {
-          "text": "Registered Enrolls",
-          "num": 100,
+          "text": "Masalah Terpecahkan",
+          "num": 10000,
           "img": "/images/feature/referral.png",
           "mt": "mt--60 mt_mobile--40"
         }

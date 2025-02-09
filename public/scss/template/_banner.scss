@@ -1,5 +1,5 @@
 /*------------------------------
- * HiStudy Banner Styles
+ * QuickMath Banner Styles
 ---------------------------------*/
 .active-header-transparent {
     .rbt-banner-area {
@@ -236,9 +236,9 @@
         .shape-wrapper {
             margin-top: 20px;
             z-index: 2;
-            margin-bottom: 6px;
+            margin-bottom: -100px;
             position: relative;
-            left: -40px;
+            left: -30px;
 
             @media #{$lg-layout} {
                 left: 0;
@@ -628,7 +628,7 @@
         z-index: -1;
         bottom: 0;
         right: 0;
-        background-image: url(../../images/banner/histudy-text.png);
+        // background-image: url(../../images/banner/QuickMath-text.png);
         background-repeat: repeat-x;
         background-size: auto;
         height: 206px;

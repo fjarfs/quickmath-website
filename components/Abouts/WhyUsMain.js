@@ -17,7 +17,7 @@ import { Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
 
 const WhyUsMain = () => {
-  const { values } = useFetch(CounterData, "counterTwo");
+  const { values } = useFetch(WhyUsData, "counterTwo");
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -133,6 +133,9 @@ const WhyUsMain = () => {
                     </h2>
                     <p className="description has-medium-font-size mt--20 mb--40">
                       {data.desc}
+                    </p>
+                    <p className="description has-medium-font-size mt--20 mb--40">
+                      {data.desc2}
                     </p>
                   </div>
                   <div className="rbt-accordion-style rbt-accordion-02 accordion">

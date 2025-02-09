@@ -33,7 +33,7 @@ const Banner = ({ text, col, blogdata, breadCrumb }) => {
 
                   <p className="description">
                     Dapatkan informasi dan tips terbaru untuk mendukung
-                    perjalanan belajar Anda.
+                    perjalanan belajar Kamu.
                   </p>
                 </div>
               </div>

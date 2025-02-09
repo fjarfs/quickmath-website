@@ -19,24 +19,31 @@ const LesPrivatePricing = ({}) => {
                 <div className="row row--0">
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="pricing-left rounded-0">
-                      <h3 className="main-title">Active Plan Mode.</h3>
+                      <h3 className="main-title">Les Privat</h3>
                       <p className="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo, quisquam.
+                      Datapkan tutor privat terbaik dengan harga sesuai
                       </p>
                       <div className="price-wrapper">
                         <span className="price-amount">
-                          $129<sup>/mo</sup>
+                        Rp 50.000<sup>/sesi</sup>
                         </span>
                       </div>
-                      <div className="pricing-btn-group">
-                        <button className="rbt-btn btn-gradient w-100">
-                          Purchase Now
-                        </button>
-                        <button className="rbt-btn btn-border w-100">
-                          Upgrade
-                        </button>
-                      </div>
+                      <div className="pricing-btn-group" style={{marginTop: 50}}>
+                          <Link
+                            className="rbt-btn btn-gradient hover-icon-reverse"
+                            href="/download-apps"
+                          >
+                            <span className="icon-reverse-wrapper" >
+                              <span className="btn-text">Pesan Sekarang</span>
+                              <span className="btn-icon">
+                                <i className="feather-arrow-right"></i>
+                              </span>
+                              <span className="btn-icon">
+                                <i className="feather-arrow-right"></i>
+                              </span>
+                            </span>
+                          </Link>
+                        </div>
                       <div className="rating">
                         <Link href="#rating">
                           <svg
@@ -100,7 +107,6 @@ const LesPrivatePricing = ({}) => {
                         </Link>
                       </div>
                       <small className="subtitle">
-                        rated 4.5/5 Stars in 1000+ reviews.
                       </small>
                     </div>
                   </div>
@@ -117,45 +123,29 @@ const LesPrivatePricing = ({}) => {
                     <div className="pricing-offer">
                       <div className="single-list">
                         <h4 className="price-title">
-                          Advance Plans You can Get.
+                        Yang akan kamu dapatkan
                         </h4>
                         <ul className="plan-offer-list">
                           <li>
-                            <i className="feather-check"></i> 5 PPC Campaigns
+                            <i className="feather-check"></i> Belajar 1-on-1
                           </li>
                           <li>
-                            <i className="feather-check"></i> Digital Marketing
+                            <i className="feather-check"></i> Live Meeting Online
                           </li>
                           <li>
-                            <i className="feather-check"></i> Marketing Agency
+                            <i className="feather-check"></i> Pilih Tutor Terbaik 
                           </li>
                           <li>
-                            <i className="feather-check"></i> Seo Friendly
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="single-list mt--40">
-                        <h4 className="price-title">
-                          Basic Plans You can Get.
-                        </h4>
-                        <ul className="plan-offer-list">
-                          <li>
-                            <i className="feather-check"></i> 5 PPC Campaigns
+                            <i className="feather-check"></i> Request Materi & Soal 
                           </li>
                           <li>
-                            <i className="feather-check"></i> Digital Marketing
+                            <i className="feather-check"></i> Jadwal Fleksibel
                           </li>
                           <li>
-                            <i className="feather-check"></i> Marketing Agency
+                            <i className="feather-check"></i> Interaktif & Personal
                           </li>
                           <li>
-                            <i className="feather-check"></i> Seo Friendly
-                          </li>
-                          <li>
-                            <i className="feather-check"></i> App Development
-                          </li>
-                          <li className="off">
-                            <i className="feather-x"></i> 24/7 Dedicated Support
+                            <i className="feather-check"></i> 1 sesi 45 menit
                           </li>
                         </ul>
                       </div>
@@ -180,23 +170,30 @@ const LesPrivatePricing = ({}) => {
                   <div className="row row--0">
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="pricing-left">
-                        <h3 className="main-title">Active Plan Mode.</h3>
+                        <h3 className="main-title">Les Privat</h3>
                         <p className="description">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Nemo, quisquam.
+                        Datapkan tutor privat terbaik dengan harga sesuai
                         </p>
                         <div className="price-wrapper">
                           <span className="price-amount">
-                            $129<sup>/mo</sup>
+                            Rp 50.000<sup>/sesi</sup>
                           </span>
                         </div>
-                        <div className="pricing-btn-group">
-                          <button className="rbt-btn btn-gradient w-100">
-                            Purchase Now
-                          </button>
-                          <button className="rbt-btn btn-border w-100">
-                            Upgrade
-                          </button>
+                        <div className="pricing-btn-group" style={{marginTop: 50}}>
+                          <Link
+                            className="rbt-btn btn-gradient hover-icon-reverse"
+                            href="/download-apps"
+                          >
+                            <span className="icon-reverse-wrapper" >
+                              <span className="btn-text">Pesan Sekarang</span>
+                              <span className="btn-icon">
+                                <i className="feather-arrow-right"></i>
+                              </span>
+                              <span className="btn-icon">
+                                <i className="feather-arrow-right"></i>
+                              </span>
+                            </span>
+                          </Link>
                         </div>
                         <div className="rating">
                           <Link href="#rating">
@@ -260,9 +257,6 @@ const LesPrivatePricing = ({}) => {
                             </svg>
                           </Link>
                         </div>
-                        <small className="subtitle">
-                          rated 4.5/5 Stars in 1000+ reviews.
-                        </small>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
@@ -270,53 +264,29 @@ const LesPrivatePricing = ({}) => {
                         <div className="pricing-offer">
                           <div className="single-list">
                             <h4 className="price-title">
-                              Advance Plans You can Get.
+                              Yang akan kamu dapatkan
                             </h4>
                             <ul className="plan-offer-list">
                               <li>
-                                <i className="feather-check"></i> 5 PPC
-                                Campaigns
+                                <i className="feather-check"></i> Belajar 1-on-1
                               </li>
                               <li>
-                                <i className="feather-check"></i> Digital
-                                Marketing
+                                <i className="feather-check"></i> Live Meeting Online
                               </li>
                               <li>
-                                <i className="feather-check"></i> Marketing
-                                Agency
+                                <i className="feather-check"></i> Pilih Tutor Terbaik 
                               </li>
                               <li>
-                                <i className="feather-check"></i> Seo Friendly
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="single-list mt--40">
-                            <h4 className="price-title">
-                              Basic Plans You can Get.
-                            </h4>
-                            <ul className="plan-offer-list">
-                              <li>
-                                <i className="feather-check"></i> 5 PPC
-                                Campaigns
+                                <i className="feather-check"></i> Request Materi & Soal 
                               </li>
                               <li>
-                                <i className="feather-check"></i> Digital
-                                Marketing
+                                <i className="feather-check"></i> Jadwal Fleksibel
                               </li>
                               <li>
-                                <i className="feather-check"></i> Marketing
-                                Agency
+                                <i className="feather-check"></i> Interaktif & Personal
                               </li>
                               <li>
-                                <i className="feather-check"></i> Seo Friendly
-                              </li>
-                              <li>
-                                <i className="feather-check"></i> App
-                                Development
-                              </li>
-                              <li className="off">
-                                <i className="feather-x"></i> 24/7 Dedicated
-                                Support
+                                <i className="feather-check"></i> 1 sesi 45 menit
                               </li>
                             </ul>
                           </div>

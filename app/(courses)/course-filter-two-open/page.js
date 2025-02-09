@@ -3,8 +3,8 @@ import CourseFilteTwoOpen from "./index";
 
 export const metadata = {
   title:
-    "Course Filter Two Open - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Course Filter Two Open - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 const CourseFilteTwoOpenLayout = () => {
   return (

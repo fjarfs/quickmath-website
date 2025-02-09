@@ -3,8 +3,8 @@ import UniversityPage from "./(university-classic)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "University Classic - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "University Classic - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const UniversityLayout = async () => {

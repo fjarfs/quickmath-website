@@ -21,7 +21,7 @@ const BankMateriLayout = () => {
                 <Context>
                     <MobileMenu/>
                     <HeaderStyleMain headerSticky="rbt-sticky" headerType=""/>
-                    <BreadCrumb title="Bank Materi" text="Bank Materi"/>
+                    <BreadCrumb title="Materi" text="Materi"/>
 
                     <ComingSoonComp AboutData={AboutData} OurAppsData={OurAppsData}/>
 

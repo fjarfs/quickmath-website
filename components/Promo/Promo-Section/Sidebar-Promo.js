@@ -29,7 +29,7 @@ const SidebarPromo = ({ checkMatchCourses }) => {
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
-    localStorage.setItem("hiStudy", JSON.stringify(cart));
+    localStorage.setItem("QuickMath", JSON.stringify(cart));
   }, [cart]);
 
   // =====> For video PopUp

@@ -32,7 +32,7 @@ const ArtikelAllPage = ({ getAllBlogs }) => {
           <HeaderStyleMain headerSticky="rbt-sticky" headerType="" />
           <Cart />
 
-          <Banner col="col-lg-12" text="Artikel untuk Inspirasi Anda" breadCrumb="Semua Artikel" blogdata={getAllBlogs} />
+          <Banner col="col-lg-12" text="Artikel untuk Inspirasi Kamu" breadCrumb="Semua Artikel" blogdata={getAllBlogs} />
           <div className="rbt-blog-area rbt-section-overlayping-top rbt-section-gapBottom">
             <div className="container">
               <BlogGrid

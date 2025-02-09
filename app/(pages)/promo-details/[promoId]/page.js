@@ -5,7 +5,7 @@ import { getAllPromo } from "@/mdx";
 
 export const metadata = {
   title: "QuickMath - Promo Details",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const SinglePromoLayout = async ({ params }) => {

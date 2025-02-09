@@ -1,8 +1,8 @@
 import CourseTabPage from "./index";
 
 export const metadata = {
-  title: "Course With Tab One - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Course With Tab One - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const CourseTabLayout = () => {

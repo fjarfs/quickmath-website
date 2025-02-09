@@ -42,7 +42,7 @@ const KonsultasiBanner = () => {
                   ?
                 </h1>
                 <p className="description has-medium-font-size mt--20">
-                Konsultasi personal kapan saja, di mana saja!
+                Konsultasi tugas, tanya jawab dan diskusi via chat dengan tutor terbaik sampai memahaminya
                 </p>
                 <div className="slider-btn rbt-button-group justify-content-center">
                   <Link

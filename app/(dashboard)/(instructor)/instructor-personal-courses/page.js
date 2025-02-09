@@ -3,8 +3,8 @@ import PersonalCoursesPage from "./(personal-courses)";
 
 export const metadata = {
   title:
-    "Instructor Personal Courses History Attempts Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Personal Courses History Attempts Course - Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 const PersonalCoursesLayout = () => {

@@ -3,7 +3,7 @@ import HomePage from "./landing-page/page";
 
 export const metadata = {
   title: "QuickMath",
-  description: "Online Courses & Education NEXTJS14 Template",
+  description: "Platform Bimbingan Belajar Online",
 };
 
 export default function Home() {
