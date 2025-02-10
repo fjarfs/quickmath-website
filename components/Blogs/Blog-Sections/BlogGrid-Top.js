@@ -110,7 +110,7 @@ const BlogGridTop = ({ BlogData }) => {
                       className="transparent-button"
                       href={`/artikel-details/${data.slug}`}
                     >
-                      Learn More
+                      Selengkapnya
                       <i>
                         <svg
                           width="17"
@@ -167,7 +167,7 @@ const BlogGridTop = ({ BlogData }) => {
                       className="transparent-button"
                       href={`/artikel-details/${data.slug}`}
                     >
-                      Read Article
+                      Selengkapnya
                       <i>
                         <svg
                           width="17"
