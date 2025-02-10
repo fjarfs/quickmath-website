@@ -27,7 +27,7 @@ const Banner = ({ text, col, blogdata, breadCrumb }) => {
                     <h1 className="title mb--0">{text}</h1>
                     <Link href="#" className="rbt-badge-2">
                       <div className="image">🎉</div>
-                      {blogdata ? `${blogdata.length} Artikel` : "50 Artikel"}
+                      {blogdata ? `${blogdata.total} Artikel` : "50 Artikel"}
                     </Link>
                   </div>
 

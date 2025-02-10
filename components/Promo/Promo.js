@@ -69,7 +69,7 @@ const PromoListAll = ({ promo, start, end }) => {
                         className="rbt-btn-link"
                         href={`/promo-details/${data.slug}`}
                       >
-                        Lihat Detail<i className="feather-arrow-right"></i>
+                        Selengkapnya <i className="feather-arrow-right"></i>
                       </Link>
                       <Link className="rbt-btn btn-sm" href="/download-apps">
                         Gunakan

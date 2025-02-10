@@ -32,9 +32,14 @@ const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
                   <p className="description mt--20">
                     <strong>{data.strong}</strong> {data.desc}
                   </p>
+                  {
+                    data.desc2 && (
                   <p className="description mt--20">
                   <strong>{data.strong}</strong> {data.desc2}
                   </p>
+
+                    )
+                  }
                 </div>
               </div>
             </div>

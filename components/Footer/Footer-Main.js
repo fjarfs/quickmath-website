@@ -7,6 +7,8 @@ import FooterMainData from "../../data/landing-page/footerMainData.json"
 import SingleFooter from "./FooterProps/SingleFooter";
 import CopyRight from "./CopyRight";
 import { useAppContext } from "@/context/Context";
+import downloadPLayStore from "/public/images/icons/download-playstore.svg";
+import downloadAppStore from "/public/images/icons/download-appstore.svg";
 
 const FooterMain = () => {
   const { isLightTheme } = useAppContext();
@@ -45,19 +47,29 @@ const FooterMain = () => {
                       <p className="description mt--20">{footer.description}</p>
 
                       <div className="contact-btn mt--30">
-                        <Link
-                          className="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                          href="https://wa.me/6282133599318"
+                      <Link
+                          className="mr--5"
+                          href="https://play.google.com/store/apps/details?id=com.quickmath.customer"
                         >
-                          <div className="icon-reverse-wrapper">
-                            <span className="btn-text">Hubungi Kami</span>
-                            <span className="btn-icon">
-                              <i className="feather-phone-outgoing"></i>
-                            </span>
-                            <span className="btn-icon">
-                              <i className="feather-phone-incoming"></i>
-                            </span>
-                          </div>
+                          <Image
+                            src={downloadPLayStore}
+                            width={200}
+                            height={50}
+                            priority={true}
+                            alt="Education Logo Images"
+                          />
+                        </Link>
+                        <Link
+                          className="ml--5"
+                          href="https://apps.apple.com/app/id6739167059"
+                        >
+                          <Image
+                            src={downloadAppStore}
+                            width={190}
+                            height={50}
+                            priority={true}
+                            alt="Education Logo Images"
+                          />
                         </Link>
                       </div>
                     </div>

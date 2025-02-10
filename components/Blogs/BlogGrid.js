@@ -64,7 +64,7 @@ const BlogGrid = ({ isPagination, blogdata, top }) => {
                       className="transparent-button"
                       href={`/artikel-details/${data.slug}`}
                     >
-                      Learn More
+                      Selengkapnya
                       <i>
                         <svg
                           width="17"
