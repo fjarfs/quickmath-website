@@ -35,7 +35,7 @@
         {
             "id": 3,
             "category": "Materi",
-            "shortDesc": "Kumpulan materi dalam bentu vidio yang akan membantu kamu dalam memahami pelajaran",
+            "shortDesc": "Kumpulan materi dalam bentuk vidio yang akan membantu kamu dalam memahami pelajaran",
             "featIcon": "/images/feature/materi.png",
             "isActiveFeat": true,
             "path": "/materi",
