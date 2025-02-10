@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import AboutData from "../../data/elements/about.json";
-
 const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
   return (
     <>
@@ -34,11 +32,9 @@ const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
                   <p className="description mt--20">
                     <strong>{data.strong}</strong> {data.desc}
                   </p>
-                  <div className="read-more-btn mt--40">
-                    <Link className={`rbt-btn ${btnClass}`} href="#">
-                      <span data-text={`${btnText}`}>{btnText}</span>
-                    </Link>
-                  </div>
+                  <p className="description mt--20">
+                  <strong>{data.strong}</strong> {data.desc2}
+                  </p>
                 </div>
               </div>
             </div>

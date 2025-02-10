@@ -4,6 +4,7 @@ import Link from "next/link";
 import bgImage from "../../public/images/bg/bg-image-10.jpg";
 
 const BlogBreadCrumb = ({ matchedBlog }) => {
+  console.log('matchedBlog: ' + JSON.stringify(matchedBlog))
   return (
     <>
       <div className="breadcrumb-image-container breadcrumb-style-max-width">
@@ -15,20 +16,10 @@ const BlogBreadCrumb = ({ matchedBlog }) => {
         <div className="breadcrumb-content-top text-center">
           <ul className="meta-list justify-content-center mb--10">
             <li className="list-item">
-              <div className="author-thumbnail">
-                {matchedBlog && (
-                  <Image
-                    src={matchedBlog.authorImg}
-                    width={494}
-                    height={494}
-                    alt="blog-image"
-                  />
-                )}
-              </div>
               {matchedBlog && (
                 <div className="author-info">
                   <Link href="#">
-                    <strong>Author Name</strong>
+                    <strong>Admin</strong>
                   </Link>
                   {/* <Link href="#">
                     <strong>{matchedBlog.position}</strong>
@@ -39,12 +30,11 @@ const BlogBreadCrumb = ({ matchedBlog }) => {
             {matchedBlog && (
               <li className="list-item">
                 <i className="feather-clock"></i>
-                <span>Aug 27 2024</span>
+                <span>{matchedBlog.data.published_at}</span>
               </li>
             )}
           </ul>
-          {matchedBlog && <h1 className="title">Title-1</h1>}
-          {matchedBlog && <p>Short desc</p>}
+          {matchedBlog && <h1 className="title">{matchedBlog.data.title}</h1>}
         </div>
       </div>
     </>

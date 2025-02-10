@@ -10,7 +10,7 @@ const CopyRight = () => {
           <div className="row align-items-center">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <p className="rbt-link-hover text-center text-lg-start">
-                Copyright © 2024 All Rights Reserved
+              © PT. QuickMath Edukasi Indonesia, 2025
               </p>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">

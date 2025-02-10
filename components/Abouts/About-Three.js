@@ -25,12 +25,6 @@ const AboutThree = () => {
               data-sal-duration="700"
             >
               <p className="mb--40 mb_sm--20 description">{data.desc}</p>
-              <div className="readmore-btn">
-                <Link className="rbt-moderbt-btn" href="#">
-                  <span className="moderbt-btn-text">Eksplorasi Sekarang</span>
-                  <i className="ri-search-eye-line"></i>
-                </Link>
-              </div>
             </div>
           </div>
         ))}

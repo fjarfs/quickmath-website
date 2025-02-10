@@ -12,19 +12,19 @@ const MainHomeBanner = ({}) => {
             <div className="content row d-flex">
               <div className="inner col-md-12 col-lg-7">
                 <h1 className="title">
-                  Belajar
+                  Platform
                   <span className="theme-gradient">
                     {" "}
-                    Kapan Saja dan Di Mana Saja{" "}
+                    Bimbingan Belajar Online{" "}
                   </span>
-                  Untuk Semua Tingkatan
+                  yang Fokus pada Pemecahan Masalah
                 </h1>
                 <div className="more-author-text">
                   <h5 className="total-join-students">
-                    Platform Bimbingan Belajar Online untuk semua Jenjang Pendidikan, SD SMP SMP hingga Kuliah
+                    Belajar kapan saja dan dimana saja untuk SD SMP SMA hingga Kuliah
                   </h5>
                   <p className="subtitle">
-                    Daftar Sekarang dan Mulai Perjalanan Belajarmu!
+                    Akses pembelajaran menjadi #LebihMudah dan pemecahan masalah menjadi #LebihCepat
                   </p>
                 </div>
 

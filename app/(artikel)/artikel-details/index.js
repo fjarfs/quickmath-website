@@ -26,15 +26,6 @@ export default function SingleArtikel({ getArticleDetails }) {
                 <BlogDetails
                   matchedBlog={getArticleDetails !== undefined ? getArticleDetails : ""}
                 />
-                <div className="related-post pt--60">
-                  <div className="section-title text-start mb--40">
-                    <span className="subtitle bg-primary-opacity">
-                      Related Post
-                    </span>
-                    <h4 className="title">Similar Post</h4>
-                  </div>
-                  {/* <BlogListItems selectedBlog={articles} start={1} end={4} /> */}
-                </div>
               </div>
             </div>
           </div>
