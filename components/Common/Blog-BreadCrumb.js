@@ -4,7 +4,6 @@ import Link from "next/link";
 import bgImage from "../../public/images/bg/bg-image-10.jpg";
 
 const BlogBreadCrumb = ({ matchedBlog }) => {
-  console.log('matchedBlog: ' + JSON.stringify(matchedBlog))
   return (
     <>
       <div className="breadcrumb-image-container breadcrumb-style-max-width">

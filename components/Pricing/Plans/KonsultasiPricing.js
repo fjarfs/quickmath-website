@@ -67,7 +67,7 @@ const KonsultasiPricing = ({ title, tag, col, position }) => {
                 ))}
 
                 {/* ExclusivePlan Slides */}
-                {data.realTime.map((item, innerIndex) => (
+                {data.flash.map((item, innerIndex) => (
                   <SwiperSlide key={`exclusive-${innerIndex}`}>
                     <ExclusivePlan
                       {...item}

@@ -150,7 +150,7 @@ const StandardPlan = ({ linkButton, item, parentClass, styleType, toggle }) => {
             href={linkButton}
           >
             <div className="icon-reverse-wrapper">
-              <span className="btn-text">Pesan Sekarang</span>
+              <span className="btn-text">Pesan</span>
               <span className="btn-icon">
                 <i className="feather-arrow-right"></i>
               </span>

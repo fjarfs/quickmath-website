@@ -30,7 +30,7 @@ const LesPrivatBanner = () => {
                     href="/download-apps"
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">Pesan Sekarang</span>
+                      <span className="btn-text">Pesan</span>
                       <span className="btn-icon">
                         <i className="feather-arrow-right"></i>
                       </span>
