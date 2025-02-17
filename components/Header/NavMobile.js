@@ -105,9 +105,19 @@ const NavMobile = () => {
         <li className="position-static">
           <Link
             href="/harga"
-            className={`${activeMenuItem === "pricing" ? "open" : ""}`}
+            className={`${activeMenuItem === "harga" ? "open" : ""}`}
           >
             Harga
+          </Link>
+        </li>
+
+        {/* Affiliate */}
+        <li className="position-static">
+          <Link
+            href="/affiliate"
+            className={`${activeMenuItem === "affiliate" ? "open" : ""}`}
+          >
+            Affiliate
           </Link>
         </li>
 

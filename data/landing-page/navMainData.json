@@ -65,8 +65,8 @@
                   },
                   {
                     "id": 7,
-                    "link": "/referral",
-                    "title": "Referral",
+                    "link": "/affiliate",
+                    "title": "Affiliate",
                     "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus koin",
                     "img": "/images/feature/referral.png",
                     "badget": "Coming Soon"

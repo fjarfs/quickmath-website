@@ -126,6 +126,21 @@ const NavMain = () => {
           </Link>
         </li>
 
+        {/* Affiliate */}
+        <li className="position-static">
+          <Link
+            href="/affiliate"
+            className={`${
+              isActive("affiliate") || activeMenuItem === "affiliate"
+                ? "active"
+                : ""
+            }`}
+            onClick={() => toggleMenuItem("affiliate")}
+          >
+            Affiliate
+          </Link>
+        </li>
+
         {/* Testimoni */}
         <li className="position-static">
           <Link

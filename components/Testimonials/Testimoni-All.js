@@ -41,7 +41,7 @@ const TestimoniAll = ({ isDesc, start, end, isPagination, testimoniData }) => {
                   </div>
                   <div className="description">
                     <p className="subtitle-3">{data.desc}</p>
-                    {/* <div className="rating mt--20">
+                    <div className="rating mt--20">
                       <Link href="#">
                         <i className="fa fa-star"></i>
                       </Link>
@@ -57,7 +57,7 @@ const TestimoniAll = ({ isDesc, start, end, isPagination, testimoniData }) => {
                       <Link href="#">
                         <i className="fa fa-star"></i>
                       </Link>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>

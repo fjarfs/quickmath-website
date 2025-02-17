@@ -10,7 +10,7 @@
           "name": "Hanin",
           "type": "Matematika",
           "location": "Indonesia",
-          "desc": "Lulusan Sarjana Pendidikan Matematika.",
+          "desc": "Lulusan Sarjana Pendidikan Matematika Universitas Gajahmada Yogyakarta",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -25,9 +25,9 @@
         {
           "img": "/images/team/asep.png",
           "name": "Asep Budiman",
-          "type": "English",
+          "type": "Bahasa Inggris",
           "location": "Indonesia",
-          "desc": "Lulusan Doktor Hunan Normal University, China. Penerima beasiswa LPDP dan mejadi Dosen di kampus ternama di Indonesia.",
+          "desc": "Lulusan Doktor Hunan Normal University, China. ⁠Successful Candidate, UNS Global Challenges, Seoul National University, South Korea.",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -41,10 +41,10 @@
       "details": [
         {
           "img": "/images/team/ria.png",
-          "name": "Ria",
+          "name": "Ria Ajeng Putri",
           "type": "Kimia",
           "location": "Indonesia",
-          "desc": "lulusan terbaik Universitas Negeri.",
+          "desc": "Lulusan terbaik Universitas Negeri.",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -58,10 +58,10 @@
       "details": [
         {
           "img": "/images/team/team-04.jpg",
-          "name": "William Susan",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "name": "Nita Diansari",
+          "type": "Bahasa Indonesia",
+          "location": "Indonesia",
+          "desc": "Lulusan Terbaik Wisuda Tahap II,  Departemen Teknologi Industri Pertanian, IPB 2011",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -69,16 +69,16 @@
       ]
     },
     {
-      "img": "/images/team/team-05.jpg",
+      "img": "/images/team/ayu.png",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-05.jpg",
-          "name": "Soseph Sara",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/ayu.png",
+          "name": "Yuliana Ayundini",
+          "type": "Bahasa Inggris",
+          "location": "Indonesia",
+          "desc": "Lulusan Pendidikan Bahasa Inggris Universitas Negeri Semarang. Translator Novel & Subtitler Short Drama",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"

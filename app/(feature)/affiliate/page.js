@@ -1,8 +1,8 @@
 import BackToTop from "@/app/backToTop";
-import ReferralLayout from "./(referral)";
+import ReferralLayout from "./(affiliate)";
 
 export const metadata = {
-  title: "QuickMath - Referral",
+  title: "QuickMath - Affiliate",
   description: "Platform Bimbingan Belajar Online",
 };
 
