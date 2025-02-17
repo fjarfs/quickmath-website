@@ -11,12 +11,17 @@ const ReferralBanner = () => {
           <div className="content row d-flex">
             <div className="inner col-md-12 col-lg-7">
               <h1 className="title">
-                Belajar
+              Kamu Dapat 
                 <span className="theme-gradient">
                   {" "}
-                  Kapan Saja dan Di Mana Saja{" "}
+                  Cuan{" "}
                 </span>
-                Untuk Semua Tingkatan
+                <br></br>
+                Teman Dapat 
+                <span className="theme-gradient">
+                  {" "}
+                  Diskon{" "}
+                </span>
               </h1>
               <div className="more-author-text">
                 <h5 className="total-join-students">
