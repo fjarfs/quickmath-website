@@ -9,13 +9,15 @@ const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
           <div className="row g-5 align-items-center" key={index}>
             <div className="col-lg-5">
               <div className="content">
+                <center>
                 <Image
                   className={imgClass}
                   src={data.img}
-                  width={638}
-                  height={410}
+                  width={300}
+                  height={300}
                   alt="About Images"
                 />
+                </center>
               </div>
             </div>
             <div
@@ -38,6 +40,15 @@ const AboutSix = ({ AboutData, btnClass, btnText, imgClass }) => {
                   <strong>{data.strong}</strong> {data.desc2}
                   </p>
 
+                    )
+                  }
+                  {
+                    btnText && (
+                   <div className="read-more-btn mt--40">
+                    <Link className={`rbt-btn ${btnClass}`} href="#">
+                      <span data-text={`${btnText}`}>{btnText}</span>
+                    </Link>
+                  </div>
                     )
                   }
                 </div>

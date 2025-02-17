@@ -22,14 +22,12 @@ const ReferralBanner = () => {
                   {" "}
                   Diskon{" "}
                 </span>
+                <br></br>
+                Gabung Referral Sekarang!
               </h1>
               <div className="more-author-text">
-                <h5 className="total-join-students">
-                  Bimbingan Belajar Online untuk Semua Jenjang, dari SD hingga
-                  Kuliah
-                </h5>
                 <p className="subtitle">
-                  Daftar Sekarang dan Mulai Perjalanan Belajarmu!
+                  Bagikan link ke teman, kamu bisa dapat cuan jutaan rupiah!
                 </p>
               </div>
 

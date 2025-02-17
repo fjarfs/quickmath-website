@@ -8,7 +8,7 @@ const FlowReferral = () => {
     <>
       {ReferralData &&
         ReferralData.flow_section.map((data, index) => (
-          <div className="container py-5 flow-container" key={index}>
+          <div className="container py-5 " key={index}>
             <div className="section-title text-center mb--50">
               <span className="subtitle bg-primary-opacity">{data.tag}</span>
               <h2 className="title">
@@ -28,7 +28,7 @@ const FlowReferral = () => {
                     <div className="rbt-card-img">
                       <Image
                         src={item.thumbnail}
-                        width={450}
+                        width={600}
                         height={267}
                         priority
                         alt="Card image"
@@ -37,7 +37,7 @@ const FlowReferral = () => {
                     <div className="rbt-card-body">
                       <h5 className="rbt-card-title"> {item.title}</h5>
 
-                      <p className="rbt-card-text">{item.desc}</p>
+                      <p className="text-muted">{item.desc}</p>
                     </div>
                   </div>
                 </div>

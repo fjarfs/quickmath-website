@@ -55,6 +55,18 @@
                 {
                     "text": "Artikel",
                     "link": "/artikel"
+                },
+                {
+                    "text": "Promo",
+                    "link": "/promo"
+                },
+                {
+                    "text": "Harga",
+                    "link": "/harga"
+                },
+                {
+                    "text": "Testimoni",
+                    "link": "/testimoni"
                 }
             ],
             "socialLink": [

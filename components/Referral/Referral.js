@@ -20,9 +20,9 @@ const Referral = () => {
           <FlowReferral />
         </div>
 
-        <div className="rbt-section-gap2Bottom">
+        {/* <div className="rbt-section-gap2Bottom">
           <TestimonialFour />
-        </div>
+        </div> */}
       </main>
     </>
   );

@@ -4,8 +4,8 @@
             "sectionTitle": "Apa saja keuntungan program Referral QuickMath?",
             "body": [
                 {
-                    "title": "Grow Confident",
-                    "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+                    "title": "Komisi Besar, Cuan Maksimal",
+                    "desc": "Nikmati komisi menarik dari setiap transaksi yang dilakukan melalui link referalmu. Makin banyak ajakan, makin besar keuntungannya!",
                     "img": "/images/shape/service-01.png",
                     "bgOne": true,
                     "bgTwo": false,
@@ -13,8 +13,8 @@
                     "bgFour": false
                 },
                 {
-                    "title": "Accive Good Job",
-                    "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+                    "title": "Pendaftaran Gratis, Tanpa Modal",
+                    "desc": "Gabung program afiliasi QuickMath tanpa biaya! Cukup daftar, bagikan link, dan mulai hasilkan pendapatan pasif.",
                     "img": "/images/shape/service-04.png",
                     "bgTwo": true,
                     "bgOne": false,
@@ -22,8 +22,8 @@
                     "bgFour": false
                 },
                 {
-                    "title": "Best Learning",
-                    "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+                    "title": "Proses Transparan & Real-Time",
+                    "desc": "Pantau performa link referal dan komisi secara langsung melalui dashboard yang jelas dan mudah digunakan.",
                     "img": "/images/shape/service-03.png",
                     "bgThree": true,
                     "bgOne": false,
@@ -31,8 +31,8 @@
                     "bgFour": false
                 },
                 {
-                    "title": "Modern Skills",
-                    "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+                    "title": "Bantu Teman, Dapatkan Keuntungan",
+                    "desc": "Temanmu dapat diskon spesial saat menggunakan link referalmu, sementara kamu tetap mendapatkan bonus komisi. Win-win solution!",
                     "img": "/images/shape/service-02.png",
                     "bgFour": true,
                     "bgOne": false,
@@ -45,26 +45,26 @@
     "flow_section": [
         {
             "title": "Gimana Cara Dapat Cuan",
-            "sub_title": "dari Bagikan Referral?",
-            "tag": "LANGKAH MENGGUNAKAN REFERRAL",
+            "sub_title": "dari Bagikan Link Affiliate?",
+            "tag": "LANGKAH MENJADI AFFILIATE",
             "desc": "",
             "body": [
                 {
-                    "title": "TUTORIAL 1",
-                    "desc": "There are many variations of passages of the Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
-                    "thumbnail": "/images/blog/blog-single-03.png",
+                    "title": "Daftar Gratis & Cepat",
+                    "desc": "Registrasi dengan mudah di program afiliasi QuickMath tanpa biaya apa pun!",
+                    "thumbnail": "/images/affiliate/ref_1.jpg",
                     "top": false
                 },
                 {
-                    "title": "TUTORIAL 2",
-                    "desc": "There are many variations of passages of the Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
-                    "thumbnail": "/images/blog/blog-single-03.png",
+                    "title": "Bagikan Link Referral",
+                    "desc": "Sebarkan link unikmu ke teman, keluarga, atau followers di media sosial.",
+                    "thumbnail": "/images/affiliate/ref_2.jpg",
                     "top": false
                 },
                 {
-                    "title": "TUTORIAL 3",
-                    "desc": "There are many variations of passages of the Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
-                    "thumbnail": "/images/blog/blog-single-03.png",
+                    "title": "Dapatkan Cuan & Cairkan Keuntunganmu",
+                    "desc": "Komisi yang terkumpul bisa langsung dicairkan dengan mudah dan cepat!",
+                    "thumbnail": "/images/affiliate/ref_3.jpg",
                     "top": false
                 }
             ]
