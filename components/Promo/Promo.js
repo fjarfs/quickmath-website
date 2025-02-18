@@ -22,7 +22,7 @@ const PromoListAll = ({ promo, start, end }) => {
             >
               <div className="h-100">
                 <div className="rbt-card-img">
-                  <Link href={`/promo-details/${data.slug}`} className="position-relative" style={{ width: "100%", height: "104px" }}>
+                  <Link href={`/promo/${data.slug}`} className="position-relative" style={{ width: "100%", height: "104px" }}>
                     <Image
                       className="h-100"
                       src={data.image_url}
@@ -34,7 +34,7 @@ const PromoListAll = ({ promo, start, end }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h4 className="rbt-card-title fs-2">
-                    <Link href={`/promo-details/${data.slug}`}>{data.name}</Link>
+                    <Link href={`/promo/${data.slug}`}>{data.name}</Link>
                   </h4>
 
                   <div className="mt-auto">
@@ -67,7 +67,7 @@ const PromoListAll = ({ promo, start, end }) => {
                     <div className="rbt-card-bottom">
                       <Link
                         className="rbt-btn-link"
-                        href={`/promo-details/${data.slug}`}
+                        href={`/promo/${data.slug}`}
                       >
                         Selengkapnya <i className="feather-arrow-right"></i>
                       </Link>
