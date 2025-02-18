@@ -14,7 +14,7 @@ const PromoDetailBanner = ({ bannerImg, title, desc }) => {
       />
       <div className="content mt--20">
         <h4 className="title-img">{title}</h4>
-        <p className="description">{desc}</p>
+        <div className="description" dangerouslySetInnerHTML={{ __html: desc }} />
       </div>
     </>
   );

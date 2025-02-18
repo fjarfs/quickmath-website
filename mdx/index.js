@@ -97,11 +97,27 @@ export const getAllPromo = async () => {
   try {
     const res = await axios.get(api("/promo-all"));
     const promoAll = await res.data
-
+    
     return promoAll;
   } catch (err) {
     console.error("Error fetching all promos:", err);
     throw new Error("Failed to fetch promos");
+  }
+}
+
+export const getDetailPromo = async ( slug ) => {
+  try {
+    const res = await axios.get(api("/promo/" + slug));
+    const data = await res.data
+    
+    return data
+  } catch (err) {
+    if (err.response?.status === 404) {
+      console.log('xxx')
+      return { notFound: true }; // Redirect otomatis ke halaman 404
+    }
+    console.error("Error fetching show promo:", err);
+    throw new Error("Failed to fetch promo");
   }
 }
 

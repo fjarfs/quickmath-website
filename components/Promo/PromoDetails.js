@@ -3,16 +3,16 @@ import PromoDetailBanner from "./Promo-Section/Promo-Banner";
 import PromoTnc from "./Promo-Section/Promo-Tnc";
 import SidebarPromo from "./Promo-Section/Sidebar-Promo";
 
-const PromoDetails = ({ checkMatchCourses }) => {
+const PromoDetails = ({ data }) => {
   return (
     <>
       <div className="col-lg-8">
         <div className="course-details-content">
           <div className="rbt-course-feature-box rbt-shadow-box thuumbnail">
           <PromoDetailBanner
-                bannerImg={checkMatchCourses.image_url}
-                title={checkMatchCourses.name}
-                desc={checkMatchCourses.desc}
+                bannerImg={data.image_url}
+                title={data.name}
+                desc={data.desc}
               />
           </div>
 
@@ -48,7 +48,7 @@ const PromoDetails = ({ checkMatchCourses }) => {
         <div className="course-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
           <div className="inner">
             <SidebarPromo
-              checkMatchCourses={checkMatchCourses && checkMatchCourses}
+              data={data && data}
             />
           </div>
         </div>

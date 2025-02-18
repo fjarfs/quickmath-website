@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useAppContext } from "@/context/Context";
 import { addToCartAction } from "@/redux/action/CartAction";
 
-const SidebarPromo = ({ checkMatchCourses }) => {
+const SidebarPromo = ({ data }) => {
   const pathname = usePathname();
   const { cartToggle, setCart } = useAppContext();
   const [hideOnScroll, setHideOnScroll] = useState(false);
@@ -61,12 +61,12 @@ const SidebarPromo = ({ checkMatchCourses }) => {
           <div className="rbt-price">
             <i className="ri-discount-percent-fill mr--5" style={{fontSize: "20px"}}></i>
             <span className="current-price fs-2">
-              {checkMatchCourses.code}
+              {data.code}
             </span>
           </div>
           <div className="discount-time">
             <span className="rbt-badge color-danger bg-color-danger-opacity">
-              <i className="feather-clock"></i> {checkMatchCourses.end_date_ago} tersisa!
+              <i className="feather-clock"></i> {data.end_date_ago} tersisa!
             </span>
           </div>
         </div>
@@ -79,25 +79,14 @@ const SidebarPromo = ({ checkMatchCourses }) => {
             </div>
             <div className="rbt-author-info">
               <span className="fs-4 fw-bold">
-                {checkMatchCourses.start_date}
+                {data.start_date}
               </span>
               <span className="fs-4 fw-bold">
                 {" "}
-                - {checkMatchCourses.end_date}
+                - {data.end_date}
               </span>
             </div>
           </div>
-          {/* <div className="d-flex">
-            <div className="rbt-avater mr--10">
-              <i class="ri-discount-percent-fill"></i>
-              <span className="fs-4 ml--10">Kode Promo:</span>
-            </div>
-            <div className="rbt-author-info">
-              <span className="current-price fs-4 fw-bold">
-                {checkMatchCourses.voucherCode}
-              </span>
-            </div>
-          </div> */}
         </div>
 
         <div className="add-to-card-button mt--15">

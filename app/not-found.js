@@ -1,7 +1,7 @@
 import NotFound from "@/components/NotFound/NotFound";
 
 export const metadata = {
-  title: "Page not found - Platform Bimbingan Belajar Online",
+  title: "Halaman tidak ditemukan",
   description: "Platform Bimbingan Belajar Online",
 };
 

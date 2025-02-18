@@ -1,16 +1,16 @@
 import BackToTop from "@/app/backToTop";
 import PromoLayout from "./(promo)";
 
-import { getAllPromo } from "@/mdx";
+import { getAllPromos } from "@/services/promoService";
 
 export const metadata = {
-  title: "QuickMath - Semua Promo",
+  title: "Promo QuickMath Terbaru",
   description: "Platform Bimbingan Belajar Online",
 };
 
 
 const PromoPage = async () => {
-  const PromoAllData = await getAllPromo();
+  const PromoAllData = await getAllPromos();
 
   return (
     <>

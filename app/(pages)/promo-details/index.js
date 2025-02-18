@@ -14,22 +14,19 @@ import HeaderStyleMain from "@/components/Header/HeaderStyle-Main";
 import FooterMain from "@/components/Footer/Footer-Main";
 import PromoDetails from "@/components/Promo/PromoDetails";
 
-const SinglePromo = ({ getParams, getPromo }) => {
+const SinglePromo = ({ data }) => {
   const router = useRouter();
-  const postSlug = getParams.promoId;
-
-  const checkMatch = getPromo.data.find(promo => promo.slug === postSlug);
 
   useEffect(() => {
-    if (!checkMatch && postSlug) {
-      router.push("/promo");
+    if (!data) {
+      router.push("/404");
     }
 
     sal({
       threshold: 0.01,
       once: true,
     });
-  }, [checkMatch, router]);
+  }, [data, router]);
 
   return (
     <>
@@ -39,19 +36,11 @@ const SinglePromo = ({ getParams, getPromo }) => {
           <HeaderStyleMain headerSticky="" headerType={true} />
           <Cart />
 
-          
-
-          {/* <div className="rbt-breadcrumb-default rbt-breadcrumb-style-3">
-            <CourseHead
-              checkMatch={checkMatch !== undefined ? checkMatch : ""}
-            />
-          </div> */}
-
           <div className="rbt-course-details-area ptb--60">
             <div className="container">
               <div className="row g-5">
                 <PromoDetails
-                  checkMatchCourses={checkMatch !== undefined ? checkMatch : ""}
+                  data={data !== undefined ? data : ""}
                 />
               </div>
             </div>
