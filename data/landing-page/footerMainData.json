@@ -67,6 +67,10 @@
                 {
                     "text": "Testimoni",
                     "link": "/testimoni"
+                },
+                {
+                    "text": "Tutor",
+                    "link": "/tutor"
                 }
             ],
             "socialLink": [

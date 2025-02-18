@@ -44,7 +44,7 @@
           "name": "Ria Ajeng Putri",
           "type": "Kimia",
           "location": "Indonesia",
-          "desc": "Lulusan terbaik Universitas Negeri.",
+          "desc": "Lulusan Kimia Universitas Negeri Semarang.",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -86,16 +86,16 @@
       ]
     },
     {
-      "img": "/images/team/team-06.jpg",
+      "img": "/images/team/widya.png",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-06.jpg",
-          "name": "Thomas Dal",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/widya.png",
+          "name": "Widya",
+          "type": "Bahasa Jawa",
+          "location": "Indonesia",
+          "desc": "Lulusan Universitas Negeri.",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"
@@ -103,67 +103,16 @@
       ]
     },
     {
-      "img": "/images/team/team-07.jpg",
+      "img": "/images/team/fajar.png",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-07.jpg",
-          "name": "Irma J. Erwin",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "phone": "+1-202-555-0174",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-08.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-08.jpg",
-          "name": "John Due",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "phone": "+1-202-555-0174",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-09.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-09.jpg",
-          "name": "Joo Bieden",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
-          "phone": "+1-202-555-0174",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-10.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-10.jpg",
-          "name": "Alejandro",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/fajar.png",
+          "name": "Fajar Sujito",
+          "type": "Pemrograman",
+          "location": "Indonesia",
+          "desc": "Lulusan Terbaik Universitas Negeri Semarang. Student Exchange to Hiroshima University, Japan.",
           "descTwo": "You can run QuickMath easily. Any School, University, College can be use this QuickMath education template for their educational purpose. A university can be success you.",
           "phone": "+1-202-555-0174",
           "email": "example@gmail.com"

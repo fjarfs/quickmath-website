@@ -66,7 +66,7 @@ const KonsultasiComp = () => {
               <div className="load-more-btn mt--50 text-center">
                 <Link
                   className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
-                  href="/tutor-all"
+                  href="/tutor"
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Lihat Semua Tutor</span>
