@@ -8,13 +8,8 @@ import parse from "html-react-parser";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation } from "swiper/modules";
 
-import BlogAuthor from "./Blog-Sections/Blog-Author";
-import ComntForm from "./Blog-Sections/ComntForm";
-import Comment from "./Blog-Sections/Comment";
-
-const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
+const BlogDetails = ({ data, isSlider, isQuote, isAudio, isVideo }) => {
   const thumbsSwiperRef = useRef(null);
-  const article = matchedBlog.data;
 
   return (
     <>
@@ -44,7 +39,7 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
                     <SwiperSlide className="swiper-slide">
                       <figure>
                         <Image
-                          src={article.cover_photo_path_url}
+                          src={data.cover_photo_path_url}
                           width={1085}
                           height={645}
                           priority
@@ -72,13 +67,13 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
               <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
                 <figure>
                   <Image
-                    src={article.cover_photo_path_url}
+                    src={data.cover_photo_path_url}
                     width={1085}
                     height={645}
                     priority
                     alt="Blog Images"
                   />
-                  {/* <figcaption>{article.title}</figcaption> */}
+                  {/* <figcaption>{data.title}</figcaption> */}
                 </figure>
               </div>
             )}
@@ -112,7 +107,9 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
         )}
 
         <div className="rbt-section-gap2Bottom">
-          {parse(article.body)}
+          {
+            data?.body && parse(data.body)
+          }
         </div>
 
       </div>

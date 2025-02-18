@@ -1,15 +1,14 @@
 import BackToTop from "@/app/backToTop";
 import ArtikelAllPage from "./(artikel)";
-import { fetchArticleBySlug, getAllArticles } from "@/mdx";
+import { index } from "@/services/articleService";
 
 export const metadata = {
-  title: "QuickMath - Semua Artikel",
+  title: "Artikel Menarik dari QuickMath",
   description: "Platform Bimbingan Belajar Online",
 };
 
 const ArtikelAllLayout = async () => {
-  // const blog = await getAllPostsMeta();
-  const articles = await getAllArticles();
+  const articles = await index();
 
   return (
     <>

@@ -41,7 +41,7 @@ const BlogGrid = ({ isPagination, blogdata, top }) => {
             <div className="col-lg-4 col-md-6 col-sm-12 col-12" key={index}>
               <div className="rbt-card variation-02 rbt-hover">
                 <div className="rbt-card-img">
-                  <Link href={`/artikel-details/${data.slug}`}>
+                  <Link href={`/artikel/${data.slug}`}>
                     <Image
                       src={data.cover_photo_path_url}
                       width={450}
@@ -53,7 +53,7 @@ const BlogGrid = ({ isPagination, blogdata, top }) => {
                 </div>
                 <div className="rbt-card-body">
                   <h5 className="rbt-card-title">
-                    <Link href={`/artikel-details/${data.slug}`}>
+                    <Link href={`/artikel/${data.slug}`}>
                       {data.title}
                     </Link>
                   </h5>
@@ -62,7 +62,7 @@ const BlogGrid = ({ isPagination, blogdata, top }) => {
                   <div className="rbt-card-bottom">
                     <Link
                       className="transparent-button"
-                      href={`/artikel-details/${data.slug}`}
+                      href={`/artikel/${data.slug}`}
                     >
                       Selengkapnya
                       <i>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import bgImage from "../../public/images/bg/bg-image-10.jpg";
 
-const BlogBreadCrumb = ({ matchedBlog }) => {
+const BlogBreadCrumb = ({ data }) => {
   return (
     <>
       <div className="breadcrumb-image-container breadcrumb-style-max-width">
@@ -15,25 +15,25 @@ const BlogBreadCrumb = ({ matchedBlog }) => {
         <div className="breadcrumb-content-top text-center">
           <ul className="meta-list justify-content-center mb--10">
             <li className="list-item">
-              {matchedBlog && (
+              {data && (
                 <div className="author-info">
                   <Link href="#">
                     <strong>Admin</strong>
                   </Link>
                   {/* <Link href="#">
-                    <strong>{matchedBlog.position}</strong>
+                    <strong>{data.position}</strong>
                   </Link> */}
                 </div>
               )}
             </li>
-            {matchedBlog && (
+            {data && (
               <li className="list-item">
                 <i className="feather-clock"></i>
-                <span>{matchedBlog.data.published_at}</span>
+                <span>{data.published_at}</span>
               </li>
             )}
           </ul>
-          {matchedBlog && <h1 className="title">{matchedBlog.data.title}</h1>}
+          {data && <h1 className="title">{data.title}</h1>}
         </div>
       </div>
     </>
