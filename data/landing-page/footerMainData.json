@@ -41,12 +41,12 @@
                     "link": "/privacy-policy"
                 },
                 {
-                    "text": "Tentang Kami",
-                    "link": "/tentang-kami"
-                },
-                {
                     "text": "Syarat & Ketentuan",
                     "link": "/terms-conditions"
+                },
+                {
+                    "text": "Tentang Kami",
+                    "link": "/tentang-kami"
                 },
                 {
                     "text": "Bantuan",
