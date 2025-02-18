@@ -62,14 +62,6 @@
                     "shortDesc": "Asisten pintar yang bantu jawab soal dan jelasin materi pelajaran dengan simpel.",
                     "img": "/images/feature/chat-ai.png",
                     "badget": "Coming Soon"
-                  },
-                  {
-                    "id": 7,
-                    "link": "/affiliate",
-                    "title": "Affiliate",
-                    "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus koin",
-                    "img": "/images/feature/referral.png",
-                    "badget": "Coming Soon"
                   }
             ]
         },
