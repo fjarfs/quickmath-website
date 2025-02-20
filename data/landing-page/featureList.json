@@ -99,10 +99,10 @@
         {
             "id": 7,
             "category": "Referral",
-            "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus koin",
+            "shortDesc": "Ajak temanmu buat gabung di QuickMath dan kamu bisa mendapatkan bonus cuan",
             "featIcon": "/images/feature/referral.png",
             "isActiveFeat": true,
-            "path": "/kode-referral",
+            "path": "/affiliate",
             "bgKonsultasi": false,
             "bgLesPrivat": false,
             "bgMateri": false,
