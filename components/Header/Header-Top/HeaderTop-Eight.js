@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-
+import { useEffect, useState } from "react";
 import HeaderTopData from "../../../data/headerTop";
 import { useAppContext } from "@/context/Context";
 
@@ -15,6 +15,21 @@ const HeaderTopEight = ({
 }) => {
   const router = useRouter();
   const { toggle, setToggle } = useAppContext();
+  const [device, setDevice] = useState("");
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent
+    console.log('userAgent: ' + userAgent)
+    const isAndroid = /android/i.test(userAgent);
+    if (/android/i.test(userAgent)) {
+      setDevice("Android");
+    } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+      setDevice("IOS");
+    } else {
+      setDevice("Desktop");
+    }
+  }, []);
+
   return (
   <>
     <div
@@ -35,7 +50,7 @@ const HeaderTopEight = ({
                     <div className="header-info">
                       <ul className="rbt-information-list">
                         <li>
-                          <Link href="#">
+                          <Link href="https://www.instagram.com/quickmath.id?from=lp" target="_blank">
                             <i className="fab fa-instagram"></i>
                             {item.insFollowers}k
                             <span className="d-none d-xxl-block">
@@ -44,24 +59,20 @@ const HeaderTopEight = ({
                           </Link>
                         </li>
                         <li>
-                          <Link href="#">
-                            <i className="fab fa-facebook-square"></i>
+                          <Link href="https://www.tiktok.com/@quickmath.id" target="_blank">
+                            <i className="ri-tiktok-line"></i>
                             {item.fbFollowers}k
                             <span className="d-none d-xxl-block">
                               {item.type}
                             </span>
                           </Link>
                         </li>
-                        {router.pathname === "/10-online-course" ? (
-                          ""
-                        ) : (
-                          <li>
-                            <Link href="#">
+                        <li>
+                            <Link href="https://wa.me/6282133599318">
                               <i className="feather-phone"></i>
                               {item.phone}
                             </Link>
                           </li>
-                        )}
                       </ul>
                     </div>
                   </div>
@@ -72,15 +83,18 @@ const HeaderTopEight = ({
                       <div className="rbt-header-top-news">
                         <div className="inner">
                           <div className="content">
-                            <span className="rbt-badge variation-02 bg-color-primary color-white radius-round">
-                              {item.badgeText}
-                            </span>
+                              <Link href={device == 'IOS' ? item.iosLink : item.androidLink} target="_blank">
+                              <span className="rbt-badge variation-02 bg-color-primary color-white radius-round">
+                                {item.badgeText}
+                                </span>
+                              </Link>
                             <span className="news-text">
                               <Image
+                                style={{color: 'red'}}
                                 src={item.img}
-                                width={22}
-                                height={22}
-                                alt="Hand Emojji Images"
+                                width={50}
+                                height={50}
+                                alt=" Images"
                               />
                               {item.introPrice}
                             </span>
@@ -92,106 +106,41 @@ const HeaderTopEight = ({
                 </div>
                 <div className="rbt-header-sec-col rbt-header-right mt_md--10 mt_sm--10">
                   <div className="rbt-header-content justify-content-start justify-content-lg-end">
-                    {router.pathname === "/10-online-course" ? (
-                      ""
-                    ) : (
-                      <div className="header-info d-none d-xl-block">
+                    
+                  <div className="header-info d-none d-xl-block">
                         <ul className="social-share-transparent">
                           <li>
-                            <Link href="#">
-                              <i className="fab fa-facebook-f"></i>
+                            <Link href="https://wa.me/6282133599318" target="_blank">
+                              <i className="ri-whatsapp-line"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
-                              <i className="fab fa-twitter"></i>
+                            <Link href="https://www.instagram.com/quickmath.id?from=lp" target="_blank">
+                              <i className="feather-instagram"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
-                              <i className="fab fa-linkedin-in"></i>
+                            <Link href="https://www.tiktok.com/@quickmath.id" target="_blank">
+                              <i className="ri-tiktok-line"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
-                              <i className="fab fa-instagram"></i>
+                            <Link href="https://web.facebook.com/profile.php?id=100090682086511&_rdc=1&_rdr&from=lp" target="_blank">
+                              <i className="feather-facebook"></i>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="https://x.com/quickmath_id?from=lp" target="_blank">
+                              <i className="ri-twitter-x-line"></i>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="https://www.youtube.com/@quickmath_id?from=lp" target="_blank">
+                              <i className="ri-youtube-line"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                    )}
-                    {router.pathname === "/10-online-course" ? (
-                      ""
-                    ) : (
-                      <div className="rbt-separator d-none d-xl-block"></div>
-                    )}
-
-                    <div className="header-info">
-                      <ul className="rbt-dropdown-menu switcher-language">
-                        {item.language.map((lng, innerIndex) => (
-                          <li className="has-child-menu" key={innerIndex}>
-                            <Link href={lng.link}>
-                              <Image
-                                className="left-image"
-                                src={lng.img}
-                                width={20}
-                                height={13}
-                                alt={`${lng.name} Images`}
-                              />
-                              <span className="menu-item">
-                                {lng.defaultTitle}
-                              </span>
-                              <i className="right-icon feather-chevron-down"></i>
-                            </Link>
-
-                            <ul className="sub-menu">
-                              {lng.subLng.map((sublng, innerIndex) => (
-                                <li key={innerIndex}>
-                                  <Link href={sublng.link}>
-                                    <Image
-                                      className="left-image"
-                                      src={sublng.img}
-                                      width={20}
-                                      height={13}
-                                      alt={`${sublng.name} Images`}
-                                    />
-                                    <span className="menu-item">
-                                      {sublng.name}
-                                    </span>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <div className="header-info">
-                      <ul className="rbt-dropdown-menu currency-menu">
-                        {item.currency.map((curnc, innerIndex) => (
-                          <li className="has-child-menu" key={innerIndex}>
-                            <Link href={curnc.link}>
-                              <span className="menu-item">
-                                {curnc.defaultCurrency}
-                              </span>
-                              <i className="right-icon feather-chevron-down"></i>
-                            </Link>
-                            <ul className="sub-menu hover-reverse">
-                              {curnc.subCurr.map((sub, subIndex) => (
-                                <li key={subIndex}>
-                                  <Link href={sub.link}>
-                                    <span className="menu-item">
-                                      {sub.currency}
-                                    </span>
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>

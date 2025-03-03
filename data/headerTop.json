@@ -1,14 +1,15 @@
 {
   "headerTopOne": [
     {
-      "insFollowers": 100,
-      "fbFollowers": 500,
+      "insFollowers": 2.5,
+      "fbFollowers": 13,
       "type": "Followers",
-      "phone": "+1-202-555-0174",
-      "introPrice": "Intro price. Get QuickMath for Big Sale -95% off.",
-      "badgeText": "Hot",
-      "limit": "Limited Time Offer",
-      "img": "/images/icons/hand-emojji.svg",
+      "phone": "082133599318",
+      "introPrice": "Belajar lebih nyaman di aplikasi",
+      "badgeText": "Buka",
+      "iosLink": "https://apps.apple.com/app/id6739167059",
+      "androidLink": "https://play.google.com/store/apps/details?id=com.quickmath.customer",
+      "img": "/images/icons/mobile-chatting.png",
       "language": [
         {
           "defaultTitle": "English",

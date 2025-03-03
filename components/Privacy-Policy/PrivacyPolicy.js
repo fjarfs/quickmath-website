@@ -523,7 +523,7 @@ const PrivacyPolicy = () => {
                     https://quickmath.id/contact
                   </a>
                 </li>
-                <li>Melalui nomor telepon: +6282133599318</li>
+                <li>Melalui nomor telepon: 082133599318</li>
               </ul>
             </div>
           </div>

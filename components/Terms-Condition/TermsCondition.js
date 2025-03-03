@@ -221,7 +221,7 @@ const TermsCondition = () => {
                   Email:{" "}
                   <a href="mailto:admin@quickmath.id">admin@quickmath.id</a>
                 </li>
-                <li>Telepon: +6282133599318</li>
+                <li>Telepon: 082133599318</li>
                 <li>
                   Alamat: Grand Vilamas Estate, BE, Cinangka, Sawangan, Depok,
                   Jawa Barat

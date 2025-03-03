@@ -49,7 +49,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <Link href="https://wa.me/6282133599318">
-                  <i className="feather-phone"></i>(+62) 821-335-99-318
+                  <i className="feather-phone"></i>082133599318
                 </Link>
               </li>
             </ul>

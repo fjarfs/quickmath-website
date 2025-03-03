@@ -12,10 +12,7 @@ const HeaderStyleMain = ({ headerSticky }) => {
     <>
       <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
       <header className="rbt-header rbt-header-10">
-        {/* {router.pathname === "/landing-page" && "/landing-page" ? (
-          <HeaderTopBar />
-        ) : (
-          <HeaderTopEight
+        <HeaderTopEight
             bgColor="bg-not-transparent bg-color-darker"
             gapSpaceBetween="header-space-betwween"
             container="container-fluid"
@@ -23,7 +20,7 @@ const HeaderStyleMain = ({ headerSticky }) => {
             btnClass="rbt-switch-btn btn-gradient btn-xs"
             btnText="Call us now"
           />
-        )} */}
+        
         <HeaderMain
           headerSticky={headerSticky}
           sticky="header-sticky"

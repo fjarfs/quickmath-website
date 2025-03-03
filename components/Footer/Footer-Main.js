@@ -50,7 +50,7 @@ const FooterMain = () => {
                       <Link
                           className="mr--5"
                           href="https://play.google.com/store/apps/details?id=com.quickmath.customer"
-                        >
+                        target="_blank">
                           <Image
                             src={downloadPLayStore}
                             width={200}
@@ -62,7 +62,7 @@ const FooterMain = () => {
                         <Link
                           className="ml--5"
                           href="https://apps.apple.com/app/id6739167059"
-                        >
+                          target="_blank">
                           <Image
                             src={downloadAppStore}
                             width={190}
