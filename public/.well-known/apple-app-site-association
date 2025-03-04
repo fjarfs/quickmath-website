@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "UCWRB846FS.com.quickmath.customer" ],
+                "paths": [
+                    "/affiliate/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+      "apps": [ "UCWRB846FS.com.quickmath.customer" ]
+    }
+}

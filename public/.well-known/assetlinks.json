@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.quickmath.customer",
+      "sha256_cert_fingerprints": [
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "2F:A2:8F:C5:F9:6B:10:C1:5E:10:87:FF:CD:FA:0B:E5:18:73:70:1A:1A:76:98:A2:FE:24:3F:9E:E6:7D:D1:D2"
+      ]
+    }
+  }
+]
