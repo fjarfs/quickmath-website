@@ -50,7 +50,7 @@ const PromoList = ({ PromoListData }) => {
                         <div className="thumbnail">
                           <Link
                             className="position-relative"
-                            href={`/promo/${item.id}`}
+                            href={`/promo/${item.slug}`}
                             style={{ width: "100%", height: "104px" }}
                           >
                             <Image
