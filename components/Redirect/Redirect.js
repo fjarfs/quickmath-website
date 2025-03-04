@@ -7,17 +7,19 @@ import downloadAppStore from "/public/images/icons/download-appstore.svg";
 
 const Redirect = () => {
   useEffect(() => {
-    // // URL Skema aplikasi (ganti dengan skema aplikasi Kamu)
-    // const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer";
-    // // URL fallback ke Play Store atau App Store
-    // const fallbackUrl =
-    //   "https://play.google.com/store/apps/details?id=com.quickmath.customer";
-    // // Redirect ke aplikasi
-    // window.location.href = appUrl;
-    // // Jika aplikasi tidak terpasang, arahkan ke Play Store/App Store setelah beberapa detik
-    // setTimeout(() => {
-    //   window.location.href = fallbackUrl;
-    // }, 2000);
+    const userAgent = navigator.userAgent
+    const isAndroid = /android/i.test(userAgent);
+    if (isAndroid) {
+      const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer";
+      setTimeout(() => {
+        window.location.href = appUrl;
+      }, 2000);
+    } else {
+      const appUrl = "https://apps.apple.com/app/id6739167059";
+      setTimeout(() => {
+        window.location.href = appUrl;
+      }, 2000);
+    }
   }, []);
 
   return (

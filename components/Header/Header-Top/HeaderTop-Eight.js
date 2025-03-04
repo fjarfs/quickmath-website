@@ -19,7 +19,6 @@ const HeaderTopEight = ({
 
   useEffect(() => {
     const userAgent = navigator.userAgent
-    console.log('userAgent: ' + userAgent)
     const isAndroid = /android/i.test(userAgent);
     if (/android/i.test(userAgent)) {
       setDevice("Android");
