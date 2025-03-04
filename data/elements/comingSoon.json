@@ -51,19 +51,11 @@
     ],
     "our_apps": [
         {
-            "title": "Unduh Aplikasi Kami,",
+            "tag": "MOBILE APPS",
+            "title": "Tersedia untuk Smartphone Kamu ",
             "sub_title": "Mulai Belajar Kapan Saja dan Di Mana Saja!",
-            "description": "Tersedia di Play Store dan Apple Store"
-        },
-        {
-            "title": "Unduh Aplikasi Kami,",
-            "sub_title": "Untuk Mengakses Seluruh Fitur QuickMath!",
-            "description": "Tersedia di Play Store dan Apple Store"
-        },
-        {
-            "title": "Website sedang dalam pemeliharaan.",
-            "sub_title": "Kamu bisa daftar atau masuk aplikasi mobile kami!",
-            "description": "Tersedia di Play Store dan Apple Store"
+            "description": "Konsultasi jadi lebih mudah. Aplikasi QuickMath membantu kamu dalam menyelesaikan permasalahan akademik.",
+            "img": "/images/about/download-apps.png"
         }
     ]
 }

@@ -4,9 +4,6 @@ import { useEffect } from "react";
 import sal from "sal.js";
 import Link from "next/link";
 
-// Data
-import ComingSoonData from "/data/elements/comingSoon.json"
-
 // Components
 import MainHomeBanner from "./MainHomeBanner";
 import FeatureList from "../Category/FeatureList";
@@ -262,14 +259,9 @@ const MainPage = ({ articles, promo }) => {
         {/* END CONTACT US */}
 
         {/* START OUR APPS */}
-        <div className="rbt-section-gap2Top">
-          <OurApps OurAppsData={ComingSoonData.our_apps} start={0} end={1}/>
-        </div>
         <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
-            <div className="container">
-              <AboutSaven />
-            </div>
-          </div>
+            <OurApps />
+        </div>
         {/* END OUR APPS */}
       </main>
     </>
