@@ -3,7 +3,7 @@ import PrivacyPolicyPage from "./(privacy-policy)";
 
 export const metadata = {
   title: "Kebijakan Privasi - QuickMath",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const PrivacyPolicyLayout = () => {

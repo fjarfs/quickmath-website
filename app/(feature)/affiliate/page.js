@@ -3,7 +3,7 @@ import ReferralLayout from "./(affiliate)";
 
 export const metadata = {
   title: "QuickMath - Affiliate",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const ReferralPage = () => {

@@ -3,7 +3,7 @@ import LessonAssignmentPage from "./(lesson-assignments)";
 
 export const metadata = {
   title: "Lesson Assignment - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const LessonAssignmentLayout = () => {

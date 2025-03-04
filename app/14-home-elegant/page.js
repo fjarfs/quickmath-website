@@ -3,7 +3,7 @@ import HomeElegantPage from "./(home-elegant)";
 
 export const metadata = {
   title: "Home Elegant - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const HomeElegantLayout = () => {

@@ -3,7 +3,7 @@ import SettingPage from "./(settings)";
 
 export const metadata = {
   title: "Instructor Settings - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const SettingLayout = () => {

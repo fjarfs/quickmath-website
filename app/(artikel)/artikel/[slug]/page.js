@@ -5,7 +5,7 @@ import { show } from "@/services/articleService";
 
 export const metadata = {
   title: "Artikel Terbaru dari QuickMath",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const SingleArtikelLayout = async ({ params }) => {

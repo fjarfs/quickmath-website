@@ -3,7 +3,7 @@ import AdvanceTabPage from "./(advance-tab)";
 
 export const metadata = {
   title: "Advance Tab - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const AdvanceTabLayout = () => {

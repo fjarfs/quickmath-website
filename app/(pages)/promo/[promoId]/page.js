@@ -5,7 +5,7 @@ import { getDetailPromo } from "@/services/promoService";
 
 export const metadata = {
   title: "Promo QuickMath Terbaru",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const SinglePromoLayout = async ({ params }) => {

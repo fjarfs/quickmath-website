@@ -4,7 +4,7 @@ import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
   title: "Course School - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const CourseSchoolLayout = async () => {

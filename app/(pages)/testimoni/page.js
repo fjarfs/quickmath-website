@@ -3,7 +3,7 @@ import TestimoniLayout from "./(testimoni)";
 
 export const metadata = {
   title: "QuickMath - Testimoni",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const TestimoniPage = () => {

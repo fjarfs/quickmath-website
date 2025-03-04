@@ -4,7 +4,7 @@ import LesLayout from "./(les-privat)";
 
 export const metadata = {
   title: "QuickMath - Les Privat",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const KonsultasiPage = () => {

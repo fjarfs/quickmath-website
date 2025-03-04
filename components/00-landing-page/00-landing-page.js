@@ -19,6 +19,7 @@ import BlogGridTop from "../Blogs/Blog-Sections/BlogGrid-Top";
 import ContactUs from "../Contacts/ContactUs";
 import OurApps from "../Our-Apps/OurApps";
 import dynamic from "next/dynamic";
+import AboutSaven from "../Abouts/About-Saven";
 
 
 const MainPage = ({ articles, promo }) => {
@@ -264,6 +265,11 @@ const MainPage = ({ articles, promo }) => {
         <div className="rbt-section-gap2Top">
           <OurApps OurAppsData={ComingSoonData.our_apps} start={0} end={1}/>
         </div>
+        <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+            <div className="container">
+              <AboutSaven />
+            </div>
+          </div>
         {/* END OUR APPS */}
       </main>
     </>

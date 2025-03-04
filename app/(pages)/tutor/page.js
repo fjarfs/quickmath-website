@@ -3,7 +3,7 @@ import TutorAllLayout from "./(tutor)";
 
 export const metadata = {
   title: "QuickMath - Semua Tutor",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const TutorAllPage = () => {

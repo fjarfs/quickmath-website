@@ -4,7 +4,7 @@ import ReviewPage from "./(reviews)";
 export const metadata = {
   title:
     "Instructor Reviews Course - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const ReviewLayout = () => {

@@ -4,7 +4,7 @@ const { default: KonsultasiLayout } = require("./(konsultasi)");
 
 export const metadata = {
   title: "QuickMath - Konsultasi Tugas",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const KonsultasiPage = () => {

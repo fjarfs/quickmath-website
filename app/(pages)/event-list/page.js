@@ -3,7 +3,7 @@ import EventListPage from "./(event-list)";
 
 export const metadata = {
   title: "Event List - Platform Bimbingan Belajar Online",
-  description: "Platform Bimbingan Belajar Online",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const EventListLayout = () => {
