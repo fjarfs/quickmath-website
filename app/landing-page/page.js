@@ -3,8 +3,8 @@ import LandingPageLayout from "./(landing-page)";
 import { getAllPostsMeta, getServerSideProps } from "@/mdx";
 
 export const metadata = {
-  title: "QuickMath",
-  description: "Platform Bimbingan Belajar Online",
+  title: "Platform Bimbingan Belajar Online Fokus Pada Pemecahan Masalah",
+  description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
 const LandingPage = async () => {
