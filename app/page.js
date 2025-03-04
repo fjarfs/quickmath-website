@@ -2,7 +2,7 @@ import BackToTop from "./backToTop";
 import HomePage from "./landing-page/page";
 
 export const metadata = {
-  title: "QuickMath",
+  title: "Platform Bimbingan Belajar Online Fokus Pada Pemecahan Masalah",
   description: "Platform Bimbingan Belajar Online untuk jenjang SD, SMP, SMA dan Kuliah",
 };
 
