@@ -20,12 +20,12 @@ const Redirect = () => {
       const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer&ref=" + ref;
       setTimeout(() => {
         window.location.href = appUrl;
-      }, 2000);
+      }, 1000);
     } else {
       const appUrl = "https://apps.apple.com/app/id6739167059";
       setTimeout(() => {
         window.location.href = appUrl;
-      }, 2000);
+      }, 1000);
     }
   }, []);
 
