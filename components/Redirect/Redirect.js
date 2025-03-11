@@ -16,7 +16,7 @@ const Redirect = () => {
   useEffect(() => {
     const userAgent = navigator.userAgent
     const isAndroid = /android/i.test(userAgent);
-    if (!isAndroid) {
+    if (isAndroid) {
       const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer&ref=" + ref;
       setTimeout(() => {
         window.location.href = appUrl;
