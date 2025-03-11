@@ -18,7 +18,6 @@ const SingleArtikel = ({ data }) => {
 
   useEffect(() => {
     if (!data) {
-      console.log('xxx')
       router.push("/404");
     }
 

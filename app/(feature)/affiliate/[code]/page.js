@@ -13,11 +13,7 @@ import ComingSoonData from "/data/elements/comingSoon.json";
 import Referral from "@/components/Referral/Referral";
 import Redirect from "@/components/Redirect/Redirect";
 
-
 const RedirectLayout = () => {
-  const AboutData = ComingSoonData.kode_referral;
-  const OurAppsData = ComingSoonData.our_apps;
-
   return (
     <>
       <Provider store={Store}>

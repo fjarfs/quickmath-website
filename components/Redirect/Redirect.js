@@ -1,16 +1,23 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 import downloadPLayStore from "/public/images/icons/download-playstore.svg";
 import downloadAppStore from "/public/images/icons/download-appstore.svg";
 
 const Redirect = () => {
+  const pathname = usePathname()
+  const split = pathname.split('/')
+  const ref = split[split.length - 1];
+  
   useEffect(() => {
     const userAgent = navigator.userAgent
     const isAndroid = /android/i.test(userAgent);
-    if (isAndroid) {
-      const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer";
+    if (!isAndroid) {
+      const appUrl = "https://play.google.com/store/apps/details?id=com.quickmath.customer&ref=" + ref;
       setTimeout(() => {
         window.location.href = appUrl;
       }, 2000);
