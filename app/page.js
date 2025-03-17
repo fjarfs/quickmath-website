@@ -1,5 +1,6 @@
 import BackToTop from "./backToTop";
 import HomePage from "./landing-page/page";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Platform Bimbingan Belajar Online Fokus Pada Pemecahan Masalah - QuickMath",
@@ -9,6 +10,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
+      <Analytics />
       <HomePage />
 
       <BackToTop />
