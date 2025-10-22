@@ -59,7 +59,7 @@ const FooterMain = () => {
                             alt="Education Logo Images"
                           />
                         </Link>
-                        <Link
+                        {/* <Link
                           className="ml--5"
                           href="https://apps.apple.com/app/id6739167059"
                           target="_blank">
@@ -70,7 +70,7 @@ const FooterMain = () => {
                             priority={true}
                             alt="Education Logo Images"
                           />
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>

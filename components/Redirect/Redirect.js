@@ -37,7 +37,8 @@ const Redirect = () => {
     const appStoreUrl = "https://apps.apple.com/app/id6739167059";
 
     setTimeout(() => {
-      window.location.href = isAndroid ? playStoreUrl : appStoreUrl;
+      // window.location.href = isAndroid ? playStoreUrl : appStoreUrl;
+      window.location.href = playStoreUrl;
     }, 500);
   }, []);
 
@@ -81,7 +82,7 @@ const Redirect = () => {
               alt="Download di Play Store"
             />
           </Link>
-          <Link
+          {/* <Link
             className="ml--5"
             href="https://apps.apple.com/app/id6739167059"
           >
@@ -92,7 +93,7 @@ const Redirect = () => {
               priority={true}
               alt="Download di App Store"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

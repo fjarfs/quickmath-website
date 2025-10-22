@@ -32,7 +32,7 @@ const DownloadApps = () => {
                         alt="Education Logo Images"
                       />
                     </Link>
-                    <Link
+                    {/* <Link
                       className="ml--5"
                       href="https://apps.apple.com/app/id6739167059"
                     >
@@ -43,7 +43,7 @@ const DownloadApps = () => {
                         priority={true}
                         alt="Education Logo Images"
                       />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

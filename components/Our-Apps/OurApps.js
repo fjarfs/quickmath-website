@@ -37,7 +37,7 @@ const OurApps = () => {
                       alt="Play Store"
                     />
                   </Link>
-                  <Link
+                  {/* <Link
                     className="ml--5"
                     href="https://apps.apple.com/app/id6739167059"
                     target="_blank"
@@ -49,7 +49,7 @@ const OurApps = () => {
                       priority={true}
                       alt="Apple Store"
                     />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
